@@ -1,13 +1,23 @@
+import Layout from '../comps/MyLayout';
 import Link from 'next/link';
 
-const Index = () => (
-    <div>
-        <Link href="/about">
-            <a title="About Page">About Page</a>
-        </Link>
-      <p>Hello Next.js</p>
-    </div>
+const AwardLink = props => (
+  <li>
+    <Link href="/award/[id]" as={`/award/${props.id}`}>
+      <a>{props.id}</a>
+    </Link>
+  </li>
+);
+
+export default function Blog() {
+  return (
+    <Layout>
+      <h1>USA Spending</h1>
+      <ul>
+        <AwardLink id="23423" />
+        <AwardLink id="4444" />
+        <AwardLink id="3333" />
+      </ul>
+    </Layout>
   );
-  
-  export default Index;
-  
+}
