@@ -14,7 +14,7 @@ const Post = ({ data }) => {
   return (
     <Layout>
       <h1>{router.query.id}</h1>
-      <p>This is the blog post content.</p>
+      <p>{`Server Side Rendered Page for ${data.generated_unique_award_id}`}.</p>
     </Layout>
   );
 };
