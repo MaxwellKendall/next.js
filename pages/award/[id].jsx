@@ -1,9 +1,16 @@
 import { useRouter } from 'next/router';
+import axios from 'axios';
+
 import Layout from '../../comps/MyLayout';
 
-export default function Post() {
-  const router = useRouter();
+export async function getServerSideProps() {
+  const { data } = await axios.get('https://api.usaspending.gov/api/v2/awards/CONT_AWD_0746_9700_SPE2DH16D0009_9700')
+  return { props: { data } };
+};
 
+const Post = ({ data }) => {
+  const router = useRouter();
+  console.log("data", data);
   return (
     <Layout>
       <h1>{router.query.id}</h1>
@@ -11,3 +18,5 @@ export default function Post() {
     </Layout>
   );
 };
+
+export default Post;
