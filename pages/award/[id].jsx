@@ -1,9 +1,11 @@
 import { connect } from 'react-redux';
-import { withRouter, useRouter } from 'next/router';
+import { withRouter } from 'next/router';
 import axios from 'axios';
 
 import Layout from '../../comps/MyLayout';
 import { setAward } from '../../redux/actions/award/awardActions';
+
+import "../../styles/_award.scss";
 
 export async function getServerSideProps({
   params: { id },
@@ -30,7 +32,7 @@ class Post extends React.Component {
     const { router, award } = this.props;
     return (
       <Layout>
-        <h1>{router.query.id}</h1>
+        <h1 className="header">{router.query.id}</h1>
         <p>{`Award Id Stuff: ${award.overview.generated_unique_award_id}`}</p>
       </Layout>
     );
