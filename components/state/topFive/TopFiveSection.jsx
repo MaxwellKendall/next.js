@@ -5,9 +5,9 @@
 
 import React from 'react';
 
-import { categories as topCategories } from 'dataMapping/state/topCategories';
-import ResultsTableTabs from 'components/search/table/ResultsTableTabs';
-import TopFiveContainer from 'containers/state/topFive/TopFiveContainer';
+import { categories as topCategories } from 'DataMapping/state/topCategories';
+import ResultsTableTabs from 'Components/search/table/ResultsTableTabs';
+import TopFiveContainer from 'Containers/state/topFive/TopFiveContainer';
 
 const tabTypes = [
     {

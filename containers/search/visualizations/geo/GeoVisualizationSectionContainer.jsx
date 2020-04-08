@@ -11,16 +11,16 @@ import { isCancel } from 'axios';
 import { uniqueId, isEqual, keyBy } from 'lodash';
 
 import GeoVisualizationSection from
-    'components/search/visualizations/geo/GeoVisualizationSection';
+    'Components/search/visualizations/geo/GeoVisualizationSection';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
-import { setAppliedFilterCompletion } from 'redux/actions/search/appliedFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
+import { setAppliedFilterCompletion } from 'Redux/actions/search/appliedFilterActions';
 
-import * as SearchHelper from 'helpers/searchHelper';
-import MapBroadcaster from 'helpers/mapBroadcaster';
-import Analytics from 'helpers/analytics/Analytics';
+import * as SearchHelper from 'Helpers/searchHelper';
+import MapBroadcaster from 'Helpers/mapBroadcaster';
+import Analytics from 'Helpers/analytics/Analytics';
 
-import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
+import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
 
 const propTypes = {
     reduxFilters: PropTypes.object,

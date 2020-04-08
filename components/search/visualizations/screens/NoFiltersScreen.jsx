@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { CircleArrowLeft } from 'components/sharedComponents/icons/Icons';
+import { CircleArrowLeft } from 'Components/sharedComponents/icons/Icons';
 
 const NoFiltersScreen = () => (
     <div className="visualization-status-screen">

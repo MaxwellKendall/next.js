@@ -10,12 +10,12 @@ import { hierarchy, treemap, treemapBinary } from 'd3-hierarchy';
 import { scaleLinear } from 'd3-scale';
 import { remove } from 'lodash';
 
-import { measureTreemapHeader, measureTreemapValue } from 'helpers/textMeasurement';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
-import TreemapCell from 'components/sharedComponents/TreemapCell';
-import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
-import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
-import NoResultsMessage from 'components/sharedComponents/NoResultsMessage';
+import { measureTreemapHeader, measureTreemapValue } from 'Helpers/textMeasurement';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import TreemapCell from 'Components/sharedComponents/TreemapCell';
+import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
+import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
+import NoResultsMessage from 'Components/sharedComponents/NoResultsMessage';
 
 const propTypes = {
     data: PropTypes.array,

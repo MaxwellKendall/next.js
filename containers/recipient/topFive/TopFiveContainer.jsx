@@ -13,11 +13,11 @@ import {
     convertFYToDateRange,
     currentFiscalYear,
     earliestFiscalYear
-} from 'helpers/fiscalYearHelper';
-import * as SearchHelper from 'helpers/searchHelper';
-import BaseStateCategoryResult from 'models/v2/state/BaseStateCategoryResult';
+} from 'Helpers/fiscalYearHelper';
+import * as SearchHelper from 'Helpers/searchHelper';
+import BaseStateCategoryResult from 'Models/v2/state/BaseStateCategoryResult';
 
-import TopFive from 'components/recipient/topFive/TopFive';
+import TopFive from 'Components/recipient/topFive/TopFive';
 
 const propTypes = {
     total: PropTypes.number,

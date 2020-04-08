@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { CheckCircle, ExclamationCircle } from 'components/sharedComponents/icons/Icons';
+import { CheckCircle, ExclamationCircle } from 'Components/sharedComponents/icons/Icons';
 import DownloadCheckbox from '../../DownloadCheckbox';
 
 const propTypes = {

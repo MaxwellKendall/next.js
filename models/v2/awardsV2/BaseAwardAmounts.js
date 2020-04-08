@@ -3,7 +3,7 @@
  * Created by David Trinh 12/19/18
  */
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
 const BaseAwardAmounts = {
     populateBase(data) {

@@ -3,7 +3,7 @@
   * Created by Kevin Li 11/1/16
   **/
 
-import { removePlaceholderString } from "helpers/checkboxTreeHelper";
+import { removePlaceholderString } from 'HelperscheckboxTreeHelper";
 
 // Keyword Filter
 export const updateTextSearchInput = (textInput) => ({

@@ -12,21 +12,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { startCase, snakeCase, find } from "lodash";
 import { TooltipWrapper } from 'data-transparency-ui';
 
-import { setAgencyOverview, resetAgency } from 'redux/actions/agency/agencyActions';
+import { setAgencyOverview, resetAgency } from 'Redux/actions/agency/agencyActions';
 
-import { agencyPageMetaTags } from 'helpers/metaTagHelper';
-import { scrollToY } from 'helpers/scrollToHelper';
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import { agencyPageMetaTags } from 'Helpers/metaTagHelper';
+import { scrollToY } from 'Helpers/scrollToHelper';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
 
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import Sidebar from 'components/sharedComponents/sidebar/Sidebar';
-import FYPicker from 'components/sharedComponents/pickers/FYPicker';
-import StickyHeader, { useDynamicStickyClass } from 'components/sharedComponents/stickyHeader/StickyHeader';
-import Footer from 'containers/Footer';
-import { LoadingWrapper } from 'components/sharedComponents/Loading';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import Sidebar from 'Components/sharedComponents/sidebar/Sidebar';
+import FYPicker from 'Components/sharedComponents/pickers/FYPicker';
+import StickyHeader, { useDynamicStickyClass } from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import Footer from 'Containers/Footer';
+import { LoadingWrapper } from 'Components/sharedComponents/Loading';
 
-require('pages/agency/v2/index.scss');
+require('Pages/agency/v2/index.scss');
 
 // document.querySelector('.site-navigation').offsetHeight + document.querySelector('.site-navigation').offsetTop
 const scrollPositionOfSiteHeader = 96;

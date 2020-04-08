@@ -10,16 +10,16 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { List } from 'immutable';
 
-import Analytics from 'helpers/analytics/Analytics';
-import Router from 'containers/router/Router';
+import Analytics from 'Helpers/analytics/Analytics';
+import Router from 'Containers/router/Router';
 
-import { dropdownScopes } from 'dataMapping/explorer/dropdownScopes';
+import { dropdownScopes } from 'DataMapping/explorer/dropdownScopes';
 
-import * as explorerActions from 'redux/actions/explorer/explorerActions';
-import * as ExplorerHelper from 'helpers/explorerHelper';
+import * as explorerActions from 'Redux/actions/explorer/explorerActions';
+import * as ExplorerHelper from 'Helpers/explorerHelper';
 
-import DetailContent from 'components/explorer/detail/DetailContent';
-import ExplorerSidebar from 'components/explorer/detail/sidebar/ExplorerSidebar';
+import DetailContent from 'Components/explorer/detail/DetailContent';
+import ExplorerSidebar from 'Components/explorer/detail/sidebar/ExplorerSidebar';
 
 
 const propTypes = {

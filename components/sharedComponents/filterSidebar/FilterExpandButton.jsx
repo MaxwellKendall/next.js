@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AngleRight, AngleDown, InfoCircle } from 'components/sharedComponents/icons/Icons';
+import { AngleRight, AngleDown, InfoCircle } from 'Components/sharedComponents/icons/Icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const propTypes = {

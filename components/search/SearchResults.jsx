@@ -6,10 +6,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AddFilter } from 'components/sharedComponents/icons/Icons';
+import { AddFilter } from 'Components/sharedComponents/icons/Icons';
 
-import TopFilterBarContainer from 'containers/search/topFilterBar/TopFilterBarContainer';
-import VisualizationWrapperContainer from 'containers/search/visualizations/VisualizationWrapperContainer';
+import TopFilterBarContainer from 'Containers/search/topFilterBar/TopFilterBarContainer';
+import VisualizationWrapperContainer from 'Containers/search/visualizations/VisualizationWrapperContainer';
 import MobileFilters from './mobile/MobileFilters';
 
 const propTypes = {

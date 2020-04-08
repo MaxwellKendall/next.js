@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ExclamationCircle, CheckCircle } from 'components/sharedComponents/icons/Icons';
+import { ExclamationCircle, CheckCircle } from 'Components/sharedComponents/icons/Icons';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const propTypes = {

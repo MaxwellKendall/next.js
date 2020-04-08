@@ -6,7 +6,7 @@
 import React, { createRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import * as Icons from 'components/sharedComponents/icons/Icons';
+import * as Icons from 'Components/sharedComponents/icons/Icons';
 import GlossarySearchBar from './GlossarySearchBar';
 
 const propTypes = {

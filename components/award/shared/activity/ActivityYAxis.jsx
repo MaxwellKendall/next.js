@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { isEqual } from 'lodash';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 import ActivityYAxisItem from './ActivityYAxisItem';
 
 const propTypes = {

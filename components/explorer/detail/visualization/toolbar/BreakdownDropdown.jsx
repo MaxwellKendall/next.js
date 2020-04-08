@@ -6,12 +6,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Router from 'containers/router/Router';
+import Router from 'Containers/router/Router';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { dropdownScopes, rootScopes, icons } from 'dataMapping/explorer/dropdownScopes';
-import { sidebarTypes } from 'dataMapping/explorer/sidebarStrings';
+import { dropdownScopes, rootScopes, icons } from 'DataMapping/explorer/dropdownScopes';
+import { sidebarTypes } from 'DataMapping/explorer/sidebarStrings';
 
 import DropdownItem from './DropdownItem';
 import ViewTypeButton from '../../../../sharedComponents/buttons/ViewTypeButton';

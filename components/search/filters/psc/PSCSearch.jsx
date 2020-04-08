@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import PSCListContainer from 'containers/search/filters/psc/PSCListContainer';
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import PSCListContainer from 'Containers/search/filters/psc/PSCListContainer';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 import SelectedPSC from './SelectedPSC';
 
 const propTypes = {

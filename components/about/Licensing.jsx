@@ -4,7 +4,7 @@
  */
 
 import React, { Component } from 'react';
-import { showRedirectModal } from 'helpers/redirectHelper';
+import { showRedirectModal } from 'Helpers/redirectHelper';
 
 export default class Licensing extends Component {
     constructor(props) {

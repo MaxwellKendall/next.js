@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Search } from 'components/sharedComponents/icons/Icons';
+import { Search } from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     glossary: PropTypes.object,

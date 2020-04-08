@@ -3,7 +3,7 @@
  * Created by michaelbray on 3/7/17.
  */
 
-import { formatMoneyWithPrecision } from 'helpers/moneyFormatter';
+import { formatMoneyWithPrecision } from 'Helpers/moneyFormatter';
 import { spendingCategoriesByAwardType, asstAwardTypesWithSimilarAwardAmountData } from '../dataMapping/awards/awardAmountsSection';
 
 // formats the specific checkboxes

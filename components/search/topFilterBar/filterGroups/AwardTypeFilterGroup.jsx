@@ -9,7 +9,7 @@ import { indexOf, difference, concat } from 'lodash';
 
 import { Set } from 'immutable';
 
-import * as AwardType from 'dataMapping/search/awardType';
+import * as AwardType from 'DataMapping/search/awardType';
 
 import BaseTopFilterGroup from './BaseTopFilterGroup';
 

@@ -10,11 +10,11 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { orderBy, isEqual } from 'lodash';
 
-import * as recipientActions from 'redux/actions/recipient/recipientActions';
-import * as RecipientHelper from 'helpers/recipientHelper';
+import * as recipientActions from 'Redux/actions/recipient/recipientActions';
+import * as RecipientHelper from 'Helpers/recipientHelper';
 
-import RecipientModal from 'components/recipient/modal/RecipientModal';
-import BaseChildRecipient from 'models/v2/recipient/BaseChildRecipient';
+import RecipientModal from 'Components/recipient/modal/RecipientModal';
+import BaseChildRecipient from 'Models/v2/recipient/BaseChildRecipient';
 
 const propTypes = {
     setRecipientChildren: PropTypes.func,

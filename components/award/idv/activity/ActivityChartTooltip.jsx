@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
-import { formatMoney } from 'helpers/moneyFormatter';
+import { formatMoney } from 'Helpers/moneyFormatter';
 
 const propTypes = {
     data: PropTypes.object,

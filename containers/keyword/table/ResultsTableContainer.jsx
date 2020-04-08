@@ -7,14 +7,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { isCancel } from 'axios';
 import { uniqueId, map } from 'lodash';
-import * as KeywordHelper from 'helpers/keywordHelper';
-import { availableColumns, defaultSort } from 'dataMapping/keyword/resultsTableColumns';
-import { awardTypeGroups } from 'dataMapping/search/awardType';
-import { measureTableHeader } from 'helpers/textMeasurement';
+import * as KeywordHelper from 'Helpers/keywordHelper';
+import { availableColumns, defaultSort } from 'DataMapping/keyword/resultsTableColumns';
+import { awardTypeGroups } from 'DataMapping/search/awardType';
+import { measureTableHeader } from 'Helpers/textMeasurement';
 
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
-import ResultsTableSection from 'components/keyword/table/ResultsTableSection';
+import ResultsTableSection from 'Components/keyword/table/ResultsTableSection';
 
 const propTypes = {
     keyword: PropTypes.string,

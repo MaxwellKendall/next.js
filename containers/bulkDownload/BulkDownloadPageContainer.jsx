@@ -9,17 +9,17 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import Router from 'containers/router/Router';
+import Router from 'Containers/router/Router';
 
-import * as bulkDownloadActions from 'redux/actions/bulkDownload/bulkDownloadActions';
-import * as BulkDownloadHelper from 'helpers/bulkDownloadHelper';
-import { downloadOptions } from 'dataMapping/navigation/menuOptions';
-import { awardDownloadOptions, accountDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
-import BulkDownloadPage from 'components/bulkDownload/BulkDownloadPage';
+import * as bulkDownloadActions from 'Redux/actions/bulkDownload/bulkDownloadActions';
+import * as BulkDownloadHelper from 'Helpers/bulkDownloadHelper';
+import { downloadOptions } from 'DataMapping/navigation/menuOptions';
+import { awardDownloadOptions, accountDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
+import BulkDownloadPage from 'Components/bulkDownload/BulkDownloadPage';
 
 import { logAwardDownload, logAccountDownload } from './helpers/downloadAnalytics';
 
-require('pages/bulkDownload/bulkDownloadPage.scss');
+require('Pages/bulkDownload/bulkDownloadPage.scss');
 
 const propTypes = {
     params: PropTypes.object,

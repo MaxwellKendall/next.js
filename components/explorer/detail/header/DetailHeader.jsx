@@ -7,11 +7,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import moment from 'moment';
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
-import { sidebarTypes } from 'dataMapping/explorer/sidebarStrings';
-import { formatTreemapValues } from 'helpers/moneyFormatter';
-import { generateSingular } from 'helpers/singularityHelper';
+import { sidebarTypes } from 'DataMapping/explorer/sidebarStrings';
+import { formatTreemapValues } from 'Helpers/moneyFormatter';
+import { generateSingular } from 'Helpers/singularityHelper';
 
 import TruncationWarning from './TruncationWarning';
 

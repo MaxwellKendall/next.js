@@ -5,15 +5,15 @@
 
 import React from 'react';
 
-import { agencyLandingPageMetaTags } from 'helpers/metaTagHelper';
+import { agencyLandingPageMetaTags } from 'Helpers/metaTagHelper';
 
-import Footer from 'containers/Footer';
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
-import AgencyLandingContainer from 'containers/agencyLanding/AgencyLandingContainer';
+import Footer from 'Containers/Footer';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import AgencyLandingContainer from 'Containers/agencyLanding/AgencyLandingContainer';
 
-require('pages/agencyLanding/agencyLandingPage.scss');
+require('Pages/agencyLanding/agencyLandingPage.scss');
 
 export default class AgencyLandingPage extends React.Component {
     render() {

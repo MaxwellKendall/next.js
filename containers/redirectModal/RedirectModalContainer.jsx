@@ -8,9 +8,9 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as redirectModalActions from 'redux/actions/redirectModal/redirectModalActions';
+import * as redirectModalActions from 'Redux/actions/redirectModal/redirectModalActions';
 
-import RedirectModal from 'components/sharedComponents/RedirectModal';
+import RedirectModal from 'Components/sharedComponents/RedirectModal';
 
 const propTypes = {
     redirectModal: PropTypes.object,

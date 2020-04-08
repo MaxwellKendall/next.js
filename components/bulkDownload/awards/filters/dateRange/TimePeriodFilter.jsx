@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-import { CheckCircle, ExclamationCircle } from 'components/sharedComponents/icons/Icons';
+import { CheckCircle, ExclamationCircle } from 'Components/sharedComponents/icons/Icons';
 
-import * as fiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as fiscalYearHelper from 'Helpers/fiscalYearHelper';
 
-import DateRangeError from 'components/search/filters/timePeriod/DateRangeError';
+import DateRangeError from 'Components/search/filters/timePeriod/DateRangeError';
 import DownloadDateRange from './DownloadDateRange';
 import TimePeriodButtons from './TimePeriodButtons';
 

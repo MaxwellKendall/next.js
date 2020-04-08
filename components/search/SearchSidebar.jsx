@@ -6,33 +6,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SearchSidebarSubmitContainer from 'containers/search/SearchSidebarSubmitContainer';
+import SearchSidebarSubmitContainer from 'Containers/search/SearchSidebarSubmitContainer';
 
-import KeywordContainer from 'containers/search/filters/KeywordContainer';
-import AwardTypeContainer from 'containers/search/filters/AwardTypeContainer';
-import TimePeriodContainer from 'containers/search/filters/TimePeriodContainer';
-import AgencyContainer from 'containers/search/filters/AgencyContainer';
-import LocationSectionContainer from 'containers/search/filters/location/LocationSectionContainer';
-import RecipientSearchContainer from 'containers/search/filters/recipient/RecipientSearchContainer';
-import ProgramSourceContainer from 'containers/search/filters/programSource/ProgramSourceContainer';
-import TASCheckboxTree from 'containers/search/filters/programSource/TASCheckboxTreeContainer';
-import RecipientTypeContainer from 'containers/search/filters/recipient/RecipientTypeContainer';
-import AwardIDSearchContainer from 'containers/search/filters/awardID/AwardIDSearchContainer';
+import KeywordContainer from 'Containers/search/filters/KeywordContainer';
+import AwardTypeContainer from 'Containers/search/filters/AwardTypeContainer';
+import TimePeriodContainer from 'Containers/search/filters/TimePeriodContainer';
+import AgencyContainer from 'Containers/search/filters/AgencyContainer';
+import LocationSectionContainer from 'Containers/search/filters/location/LocationSectionContainer';
+import RecipientSearchContainer from 'Containers/search/filters/recipient/RecipientSearchContainer';
+import ProgramSourceContainer from 'Containers/search/filters/programSource/ProgramSourceContainer';
+import TASCheckboxTree from 'Containers/search/filters/programSource/TASCheckboxTreeContainer';
+import RecipientTypeContainer from 'Containers/search/filters/recipient/RecipientTypeContainer';
+import AwardIDSearchContainer from 'Containers/search/filters/awardID/AwardIDSearchContainer';
 import AwardAmountSearchContainer from
-    'containers/search/filters/awardAmount/AwardAmountSearchContainer';
-import CFDASearchContainer from 'containers/search/filters/cfda/CFDASearchContainer';
-import NAICSSearchContainer from 'containers/search/filters/naics/NAICSSearchContainer';
-import NAICSContainer from 'containers/search/filters/naics/NAICSContainer';
-import PSCSearchContainer from 'containers/search/filters/psc/PSCSearchContainer';
-import PricingTypeContainer from 'containers/search/filters/PricingTypeContainer';
-import SetAsideContainer from 'containers/search/filters/SetAsideContainer';
-import ExtentCompetedContainer from 'containers/search/filters/ExtentCompetedContainer';
+    'Containers/search/filters/awardAmount/AwardAmountSearchContainer';
+import CFDASearchContainer from 'Containers/search/filters/cfda/CFDASearchContainer';
+import NAICSSearchContainer from 'Containers/search/filters/naics/NAICSSearchContainer';
+import NAICSContainer from 'Containers/search/filters/naics/NAICSContainer';
+import PSCSearchContainer from 'Containers/search/filters/psc/PSCSearchContainer';
+import PricingTypeContainer from 'Containers/search/filters/PricingTypeContainer';
+import SetAsideContainer from 'Containers/search/filters/SetAsideContainer';
+import ExtentCompetedContainer from 'Containers/search/filters/ExtentCompetedContainer';
 
-import KeywordHover from 'components/search/filters/keyword/KeywordHover';
+import KeywordHover from 'Components/search/filters/keyword/KeywordHover';
 
-import { Filter as FilterIcon } from 'components/sharedComponents/icons/Icons';
-import FilterSidebar from 'components/sharedComponents/filterSidebar/FilterSidebar';
-import * as SidebarHelper from 'helpers/sidebarHelper';
+import { Filter as FilterIcon } from 'Components/sharedComponents/icons/Icons';
+import FilterSidebar from 'Components/sharedComponents/filterSidebar/FilterSidebar';
+import * as SidebarHelper from 'Helpers/sidebarHelper';
 
 import kGlobalConstants from 'GlobalConstants';
 

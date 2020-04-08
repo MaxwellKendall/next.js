@@ -10,21 +10,21 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
 import { isEqual, max, get } from 'lodash';
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
-import { setAppliedFilterCompletion } from 'redux/actions/search/appliedFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
+import { setAppliedFilterCompletion } from 'Redux/actions/search/appliedFilterActions';
 
-import * as SearchHelper from 'helpers/searchHelper';
+import * as SearchHelper from 'Helpers/searchHelper';
 
-import RankVisualizationTitle from 'components/search/visualizations/rank/RankVisualizationTitle';
-import SpendingByAgencySection from 'components/search/visualizations/rank/sections/SpendingByAgencySection';
-import SpendingByRecipientSection from 'components/search/visualizations/rank/sections/SpendingByRecipientSection';
-import SpendingByCFDASection from 'components/search/visualizations/rank/sections/SpendingByCFDASection';
-import SpendingByIndustryCodeSection from 'components/search/visualizations/rank/sections/SpendingByIndustryCodeSection';
+import RankVisualizationTitle from 'Components/search/visualizations/rank/RankVisualizationTitle';
+import SpendingByAgencySection from 'Components/search/visualizations/rank/sections/SpendingByAgencySection';
+import SpendingByRecipientSection from 'Components/search/visualizations/rank/sections/SpendingByRecipientSection';
+import SpendingByCFDASection from 'Components/search/visualizations/rank/sections/SpendingByCFDASection';
+import SpendingByIndustryCodeSection from 'Components/search/visualizations/rank/sections/SpendingByIndustryCodeSection';
 
-import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
-import BaseSpendingByCategoryResult from 'models/v2/search/visualizations/rank/BaseSpendingByCategoryResult';
+import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
+import BaseSpendingByCategoryResult from 'Models/v2/search/visualizations/rank/BaseSpendingByCategoryResult';
 
-import { categoryNames, defaultScopes } from 'dataMapping/search/spendingByCategory';
+import { categoryNames, defaultScopes } from 'DataMapping/search/spendingByCategory';
 
 const combinedActions = Object.assign({}, searchFilterActions, {
     setAppliedFilterCompletion

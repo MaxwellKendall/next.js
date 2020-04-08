@@ -9,9 +9,9 @@ import { isCancel } from 'axios';
 import { Search, PrefixIndexStrategy } from 'js-search';
 import PropTypes from 'prop-types';
 
-import * as SearchHelper from 'helpers/searchHelper';
+import * as SearchHelper from 'Helpers/searchHelper';
 
-import Autocomplete from 'components/sharedComponents/autocomplete/Autocomplete';
+import Autocomplete from 'Components/sharedComponents/autocomplete/Autocomplete';
 
 const propTypes = {
     selectCFDA: PropTypes.func,

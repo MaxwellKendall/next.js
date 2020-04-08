@@ -6,12 +6,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
-import GlossaryButtonWrapperContainer from 'containers/glossary/GlossaryButtonWrapperContainer';
-import Router from 'containers/router/Router';
+import GlossaryButtonWrapperContainer from 'Containers/glossary/GlossaryButtonWrapperContainer';
+import Router from 'Containers/router/Router';
 
-import { searchOptions, profileOptions, downloadOptions } from 'dataMapping/navigation/menuOptions';
+import { searchOptions, profileOptions, downloadOptions } from 'DataMapping/navigation/menuOptions';
 
 import MobileTop from './MobileTop';
 import MobileGlossaryButton from './MobileGlossaryButton';

@@ -18,7 +18,7 @@
     border-right: 1px solid $color-gray-border;
     border-bottom: 1px solid $color-gray-border;
 
-    @import 'pages/state/_fyPicker';
+    @import 'Pages/state/_fyPicker';
 
     ul {
         @include unstyled-list;

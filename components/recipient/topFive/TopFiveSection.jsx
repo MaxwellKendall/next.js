@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { recipientCategories as topCategories } from 'dataMapping/recipients/topCategories';
-import TopFiveContainer from 'containers/recipient/topFive/TopFiveContainer';
+import { recipientCategories as topCategories } from 'DataMapping/recipients/topCategories';
+import TopFiveContainer from 'Containers/recipient/topFive/TopFiveContainer';
 
 export default class TopFiveSection extends React.Component {
     render() {

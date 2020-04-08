@@ -9,10 +9,10 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as IdvHelper from 'helpers/idvHelper';
-import * as awardActions from 'redux/actions/award/awardActions';
-import BaseAwardAmounts from 'models/v2/awardsV2/BaseAwardAmounts';
-import AggregatedAwardAmounts from 'components/award/idv/amounts/AggregatedAwardAmounts';
+import * as IdvHelper from 'Helpers/idvHelper';
+import * as awardActions from 'Redux/actions/award/awardActions';
+import BaseAwardAmounts from 'Models/v2/awardsV2/BaseAwardAmounts';
+import AggregatedAwardAmounts from 'Components/award/idv/amounts/AggregatedAwardAmounts';
 
 const propTypes = {
     award: PropTypes.object,

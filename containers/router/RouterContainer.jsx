@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
 import GlossaryListenerSingleton from './GlossaryListenerSingleton';
 import Router from './Router';

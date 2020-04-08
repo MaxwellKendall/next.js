@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { InfoCircle } from 'components/sharedComponents/icons/Icons';
+import { InfoCircle } from 'Components/sharedComponents/icons/Icons';
 
 const TruncationWarning = () => (
     <div className="truncation-warning detail-header__truncation">

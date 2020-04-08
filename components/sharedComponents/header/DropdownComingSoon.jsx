@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { ExclamationCircle } from 'components/sharedComponents/icons/Icons';
+import { ExclamationCircle } from 'Components/sharedComponents/icons/Icons';
 
 const DropdownComingSoon = () => (
     <div className="nav-coming-soon">

@@ -5,7 +5,7 @@
 
 import { Set } from 'immutable';
 
-import { defaultQuarters } from 'containers/explorer/detail/helpers/explorerQuarters';
+import { defaultQuarters } from 'Containers/explorer/detail/helpers/explorerQuarters';
 
 import * as AwardFilterFunctions from '../search/filters/awardFilterFunctions';
 

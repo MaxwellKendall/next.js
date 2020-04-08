@@ -9,16 +9,16 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId } from 'lodash';
 
-import { measureTableHeader } from 'helpers/textMeasurement';
+import { measureTableHeader } from 'Helpers/textMeasurement';
 
-import { awardTableColumnTypes } from 'dataMapping/search/awardTableColumnTypes';
-import { awardTypeGroups } from 'dataMapping/search/awardType';
-import * as SearchHelper from 'helpers/searchHelper';
+import { awardTableColumnTypes } from 'DataMapping/search/awardTableColumnTypes';
+import { awardTypeGroups } from 'DataMapping/search/awardType';
+import * as SearchHelper from 'Helpers/searchHelper';
 import { defaultColumns, defaultSort } from
     'dataMapping/search/awardTableColumns';
 
-import AccountAwardSearchOperation from 'models/account/queries/AccountAwardSearchOperation';
-import ResultsTableSection from 'components/search/table/ResultsTableSection';
+import AccountAwardSearchOperation from 'Models/account/queries/AccountAwardSearchOperation';
+import ResultsTableSection from 'Components/search/table/ResultsTableSection';
 
 const propTypes = {
     account: PropTypes.object,

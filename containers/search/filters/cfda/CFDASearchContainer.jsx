@@ -9,9 +9,9 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import CFDASearch from 'components/search/filters/cfda/CFDASearch';
+import CFDASearch from 'Components/search/filters/cfda/CFDASearch';
 
 const propTypes = {
     selectedCFDA: PropTypes.object,

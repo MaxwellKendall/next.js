@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import CFDAListContainer from 'containers/search/filters/cfda/CFDAListContainer';
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import CFDAListContainer from 'Containers/search/filters/cfda/CFDAListContainer';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 import SelectedCFDA from './SelectedCFDA';
 
 const propTypes = {

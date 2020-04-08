@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Router from 'containers/router/Router';
+import Router from 'Containers/router/Router';
 
 const propTypes = {
     section: PropTypes.string,

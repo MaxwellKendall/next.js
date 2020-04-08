@@ -9,11 +9,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
+import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
 
-import * as AccountHelper from 'helpers/accountHelper';
+import * as AccountHelper from 'Helpers/accountHelper';
 
-import ObjectClassFilter from 'components/account/filters/objectClass/ObjectClassFilter';
+import ObjectClassFilter from 'Components/account/filters/objectClass/ObjectClassFilter';
 
 const propTypes = {
     accountId: PropTypes.number,

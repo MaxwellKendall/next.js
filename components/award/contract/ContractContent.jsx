@@ -6,11 +6,11 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import kGlobalConstants from 'GlobalConstants';
-import { glossaryLinks } from 'dataMapping/search/awardType';
-import BaseAwardAmounts from 'models/v2/awardsV2/BaseAwardAmounts';
-import AwardHistory from 'containers/award/shared/AwardHistorySectionContainer';
-import { awardTypesWithSubawards } from 'dataMapping/awards/awardHistorySection';
-import ContractGrantActivityContainer from 'containers/award/shared/ContractGrantActivityContainer';
+import { glossaryLinks } from 'DataMapping/search/awardType';
+import BaseAwardAmounts from 'Models/v2/awardsV2/BaseAwardAmounts';
+import AwardHistory from 'Containers/award/shared/AwardHistorySectionContainer';
+import { awardTypesWithSubawards } from 'DataMapping/awards/awardHistorySection';
+import ContractGrantActivityContainer from 'Containers/award/shared/ContractGrantActivityContainer';
 import AdditionalInfo from '../shared/additionalInfo/AdditionalInfo';
 import AwardOverviewLeftSection from '../shared/overview/AwardOverviewLeftSection';
 import AwardOverviewRightSection from '../shared/overview/AwardOverviewRightSection';

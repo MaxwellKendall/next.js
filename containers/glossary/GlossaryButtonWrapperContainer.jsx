@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as glossaryActions from 'redux/actions/glossary/glossaryActions';
+import * as glossaryActions from 'Redux/actions/glossary/glossaryActions';
 
 const propTypes = {
     dispatch: PropTypes.func

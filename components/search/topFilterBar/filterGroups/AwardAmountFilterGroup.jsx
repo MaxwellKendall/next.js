@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as AwardAmountFormatter from 'helpers/awardAmountHelper';
+import * as AwardAmountFormatter from 'Helpers/awardAmountHelper';
 import BaseTopFilterGroup from './BaseTopFilterGroup';
 
 const propTypes = {

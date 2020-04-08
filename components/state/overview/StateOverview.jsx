@@ -6,10 +6,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { InfoCircle } from 'components/sharedComponents/icons/Icons';
+import { InfoCircle } from 'Components/sharedComponents/icons/Icons';
 
-import AwardBreakdownContainer from 'containers/state/visualizations/awardBreakdown/AwardBreakdownContainer';
-import GeoVisualizationSectionContainer from 'containers/state/visualizations/geo/GeoVisualizationSectionContainer';
+import AwardBreakdownContainer from 'Containers/state/visualizations/awardBreakdown/AwardBreakdownContainer';
+import GeoVisualizationSectionContainer from 'Containers/state/visualizations/geo/GeoVisualizationSectionContainer';
 import DetailsTooltip from './DetailsTooltip';
 
 const propTypes = {

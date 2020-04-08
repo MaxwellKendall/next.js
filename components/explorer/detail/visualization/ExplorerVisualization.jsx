@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'helpers/analytics/Analytics';
-import * as redirectHelper from 'helpers/redirectHelper';
+import Analytics from 'Helpers/analytics/Analytics';
+import * as redirectHelper from 'Helpers/redirectHelper';
 
-import UnreportedErrorScreen from 'components/explorer/detail/UnreportedErrorScreen';
-import ExplorerTableContainer from 'containers/explorer/detail/table/ExplorerTableContainer';
+import UnreportedErrorScreen from 'Components/explorer/detail/UnreportedErrorScreen';
+import ExplorerTableContainer from 'Containers/explorer/detail/table/ExplorerTableContainer';
 import BreakdownDropdown from './toolbar/BreakdownDropdown';
 import ExplorerTreemap from './treemap/ExplorerTreemap';
 

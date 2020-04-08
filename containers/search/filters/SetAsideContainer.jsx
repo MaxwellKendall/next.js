@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import ContractFilter from 'components/search/filters/contractFilters/ContractFilter';
+import ContractFilter from 'Components/search/filters/contractFilters/ContractFilter';
 
 const propTypes = {
     updateSetAside: PropTypes.func,

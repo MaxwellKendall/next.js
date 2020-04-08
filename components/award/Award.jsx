@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as MetaTagHelper from 'helpers/metaTagHelper';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import * as MetaTagHelper from 'Helpers/metaTagHelper';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 import { find } from 'lodash';
-import { scrollToY } from 'helpers/scrollToHelper';
-import Footer from 'containers/Footer';
+import { scrollToY } from 'Helpers/scrollToHelper';
+import Footer from 'Containers/Footer';
 
 import SummaryBar from './SummaryBar';
 import ContractContent from './contract/ContractContent';

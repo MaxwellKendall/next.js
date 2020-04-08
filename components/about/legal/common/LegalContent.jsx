@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Sidebar from 'components/sharedComponents/sidebar/Sidebar';
-import { stickyHeaderHeight } from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Sidebar from 'Components/sharedComponents/sidebar/Sidebar';
+import { stickyHeaderHeight } from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
 const legalSections = [
     {

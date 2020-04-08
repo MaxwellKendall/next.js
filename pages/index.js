@@ -1,5 +1,5 @@
-import Layout from '../components/MyLayout';
 import Link from 'next/link';
+import Layout from '../components/MyLayout';
 
 const AwardLink = props => (
   <li>
@@ -14,9 +14,7 @@ export default function Blog() {
     <Layout>
       <h1>USA Spending</h1>
       <ul>
-        <AwardLink id="23423" />
-        <AwardLink id="4444" />
-        <AwardLink id="3333" />
+        <AwardLink id="CONT_AWD_0746_9700_SPE2DH16D0009_9700" />
       </ul>
     </Layout>
   );

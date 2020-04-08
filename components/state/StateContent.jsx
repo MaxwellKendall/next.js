@@ -6,10 +6,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { find } from 'lodash';
-import { scrollToY } from 'helpers/scrollToHelper';
-import * as StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
-import Sidebar from 'components/sharedComponents/sidebar/Sidebar';
-import StateTimeVisualizationSectionContainer from 'containers/state/StateTimeVisualizationSectionContainer';
+import { scrollToY } from 'Helpers/scrollToHelper';
+import * as StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import Sidebar from 'Components/sharedComponents/sidebar/Sidebar';
+import StateTimeVisualizationSectionContainer from 'Containers/state/StateTimeVisualizationSectionContainer';
 
 import TopFiveSection from './topFive/TopFiveSection';
 

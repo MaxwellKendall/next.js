@@ -5,16 +5,16 @@
 
 import React from 'react';
 
-import { recipientLandingPageMetaTags } from 'helpers/metaTagHelper';
+import { recipientLandingPageMetaTags } from 'Helpers/metaTagHelper';
 
-import Footer from 'containers/Footer';
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Footer from 'Containers/Footer';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
-import RecipientLandingContainer from 'containers/recipientLanding/RecipientLandingContainer';
+import RecipientLandingContainer from 'Containers/recipientLanding/RecipientLandingContainer';
 
-require('pages/recipientLanding/recipientLandingPage.scss');
+require('Pages/recipientLanding/recipientLandingPage.scss');
 
 export default class RecipientLandingPage extends React.Component {
     render() {

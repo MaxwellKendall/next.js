@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import Error from 'components/sharedComponents/Error';
+import Error from 'Components/sharedComponents/Error';
 
 export default class AgencyLoading extends React.Component {
     render() {

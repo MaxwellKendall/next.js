@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AngleDown } from 'components/sharedComponents/icons/Icons';
+import { AngleDown } from 'Components/sharedComponents/icons/Icons';
 
 import DropdownItem from './DropdownItem';
 

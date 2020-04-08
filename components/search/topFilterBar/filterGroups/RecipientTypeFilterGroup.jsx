@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as RecipientType from 'dataMapping/search/recipientType';
+import * as RecipientType from 'DataMapping/search/recipientType';
 
 import BaseTopFilterGroup from './BaseTopFilterGroup';
 

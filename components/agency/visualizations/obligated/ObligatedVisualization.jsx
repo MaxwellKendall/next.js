@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 import { capitalize, throttle } from 'lodash';
 
 import AgencyObligatedGraph from './ObligatedGraph';

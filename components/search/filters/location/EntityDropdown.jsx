@@ -9,7 +9,7 @@ import Mousetrap from 'mousetrap';
 import { uniqueId, isEqual } from 'lodash';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { defaultLocationValues }
-    from "containers/search/filters/location/LocationPickerContainer";
+    from 'Containers/search/filters/location/LocationPickerContainer";
 
 import EntityDropdownList from './EntityDropdownList';
 import EntityWarning from './EntityWarning';

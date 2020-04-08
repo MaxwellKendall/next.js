@@ -1,4 +1,4 @@
-@import 'pages/search/filters/timePeriod/_toggleButtons';
+@import 'Pages/search/filters/timePeriod/_toggleButtons';
 ul.toggle-buttons {
     padding-left: rem(15);
     @include media($large-screen) {

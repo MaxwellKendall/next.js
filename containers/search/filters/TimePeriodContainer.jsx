@@ -9,11 +9,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Set, is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
 
-import TimePeriod from 'components/search/filters/timePeriod/TimePeriod';
+import TimePeriod from 'Components/search/filters/timePeriod/TimePeriod';
 
 export const startYear = FiscalYearHelper.earliestFiscalYear;
 

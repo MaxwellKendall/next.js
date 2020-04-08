@@ -2,7 +2,7 @@
  * CoreExecutiveDetails.js
  * Created by David Trinh 10/9/18
  */
-import { formatMoney } from 'helpers/moneyFormatter';
+import { formatMoney } from 'Helpers/moneyFormatter';
 
 const emptyExecutiveCompensation = () => {
     const executiveCompensation = {};

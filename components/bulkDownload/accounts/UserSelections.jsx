@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { accountDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
+import { accountDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
 
 const propTypes = {
     accounts: PropTypes.object

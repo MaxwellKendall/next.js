@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { recipientTypes, recipientTypeGroups } from 'dataMapping/search/recipientType';
-import PrimaryCheckboxType from 'components/sharedComponents/checkbox/PrimaryCheckboxType';
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import { recipientTypes, recipientTypeGroups } from 'DataMapping/search/recipientType';
+import PrimaryCheckboxType from 'Components/sharedComponents/checkbox/PrimaryCheckboxType';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 
 const defaultProps = {
     recipientTypeMapping: [

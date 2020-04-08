@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 import TreasuryAccountFilters from './TreasuryAccountFilters';
 import SelectedSources from './SelectedSources';
 import ProgramSourceInfoTooltip from './ProgramSourceInfoTooltip';

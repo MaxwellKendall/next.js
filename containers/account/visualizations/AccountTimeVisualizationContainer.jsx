@@ -13,14 +13,14 @@ import { Record } from 'immutable';
 import { isEqual } from 'lodash';
 
 import AccountTimeVisualizationSection from
-    'components/account/visualizations/time/AccountTimeVisualizationSection';
+    'Components/account/visualizations/time/AccountTimeVisualizationSection';
 
-import * as AccountHelper from 'helpers/accountHelper';
-import * as AccountQuartersHelper from 'helpers/accountQuartersHelper';
-import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
+import * as AccountHelper from 'Helpers/accountHelper';
+import * as AccountQuartersHelper from 'Helpers/accountQuartersHelper';
+import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
 
-import AccountSearchBalanceOperation from 'models/account/queries/AccountSearchBalanceOperation';
-import AccountSearchCategoryOperation from 'models/account/queries/AccountSearchCategoryOperation';
+import AccountSearchBalanceOperation from 'Models/account/queries/AccountSearchBalanceOperation';
+import AccountSearchCategoryOperation from 'Models/account/queries/AccountSearchCategoryOperation';
 import { balanceFields, balanceFieldsFiltered, balanceFieldsNonfiltered } from
     'dataMapping/accounts/accountFields';
 

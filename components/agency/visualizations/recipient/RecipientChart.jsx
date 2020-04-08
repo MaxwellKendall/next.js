@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AngleLeft, AngleRight } from 'components/sharedComponents/icons/Icons';
-import HorizontalChart from 'components/search/visualizations/rank/chart/HorizontalChart';
-import BarChartLegend from 'components/search/visualizations/time/chart/BarChartLegend';
+import { AngleLeft, AngleRight } from 'Components/sharedComponents/icons/Icons';
+import HorizontalChart from 'Components/search/visualizations/rank/chart/HorizontalChart';
+import BarChartLegend from 'Components/search/visualizations/time/chart/BarChartLegend';
 
 import RecipientTooltip from './RecipientTooltip';
 

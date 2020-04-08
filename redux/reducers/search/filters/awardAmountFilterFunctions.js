@@ -2,7 +2,7 @@
  * Created by michaelbray on 3/8/17.
  */
 
-import { awardRanges } from 'dataMapping/search/awardAmount';
+import { awardRanges } from 'DataMapping/search/awardAmount';
 import { OrderedMap } from 'immutable';
 import { isEqual, flatten, map, compact, each } from 'lodash';
 

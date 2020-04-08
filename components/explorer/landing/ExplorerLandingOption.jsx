@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { icons } from 'dataMapping/explorer/dropdownScopes';
-import * as Icons from 'components/sharedComponents/icons/Icons';
+import { icons } from 'DataMapping/explorer/dropdownScopes';
+import * as Icons from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     icon: PropTypes.string,

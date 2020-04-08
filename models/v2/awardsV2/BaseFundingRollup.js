@@ -3,7 +3,7 @@
  * Created by Lizzie Salita 8/16/19
  */
 
-import { formatMoneyWithPrecision } from 'helpers/moneyFormatter';
+import { formatMoneyWithPrecision } from 'Helpers/moneyFormatter';
 
 const BaseFundingRollup = {
     populate(data) {

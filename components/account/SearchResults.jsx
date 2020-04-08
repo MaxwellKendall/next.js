@@ -6,13 +6,13 @@
 import React from 'react';
 
 import AccountTopFilterBarContainer from
-    'containers/account/topFilterBar/AccountTopFilterBarContainer';
+    'Containers/account/topFilterBar/AccountTopFilterBarContainer';
 
 import AccountTimeVisualizationContainer from
-    'containers/account/visualizations/AccountTimeVisualizationContainer';
+    'Containers/account/visualizations/AccountTimeVisualizationContainer';
 import AccountRankVisualizationContainer from
-    'containers/account/visualizations/AccountRankVisualizationContainer';
-import AccountAwardsContainer from 'containers/account/awards/AccountAwardsContainer';
+    'Containers/account/visualizations/AccountRankVisualizationContainer';
+import AccountAwardsContainer from 'Containers/account/awards/AccountAwardsContainer';
 
 
 export default class SearchResults extends React.Component {

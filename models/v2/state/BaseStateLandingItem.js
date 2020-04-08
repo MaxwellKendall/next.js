@@ -3,7 +3,7 @@
  * Created by Kevin Li 5/23/18
  */
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
 const BaseStateLandingItem = {
     populate(data) {

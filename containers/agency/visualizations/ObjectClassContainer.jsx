@@ -8,9 +8,9 @@ import PropTypes from 'prop-types';
 import { isCancel } from 'axios';
 import { reduce } from 'lodash';
 
-import * as AgencyHelper from 'helpers/agencyHelper';
+import * as AgencyHelper from 'Helpers/agencyHelper';
 
-import ObjectClassTreeMap from 'components/agency/visualizations/objectClass/ObjectClassTreeMap';
+import ObjectClassTreeMap from 'Components/agency/visualizations/objectClass/ObjectClassTreeMap';
 
 const propTypes = {
     id: PropTypes.string,

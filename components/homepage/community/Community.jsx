@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
 const clickedHomepageLink = (route) => {
     Analytics.event({

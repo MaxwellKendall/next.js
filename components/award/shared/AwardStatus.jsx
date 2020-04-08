@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import { endsWith } from 'lodash';
 import moment from 'moment';
 
-import { convertDatesToRange } from 'helpers/timeRangeHelper';
-import { datesByDateType, isContract, isBadDates } from 'helpers/awardSummaryHelper';
+import { convertDatesToRange } from 'Helpers/timeRangeHelper';
+import { datesByDateType, isContract, isBadDates } from 'Helpers/awardSummaryHelper';
 
 const propTypes = {
     dates: PropTypes.object,

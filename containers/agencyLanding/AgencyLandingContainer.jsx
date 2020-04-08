@@ -11,11 +11,11 @@ import { isCancel } from 'axios';
 import { Search } from 'js-search';
 import { orderBy } from 'lodash';
 
-import AgenciesTableFields from 'dataMapping/agencyLanding/agenciesTableFields';
-import * as AgencyLandingHelper from 'helpers/agencyLandingHelper';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import AgenciesTableFields from 'DataMapping/agencyLanding/agenciesTableFields';
+import * as AgencyLandingHelper from 'Helpers/agencyLandingHelper';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
-import AgencyLandingContent from 'components/agencyLanding/AgencyLandingContent';
+import AgencyLandingContent from 'Components/agencyLanding/AgencyLandingContent';
 
 const propTypes = {
     agenciesOrder: PropTypes.object

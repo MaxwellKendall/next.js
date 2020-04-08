@@ -9,9 +9,9 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import NAICSSearch from 'components/search/filters/naics/NAICSSearch';
+import NAICSSearch from 'Components/search/filters/naics/NAICSSearch';
 
 const propTypes = {
     updateSelectedNAICS: PropTypes.func,

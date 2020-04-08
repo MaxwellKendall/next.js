@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 
-import Analytics from 'helpers/analytics/Analytics';
+import Analytics from 'Helpers/analytics/Analytics';
 
 import { Glossary } from './icons/Icons';
 

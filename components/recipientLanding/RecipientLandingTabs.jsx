@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ResultsTableTabs from 'components/search/table/ResultsTableTabs';
-import ResultsTablePicker from 'components/search/table/ResultsTablePicker';
+import ResultsTableTabs from 'Components/search/table/ResultsTableTabs';
+import ResultsTablePicker from 'Components/search/table/ResultsTablePicker';
 
 const propTypes = {
     setTab: PropTypes.func

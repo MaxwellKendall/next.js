@@ -10,16 +10,16 @@ import {
     accessibilityPageMetaTags,
     privacyPageMetaTags,
     foiaPageMetaTags
-} from 'helpers/metaTagHelper';
-import Footer from 'containers/Footer';
+} from 'Helpers/metaTagHelper';
+import Footer from 'Containers/Footer';
 
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
 import LegalContent from './LegalContent';
 
-require('pages/about/aboutPage.scss');
+require('Pages/about/aboutPage.scss');
 
 const propTypes = {
     activePage: PropTypes.string,

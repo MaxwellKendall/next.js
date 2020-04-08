@@ -5,7 +5,7 @@
 import {
     getImmediateAncestorNaicsCode,
     getHighestAncestorNaicsCode
-} from "helpers/naicsHelper";
+} from 'Helpers/naicsHelper';
 
 export const updateSelectedCFDA = (state, value) => {
     let updatedSet = state;

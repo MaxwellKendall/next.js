@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import { cloneDeep } from 'lodash';
 
-import { fetchAwardTransaction } from 'helpers/searchHelper';
-import { areTransactionDatesOrAwardAmountsInvalid } from 'helpers/contractGrantActivityHelper';
-import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
-import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
-import NoResultsMessage from 'components/sharedComponents/NoResultsMessage';
-import ContractGrantActivity from 'components/award/shared/activity/ContractGrantActivity';
+import { fetchAwardTransaction } from 'Helpers/searchHelper';
+import { areTransactionDatesOrAwardAmountsInvalid } from 'Helpers/contractGrantActivityHelper';
+import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
+import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
+import NoResultsMessage from 'Components/sharedComponents/NoResultsMessage';
+import ContractGrantActivity from 'Components/award/shared/activity/ContractGrantActivity';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { TooltipWrapper } from 'data-transparency-ui';
 import {
     contractActivityGrants,
     contractActivityInfoContracts
-} from 'components/award/shared/InfoTooltipContent';
+} from 'Components/award/shared/InfoTooltipContent';
 
 const propTypes = {
     awardId: PropTypes.string,

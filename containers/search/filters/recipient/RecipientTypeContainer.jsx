@@ -11,11 +11,11 @@ import { connect } from 'react-redux';
 
 import { keyBy } from 'lodash';
 
-import { recipientTypeGroups } from 'dataMapping/search/recipientType';
+import { recipientTypeGroups } from 'DataMapping/search/recipientType';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import RecipientType from 'components/search/filters/recipient/RecipientType';
+import RecipientType from 'Components/search/filters/recipient/RecipientType';
 
 const propTypes = {
     toggleRecipientType: PropTypes.func,

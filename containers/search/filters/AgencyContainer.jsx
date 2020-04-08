@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import Agency from 'components/search/filters/agency/Agency';
+import Agency from 'Components/search/filters/agency/Agency';
 
 const propTypes = {
     updateSelectedFundingAgencies: PropTypes.func,

@@ -10,15 +10,15 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import Analytics from 'helpers/analytics/Analytics';
-import { uniqueFilterFields } from 'containers/search/helpers/searchAnalytics';
+import Analytics from 'Helpers/analytics/Analytics';
+import { uniqueFilterFields } from 'Containers/search/helpers/searchAnalytics';
 
-import * as downloadActions from 'redux/actions/search/downloadActions';
+import * as downloadActions from 'Redux/actions/search/downloadActions';
 
-import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
-import DownloadBottomBar from 'components/search/modals/fullDownload/DownloadBottomBar';
+import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
+import DownloadBottomBar from 'Components/search/modals/fullDownload/DownloadBottomBar';
 
-import * as DownloadHelper from 'helpers/downloadHelper';
+import * as DownloadHelper from 'Helpers/downloadHelper';
 
 const propTypes = {
     download: PropTypes.object,

@@ -5,15 +5,15 @@
 
 import React from 'react';
 
-import { ExclamationCircle } from 'components/sharedComponents/icons/Icons';
+import { ExclamationCircle } from 'Components/sharedComponents/icons/Icons';
 
-import * as MetaTagHelper from 'helpers/metaTagHelper';
-import Footer from 'containers/Footer';
+import * as MetaTagHelper from 'Helpers/metaTagHelper';
+import Footer from 'Containers/Footer';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';
 
-require('pages/errorPage/errorPage.scss');
+require('Pages/errorPage/errorPage.scss');
 
 const ErrorPage = () => (
     <div className="usa-da-error-page">

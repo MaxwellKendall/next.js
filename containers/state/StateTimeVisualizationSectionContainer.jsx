@@ -10,13 +10,13 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
 import StateTimeVisualizationSection from
-    'components/state/spendingovertime/StateTimeVisualizationSection';
+    'Components/state/spendingovertime/StateTimeVisualizationSection';
 
-import * as stateActions from 'redux/actions/state/stateActions';
+import * as stateActions from 'Redux/actions/state/stateActions';
 
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
-import * as MonthHelper from 'helpers/monthHelper';
-import * as SearchHelper from 'helpers/searchHelper';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
+import * as MonthHelper from 'Helpers/monthHelper';
+import * as SearchHelper from 'Helpers/searchHelper';
 
 
 const propTypes = {

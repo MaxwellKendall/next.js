@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { CheckCircle } from 'components/sharedComponents/icons/Icons';
-import EntityDropdown from 'components/search/filters/location/EntityDropdown';
+import { CheckCircle } from 'Components/sharedComponents/icons/Icons';
+import EntityDropdown from 'Components/search/filters/location/EntityDropdown';
 
 const propTypes = {
     locationTypes: PropTypes.array,

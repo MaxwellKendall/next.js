@@ -18,14 +18,14 @@ import {
     getNaicsNodeFromTree,
     removeStagedNaicsFilter,
     autoCheckNaicsAfterExpand
-} from 'helpers/naicsHelper';
+} from 'Helpers/naicsHelper';
 
 import {
     removePlaceholderString,
     expandAllNodes
-} from 'helpers/checkboxTreeHelper';
+} from 'Helpers/checkboxTreeHelper';
 
-import { naicsRequest } from 'helpers/searchHelper';
+import { naicsRequest } from 'Helpers/searchHelper';
 
 import {
     setNaics,
@@ -35,13 +35,13 @@ import {
     addChecked,
     showNaicsTree,
     setUnchecked
-} from 'redux/actions/search/naicsActions';
-import { updateNaicsV2 } from 'redux/actions/search/searchFilterActions';
-import { restoreHashedFilters } from 'redux/actions/search/searchHashActions';
+} from 'Redux/actions/search/naicsActions';
+import { updateNaicsV2 } from 'Redux/actions/search/searchFilterActions';
+import { restoreHashedFilters } from 'Redux/actions/search/searchHashActions';
 
-import CheckboxTree from 'components/sharedComponents/CheckboxTree';
-import { EntityDropdownAutocomplete } from 'components/search/filters/location/EntityDropdownAutocomplete';
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import CheckboxTree from 'Components/sharedComponents/CheckboxTree';
+import { EntityDropdownAutocomplete } from 'Components/search/filters/location/EntityDropdownAutocomplete';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 
 const propTypes = {
     stageNaics: PropTypes.func,

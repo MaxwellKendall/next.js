@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import AwardIDSearch from 'components/search/filters/awardID/AwardIDSearch';
+import AwardIDSearch from 'Components/search/filters/awardID/AwardIDSearch';
 
 const propTypes = {
     selectedAwardIDs: PropTypes.object,

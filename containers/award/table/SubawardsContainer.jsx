@@ -11,11 +11,11 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId } from 'lodash';
 
-import * as SearchHelper from 'helpers/searchHelper';
-import * as awardActions from 'redux/actions/award/awardActions';
-import BaseSubawardRow from 'models/v2/awards/subawards/BaseSubawardRow';
+import * as SearchHelper from 'Helpers/searchHelper';
+import * as awardActions from 'Redux/actions/award/awardActions';
+import BaseSubawardRow from 'Models/v2/awards/subawards/BaseSubawardRow';
 
-import SubawardsTable from 'components/award/subawards/SubawardsTable';
+import SubawardsTable from 'Components/award/subawards/SubawardsTable';
 
 const propTypes = {
     award: PropTypes.object,

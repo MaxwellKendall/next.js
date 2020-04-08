@@ -6,18 +6,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { explorerPageMetaTags } from 'helpers/metaTagHelper';
+import { explorerPageMetaTags } from 'Helpers/metaTagHelper';
 
-import Footer from 'containers/Footer';
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Footer from 'Containers/Footer';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
 const propTypes = {
     children: PropTypes.element
 };
 
-require('pages/explorer/explorerPage.scss');
+require('Pages/explorer/explorerPage.scss');
 
 const ExplorerWrapperPage = (props) => (
     <div className="usa-da-explorer-page">

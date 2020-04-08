@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { downloadOptions } from 'dataMapping/navigation/menuOptions';
+import { downloadOptions } from 'DataMapping/navigation/menuOptions';
 
 import MobileLinkItem from './MobileLinkItem';
 

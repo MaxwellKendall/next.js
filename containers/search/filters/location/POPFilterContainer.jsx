@@ -8,9 +8,9 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import SelectedLocations from 'components/search/filters/location/SelectedLocations';
+import SelectedLocations from 'Components/search/filters/location/SelectedLocations';
 import LocationPickerContainer from './LocationPickerContainer';
 
 const propTypes = {

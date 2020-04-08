@@ -9,8 +9,8 @@ import PropTypes from 'prop-types';
 import { difference } from 'lodash';
 import reactStringReplace from 'react-string-replace';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CheckboxTreeLabel from 'components/sharedComponents/CheckboxTreeLabel';
-import { treeIcons } from 'dataMapping/shared/checkboxTree/checkboxTree';
+import CheckboxTreeLabel from 'Components/sharedComponents/CheckboxTreeLabel';
+import { treeIcons } from 'DataMapping/shared/checkboxTree/checkboxTree';
 
 import 'react-checkbox-tree/lib/react-checkbox-tree.css';
 

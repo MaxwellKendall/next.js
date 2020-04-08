@@ -9,17 +9,17 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { isEqual, max } from 'lodash';
-import { categoryLabelFields } from 'dataMapping/accounts/accountFields';
+import { categoryLabelFields } from 'DataMapping/accounts/accountFields';
 
 import AccountRankVisualizationSection from
-    'components/account/visualizations/rank/AccountRankVisualizationSection';
+    'Components/account/visualizations/rank/AccountRankVisualizationSection';
 
-import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
+import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
 
-import * as AccountHelper from 'helpers/accountHelper';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as AccountHelper from 'Helpers/accountHelper';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
-import AccountSearchOperation from 'models/account/queries/AccountSearchOperation';
+import AccountSearchOperation from 'Models/account/queries/AccountSearchOperation';
 
 const propTypes = {
     reduxFilters: PropTypes.object,

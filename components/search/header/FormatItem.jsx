@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { scrollToY } from 'helpers/scrollToHelper';
+import { scrollToY } from 'Helpers/scrollToHelper';
 
 const defaultProps = {
     isActive: false

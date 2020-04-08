@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ArrowUp } from 'components/sharedComponents/icons/Icons';
+import { ArrowUp } from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     toggleMobileFilters: PropTypes.func,

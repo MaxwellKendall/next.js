@@ -11,23 +11,23 @@ import { isCancel } from 'axios';
 import { is } from 'immutable';
 import moment from 'moment';
 
-import Router from 'containers/router/Router';
+import Router from 'Containers/router/Router';
 
 import { filterStoreVersion, requiredTypes, initialState } from
-    'redux/reducers/search/searchFiltersReducer';
-import * as searchHashActions from 'redux/actions/search/searchHashActions';
+    'Redux/reducers/search/searchFiltersReducer';
+import * as searchHashActions from 'Redux/actions/search/searchHashActions';
 import {
     applyStagedFilters,
     setAppliedFilterEmptiness,
     setAppliedFilterCompletion
-} from 'redux/actions/search/appliedFilterActions';
-import { clearAllFilters } from 'redux/actions/search/searchFilterActions';
-import * as SearchHelper from 'helpers/searchHelper';
-import * as DownloadHelper from 'helpers/downloadHelper';
+} from 'Redux/actions/search/appliedFilterActions';
+import { clearAllFilters } from 'Redux/actions/search/searchFilterActions';
+import * as SearchHelper from 'Helpers/searchHelper';
+import * as DownloadHelper from 'Helpers/downloadHelper';
 
-import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
+import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
 
-import SearchPage from 'components/search/SearchPage';
+import SearchPage from 'Components/search/SearchPage';
 
 import {
     convertFiltersToAnalyticEvents,
@@ -35,7 +35,7 @@ import {
     sendFieldCombinations
 } from './helpers/searchAnalytics';
 
-require('pages/search/searchPage.scss');
+require('Pages/search/searchPage.scss');
 
 const propTypes = {
     params: PropTypes.object,

@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import { rootTypes, sidebarTypes } from 'dataMapping/explorer/sidebarStrings';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import { rootTypes, sidebarTypes } from 'DataMapping/explorer/sidebarStrings';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
 import TrailDecorator from './TrailDecorator';
 

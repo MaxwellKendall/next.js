@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import Keyword from 'components/search/filters/keyword/Keyword';
+import Keyword from 'Components/search/filters/keyword/Keyword';
 
 const propTypes = {
     keyword: PropTypes.object,

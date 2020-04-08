@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
-import * as MapHelper from 'helpers/mapHelper';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MapHelper from 'Helpers/mapHelper';
 
 import MapLegendItem from './MapLegendItem';
 

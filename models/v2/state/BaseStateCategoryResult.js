@@ -3,7 +3,7 @@
  * Created by Kevin Li 5/16/18
  */
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
 
 export const defaultNameTemplate = (code, name) => {

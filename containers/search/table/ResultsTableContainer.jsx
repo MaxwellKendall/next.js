@@ -10,22 +10,22 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId, intersection } from 'lodash';
 
-import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
-import { subAwardIdClicked } from 'redux/actions/search/searchSubAwardTableActions';
-import * as SearchHelper from 'helpers/searchHelper';
-import Analytics from 'helpers/analytics/Analytics';
+import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
+import { subAwardIdClicked } from 'Redux/actions/search/searchSubAwardTableActions';
+import * as SearchHelper from 'Helpers/searchHelper';
+import Analytics from 'Helpers/analytics/Analytics';
 
-import { awardTypeGroups, subawardTypeGroups } from 'dataMapping/search/awardType';
+import { awardTypeGroups, subawardTypeGroups } from 'DataMapping/search/awardType';
 
 import { defaultColumns, defaultSort } from
     'dataMapping/search/awardTableColumns';
-import { awardTableColumnTypes } from 'dataMapping/search/awardTableColumnTypes';
-import { measureTableHeader } from 'helpers/textMeasurement';
+import { awardTableColumnTypes } from 'DataMapping/search/awardTableColumnTypes';
+import { measureTableHeader } from 'Helpers/textMeasurement';
 
-import ResultsTableSection from 'components/search/table/ResultsTableSection';
+import ResultsTableSection from 'Components/search/table/ResultsTableSection';
 
-import searchActions from 'redux/actions/searchActions';
-import * as appliedFilterActions from 'redux/actions/search/appliedFilterActions';
+import searchActions from 'Redux/actions/searchActions';
+import * as appliedFilterActions from 'Redux/actions/search/appliedFilterActions';
 
 const propTypes = {
     filters: PropTypes.object,

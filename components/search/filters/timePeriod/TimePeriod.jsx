@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import { Set } from 'immutable';
 
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 
 import DateRange from './DateRange';
 import AllFiscalYears from './AllFiscalYears';

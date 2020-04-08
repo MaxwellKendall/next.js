@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import AwardType from 'components/search/filters/awardType/AwardType';
+import AwardType from 'Components/search/filters/awardType/AwardType';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
 const propTypes = {
     toggleAwardType: PropTypes.func,

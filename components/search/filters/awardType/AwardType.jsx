@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { awardTypeGroups, awardTypeCodes } from 'dataMapping/search/awardType';
-import PrimaryCheckboxType from 'components/sharedComponents/checkbox/PrimaryCheckboxType';
-import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import { awardTypeGroups, awardTypeCodes } from 'DataMapping/search/awardType';
+import PrimaryCheckboxType from 'Components/sharedComponents/checkbox/PrimaryCheckboxType';
+import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
 
 const awardTypesData = [
     {

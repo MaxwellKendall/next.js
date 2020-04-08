@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { categoryNames } from 'dataMapping/search/spendingByCategory';
-import * as Icons from 'components/sharedComponents/icons/Icons';
+import { categoryNames } from 'DataMapping/search/spendingByCategory';
+import * as Icons from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     fieldTypes: PropTypes.array,

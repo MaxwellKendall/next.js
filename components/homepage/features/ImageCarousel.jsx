@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { uniqueId } from 'lodash';
 
-import { AngleLeft, AngleRight } from 'components/sharedComponents/icons/Icons';
+import { AngleLeft, AngleRight } from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     images: PropTypes.array.isRequired

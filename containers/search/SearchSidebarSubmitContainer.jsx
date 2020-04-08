@@ -9,11 +9,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as appliedFilterActions from 'redux/actions/search/appliedFilterActions';
-import { clearAllFilters as clearStagedFilters } from 'redux/actions/search/searchFilterActions';
-import { setChecked, setUnchecked } from 'redux/actions/search/naicsActions';
+import * as appliedFilterActions from 'Redux/actions/search/appliedFilterActions';
+import { clearAllFilters as clearStagedFilters } from 'Redux/actions/search/searchFilterActions';
+import { setChecked, setUnchecked } from 'Redux/actions/search/naicsActions';
 
-import SearchSidebarSubmit from 'components/search/SearchSidebarSubmit';
+import SearchSidebarSubmit from 'Components/search/SearchSidebarSubmit';
 
 import {
     convertFiltersToAnalyticEvents,

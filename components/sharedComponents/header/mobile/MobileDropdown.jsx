@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AngleUp, AngleDown } from 'components/sharedComponents/icons/Icons';
+import { AngleUp, AngleDown } from 'Components/sharedComponents/icons/Icons';
 
 
 import MobileDropdownItem from './MobileDropdownItem';

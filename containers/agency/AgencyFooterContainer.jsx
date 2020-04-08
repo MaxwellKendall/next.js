@@ -8,12 +8,12 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import Router from 'containers/router/Router';
+import Router from 'Containers/router/Router';
 
 import { clearAllFilters, updateSelectedAwardingAgencies } from
-    'redux/actions/search/searchFilterActions';
+    'Redux/actions/search/searchFilterActions';
 
-import AgencyFooter from 'components/agency/footer/AgencyFooter';
+import AgencyFooter from 'Components/agency/footer/AgencyFooter';
 
 const propTypes = {
     id: PropTypes.string,

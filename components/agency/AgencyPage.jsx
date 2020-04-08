@@ -6,12 +6,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { agencyPageMetaTags } from 'helpers/metaTagHelper';
+import { agencyPageMetaTags } from 'Helpers/metaTagHelper';
 
-import Footer from 'containers/Footer';
-import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
-import Header from 'components/sharedComponents/header/Header';
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Footer from 'Containers/Footer';
+import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
+import Header from 'Components/sharedComponents/header/Header';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
 import AgencyLoading from './AgencyLoading';
 import AgencyError from './AgencyError';

@@ -4,7 +4,7 @@
  */
 
 import moment from 'moment';
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 
 export const parseDate = (string) => moment(string, 'YYYY-MM-DD');
 export const formatDate = (date) => date.format('MM/DD/YYYY');

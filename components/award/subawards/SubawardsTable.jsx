@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { measureTableHeader } from 'helpers/textMeasurement';
+import { measureTableHeader } from 'Helpers/textMeasurement';
 
-import IBTable from 'components/sharedComponents/IBTable/IBTable';
+import IBTable from 'Components/sharedComponents/IBTable/IBTable';
 
-import subawardFields from 'dataMapping/contracts/subawardTable';
+import subawardFields from 'DataMapping/contracts/subawardTable';
 
 import TransactionTableGenericCell from '../table/cells/TransactionTableGenericCell';
 import SubawardsHeaderCell from './cells/SubawardsHeaderCell';

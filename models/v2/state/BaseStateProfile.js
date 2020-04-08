@@ -3,7 +3,7 @@
  * Created by Lizzie Salita 5/1/18
  */
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
 import kGlobalConstants from 'GlobalConstants';
 
 const BaseStateProfile = {

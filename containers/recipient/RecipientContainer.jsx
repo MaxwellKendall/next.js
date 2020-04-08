@@ -9,14 +9,14 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import BaseRecipientOverview from 'models/v2/recipient/BaseRecipientOverview';
-import * as recipientActions from 'redux/actions/recipient/recipientActions';
-import * as RecipientHelper from 'helpers/recipientHelper';
-import Router from 'containers/router/Router';
+import BaseRecipientOverview from 'Models/v2/recipient/BaseRecipientOverview';
+import * as recipientActions from 'Redux/actions/recipient/recipientActions';
+import * as RecipientHelper from 'Helpers/recipientHelper';
+import Router from 'Containers/router/Router';
 
-import RecipientPage from 'components/recipient/RecipientPage';
+import RecipientPage from 'Components/recipient/RecipientPage';
 
-require('pages/recipient/recipientPage.scss');
+require('Pages/recipient/recipientPage.scss');
 
 const propTypes = {
     setRecipientOverview: PropTypes.func,

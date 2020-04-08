@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import { uniqueId } from 'lodash';
 import { Pagination } from 'data-transparency-ui';
 
-import LoadingSpinner from 'components/sharedComponents/LoadingSpinner';
-import LegacyTableHeaderCell from 'components/account/awards/LegacyTableHeaderCell';
+import LoadingSpinner from 'Components/sharedComponents/LoadingSpinner';
+import LegacyTableHeaderCell from 'Components/account/awards/LegacyTableHeaderCell';
 import TableRow from './TableRow';
 
 const propTypes = {

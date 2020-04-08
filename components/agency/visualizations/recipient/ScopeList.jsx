@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import RankVisualizationScopeButton from
-    'components/search/visualizations/rank/RankVisualizationScopeButton';
+    'Components/search/visualizations/rank/RankVisualizationScopeButton';
 
 const propTypes = {
     scope: PropTypes.string,

@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { InfoCircle, AngleDown } from 'components/sharedComponents/icons/Icons';
+import { InfoCircle, AngleDown } from 'Components/sharedComponents/icons/Icons';
 
 const propTypes = {
     parents: PropTypes.array

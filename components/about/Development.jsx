@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import * as redirectHelper from 'helpers/redirectHelper';
+import * as redirectHelper from 'Helpers/redirectHelper';
 
 export default class Development extends React.Component {
     constructor(props) {

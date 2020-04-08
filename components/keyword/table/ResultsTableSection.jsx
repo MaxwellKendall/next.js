@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
-import ResultsTableNoResults from 'components/search/table/ResultsTableNoResults';
-import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
-import ResultsTableTabs from 'components/search/table/ResultsTableTabs';
+import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
+import ResultsTableNoResults from 'Components/search/table/ResultsTableNoResults';
+import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
+import ResultsTableTabs from 'Components/search/table/ResultsTableTabs';
 import ResultsTableBeginMessage from './ResultsTableBeginMessage';
 import ResultsTable from './ResultsTable';
 

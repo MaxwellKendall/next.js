@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-import DatePicker from 'components/sharedComponents/DatePicker';
+import DatePicker from 'Components/sharedComponents/DatePicker';
 
 const defaultProps = {
     startDate: '01/01/2016',

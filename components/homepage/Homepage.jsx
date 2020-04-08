@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import * as MetaTagHelper from 'helpers/metaTagHelper';
-import Footer from 'containers/Footer';
+import * as MetaTagHelper from 'Helpers/metaTagHelper';
+import Footer from 'Containers/Footer';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 
@@ -17,7 +17,7 @@ import Features from './features/Features';
 import Download from './download/Download';
 import Community from './community/Community';
 
-require('pages/homepage/homePage.scss');
+require('Pages/homepage/homePage.scss');
 
 export default class Homepage extends React.Component {
     render() {

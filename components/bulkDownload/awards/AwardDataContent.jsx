@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { awardDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
-import { InfoCircle } from 'components/sharedComponents/icons/Icons';
+import { awardDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
+import { InfoCircle } from 'Components/sharedComponents/icons/Icons';
 
 import AwardLevelAndTypeFilter from './filters/AwardLevelAndTypeFilter';
 import AgencyFilter from './filters/AgencyFilter';

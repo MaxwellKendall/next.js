@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as AgencyHelper from 'helpers/agencyHelper';
+import * as AgencyHelper from 'Helpers/agencyHelper';
 
 import ObligatedVisualization from
-    'components/agency/visualizations/obligated/ObligatedVisualization';
+    'Components/agency/visualizations/obligated/ObligatedVisualization';
 
 const propTypes = {
     id: PropTypes.string,

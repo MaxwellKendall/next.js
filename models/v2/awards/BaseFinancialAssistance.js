@@ -3,8 +3,8 @@
  * Created by Lizzie Salita 3/5/18
  */
 
-import { formatMoney } from 'helpers/moneyFormatter';
-import CoreLocation from 'models/v2/CoreLocation';
+import { formatMoney } from 'Helpers/moneyFormatter';
+import CoreLocation from 'Models/v2/CoreLocation';
 import BaseAwardRecipient from './BaseAwardRecipient';
 import CoreAwardAgency from './CoreAwardAgency';
 import CoreAward from './CoreAward';

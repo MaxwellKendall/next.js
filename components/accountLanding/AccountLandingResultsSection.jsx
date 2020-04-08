@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
-import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
+import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
+import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
 import AccountLandingTable from './table/AccountLandingTable';
 
 const propTypes = {

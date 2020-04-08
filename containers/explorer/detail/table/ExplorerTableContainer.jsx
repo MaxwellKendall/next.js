@@ -10,12 +10,12 @@ import { bindActionCreators } from 'redux';
 
 import { orderBy } from 'lodash';
 
-import * as MoneyFormatter from 'helpers/moneyFormatter';
-import * as explorerActions from 'redux/actions/explorer/explorerActions';
+import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as explorerActions from 'Redux/actions/explorer/explorerActions';
 
-import ExplorerTableFields from 'dataMapping/explorer/explorerTableFields';
+import ExplorerTableFields from 'DataMapping/explorer/explorerTableFields';
 
-import ExplorerTable from 'components/explorer/detail/visualization/table/ExplorerTable';
+import ExplorerTable from 'Components/explorer/detail/visualization/table/ExplorerTable';
 
 const propTypes = {
     isLoading: PropTypes.bool,

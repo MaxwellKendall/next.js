@@ -7,12 +7,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { isEqual, min, max } from 'lodash';
 import { scaleLinear } from 'd3-scale';
-import { calculateTreemapPercentage } from 'helpers/moneyFormatter';
-import { nearestQuarterDate } from 'helpers/fiscalYearHelper';
-import RectanglePattern from 'components/sharedComponents/patterns/RectanglePattern';
-import VerticalLine from 'components/sharedComponents/VerticalLine';
-import ActivityXAxis from 'components/award/shared/activity/ActivityXAxis';
-import ActivityYAxis from 'components/award/shared/activity/ActivityYAxis';
+import { calculateTreemapPercentage } from 'Helpers/moneyFormatter';
+import { nearestQuarterDate } from 'Helpers/fiscalYearHelper';
+import RectanglePattern from 'Components/sharedComponents/patterns/RectanglePattern';
+import VerticalLine from 'Components/sharedComponents/VerticalLine';
+import ActivityXAxis from 'Components/award/shared/activity/ActivityXAxis';
+import ActivityYAxis from 'Components/award/shared/activity/ActivityYAxis';
 import ActivityChartBar from './ActivityChartBar';
 
 const propTypes = {

@@ -7,11 +7,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle, min } from 'lodash';
 
-import * as Icons from 'components/sharedComponents/icons/Icons';
+import * as Icons from 'Components/sharedComponents/icons/Icons';
 
-import RankVisualization from 'components/search/visualizations/rank/RankVisualization';
+import RankVisualization from 'Components/search/visualizations/rank/RankVisualization';
 import RankVisualizationScopeButton from
-    'components/search/visualizations/rank/RankVisualizationScopeButton';
+    'Components/search/visualizations/rank/RankVisualizationScopeButton';
 
 const propTypes = {
     categoryScope: PropTypes.string,

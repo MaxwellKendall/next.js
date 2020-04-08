@@ -11,14 +11,14 @@ import { orderBy, difference, concat, indexOf } from 'lodash';
 
 import moment from 'moment';
 
-import TopFilterBar from 'components/search/topFilterBar/TopFilterBar';
+import TopFilterBar from 'Components/search/topFilterBar/TopFilterBar';
 import { topFilterGroupGenerator } from
-    'components/search/topFilterBar/filterGroups/TopFilterGroupGenerator';
+    'Components/search/topFilterBar/filterGroups/TopFilterGroupGenerator';
 
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
-import * as AwardType from 'dataMapping/search/awardType';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
+import * as AwardType from 'DataMapping/search/awardType';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
 const propTypes = {
     reduxFilters: PropTypes.object,

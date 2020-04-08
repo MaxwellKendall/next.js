@@ -5,9 +5,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import EntityWarning from 'components/search/filters/location/EntityWarning';
-import ProgramSourceAutocompleteContainer from 'containers/search/filters/programSource/ProgramSourceAutocompleteContainer';
-import { treasuryAccountComponents, federalAccountComponents } from 'dataMapping/search/programSourceComponents';
+import EntityWarning from 'Components/search/filters/location/EntityWarning';
+import ProgramSourceAutocompleteContainer from 'Containers/search/filters/programSource/ProgramSourceAutocompleteContainer';
+import { treasuryAccountComponents, federalAccountComponents } from 'DataMapping/search/programSourceComponents';
 
 const propTypes = {
     updateComponent: PropTypes.func,

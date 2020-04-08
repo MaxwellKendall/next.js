@@ -5,8 +5,8 @@
 
 import React from 'react';
 import { find, throttle } from 'lodash';
-import { scrollToY } from 'helpers/scrollToHelper';
-import * as StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import { scrollToY } from 'Helpers/scrollToHelper';
+import * as StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 
 import Sidebar from '../sharedComponents/sidebar/Sidebar';
 

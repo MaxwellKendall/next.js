@@ -9,11 +9,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Immutable from 'immutable';
 
-import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
+import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
 
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
 
-import TimePeriod from 'components/search/filters/timePeriod/TimePeriod';
+import TimePeriod from 'Components/search/filters/timePeriod/TimePeriod';
 
 const startYear = FiscalYearHelper.earliestFederalAccountYear;
 

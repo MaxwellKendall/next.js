@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import RecipientName from 'components/search/filters/recipient/RecipientName';
+import RecipientName from 'Components/search/filters/recipient/RecipientName';
 
 const propTypes = {
     toggleRecipient: PropTypes.func,

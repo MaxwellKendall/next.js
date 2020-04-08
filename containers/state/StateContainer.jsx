@@ -9,15 +9,15 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import BaseStateProfile from 'models/v2/state/BaseStateProfile';
-import * as StateHelper from 'helpers/stateHelper';
-import * as stateActions from 'redux/actions/state/stateActions';
-import { stateCenterFromFips } from 'helpers/mapHelper';
-import Router from 'containers/router/Router';
+import BaseStateProfile from 'Models/v2/state/BaseStateProfile';
+import * as StateHelper from 'Helpers/stateHelper';
+import * as stateActions from 'Redux/actions/state/stateActions';
+import { stateCenterFromFips } from 'Helpers/mapHelper';
+import Router from 'Containers/router/Router';
 
-import StatePage from 'components/state/StatePage';
+import StatePage from 'Components/state/StatePage';
 
-require('pages/state/statePage.scss');
+require('Pages/state/statePage.scss');
 
 const propTypes = {
     params: PropTypes.shape({ stateId: PropTypes.string, fy: PropTypes.string }),

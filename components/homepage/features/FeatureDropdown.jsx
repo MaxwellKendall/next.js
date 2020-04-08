@@ -5,8 +5,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AngleDown } from 'components/sharedComponents/icons/Icons';
-import Analytics from 'helpers/analytics/Analytics';
+import { AngleDown } from 'Components/sharedComponents/icons/Icons';
+import Analytics from 'Helpers/analytics/Analytics';
 
 const clickedHomepageLink = (route) => {
     Analytics.event({

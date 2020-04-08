@@ -9,15 +9,15 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import GlossaryListenerSingleton from 'containers/router/GlossaryListenerSingleton';
-import * as GlossaryHelper from 'helpers/glossaryHelper';
+import GlossaryListenerSingleton from 'Containers/router/GlossaryListenerSingleton';
+import * as GlossaryHelper from 'Helpers/glossaryHelper';
 
-import AnimatedGlossaryWrapper from 'components/glossary/AnimatedGlossaryWrapper';
+import AnimatedGlossaryWrapper from 'Components/glossary/AnimatedGlossaryWrapper';
 
-import * as glossaryActions from 'redux/actions/glossary/glossaryActions';
-import { Definition } from 'redux/reducers/glossary/glossaryReducer';
+import * as glossaryActions from 'Redux/actions/glossary/glossaryActions';
+import { Definition } from 'Redux/reducers/glossary/glossaryReducer';
 
-require('pages/glossary/glossaryPage.scss');
+require('Pages/glossary/glossaryPage.scss');
 
 const propTypes = {
     glossary: PropTypes.object,

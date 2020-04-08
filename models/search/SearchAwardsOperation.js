@@ -4,8 +4,8 @@
  */
 
 import { rootKeys, timePeriodKeys, agencyKeys, awardAmountKeys }
-    from 'dataMapping/search/awardsOperationKeys';
-import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+    from 'DataMapping/search/awardsOperationKeys';
+import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
 import { pickBy } from 'lodash';
 
 class SearchAwardsOperation {

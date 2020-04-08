@@ -3,7 +3,7 @@
  */
 
 import { cloneDeep } from 'lodash';
-import { isAwardFinancialAssistance } from 'helpers/awardSummaryHelper';
+import { isAwardFinancialAssistance } from 'Helpers/awardSummaryHelper';
 import { badPotentialEndDate } from '../../../tests/testResources/mockContractGrantActivityHelper';
 
 /**

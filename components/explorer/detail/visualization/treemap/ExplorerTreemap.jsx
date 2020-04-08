@@ -10,9 +10,9 @@ import { hierarchy, treemap, treemapBinary } from 'd3-hierarchy';
 import { scaleLinear } from 'd3-scale';
 import { remove } from 'lodash';
 
-import { measureTreemapHeader, measureTreemapValue } from 'helpers/textMeasurement';
-import LoadingSpinner from 'components/sharedComponents/LoadingSpinner';
-import TreemapCell from 'components/sharedComponents/TreemapCell';
+import { measureTreemapHeader, measureTreemapValue } from 'Helpers/textMeasurement';
+import LoadingSpinner from 'Components/sharedComponents/LoadingSpinner';
+import TreemapCell from 'Components/sharedComponents/TreemapCell';
 
 const propTypes = {
     isLoading: PropTypes.bool,

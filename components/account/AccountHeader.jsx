@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
 import InfoSnippet from './InfoSnippet';
 
 const propTypes = {

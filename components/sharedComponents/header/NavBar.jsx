@@ -4,10 +4,10 @@ import Modal from 'react-aria-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-import Analytics from 'helpers/analytics/Analytics';
-import GlossaryButtonWrapperContainer from 'containers/glossary/GlossaryButtonWrapperContainer';
-import { searchOptions, profileOptions, downloadOptions } from 'dataMapping/navigation/menuOptions';
-import EmailSignUp from 'components/homepage/EmailSignUp';
+import Analytics from 'Helpers/analytics/Analytics';
+import GlossaryButtonWrapperContainer from 'Containers/glossary/GlossaryButtonWrapperContainer';
+import { searchOptions, profileOptions, downloadOptions } from 'DataMapping/navigation/menuOptions';
+import EmailSignUp from 'Components/homepage/EmailSignUp';
 
 import { DEV } from '../../../GlobalConstants';
 import NavBarGlossaryLink from './NavBarGlossaryLink';

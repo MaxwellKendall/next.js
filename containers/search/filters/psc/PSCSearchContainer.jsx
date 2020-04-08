@@ -9,9 +9,9 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
 
-import PSCSearch from 'components/search/filters/psc/PSCSearch';
+import PSCSearch from 'Components/search/filters/psc/PSCSearch';
 
 const propTypes = {
     updateSelectedPSC: PropTypes.func,

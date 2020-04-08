@@ -18,7 +18,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/homepage/Homepage').default);
+                    cb(require('Components/homepage/Homepage').default);
                 });
             }
         },
@@ -29,7 +29,7 @@ const routes = {
             silentlyUpdate: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/search/SearchContainer').default);
+                    cb(require('Containers/search/SearchContainer').default);
                 });
             }
         },
@@ -40,7 +40,7 @@ const routes = {
             silentlyUpdate: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/search/SearchContainer').default);
+                    cb(require('Containers/search/SearchContainer').default);
                 });
             }
         },
@@ -50,7 +50,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/explorer/landing/ExplorerLanding').default);
+                    cb(require('Components/explorer/landing/ExplorerLanding').default);
                 });
             }
         },
@@ -60,7 +60,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/explorer/detail/ExplorerDetailPageContainer').default);
+                    cb(require('Containers/explorer/detail/ExplorerDetailPageContainer').default);
                 });
             }
         },
@@ -70,7 +70,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/award/AwardContainer').default);
+                    cb(require('Containers/award/AwardContainer').default);
                 });
             }
         },
@@ -80,7 +80,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/account/AccountContainer').default);
+                    cb(require('Containers/account/AccountContainer').default);
                 });
             }
         },
@@ -90,7 +90,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/agency/AgencyContainer').default);
+                    cb(require('Containers/agency/AgencyContainer').default);
                 });
             }
         },
@@ -100,7 +100,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/about/About').default);
+                    cb(require('Components/about/About').default);
                 });
             }
         },
@@ -110,7 +110,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/about/legal/AccessibilityPage').default);
+                    cb(require('Components/about/legal/AccessibilityPage').default);
                 });
             }
         },
@@ -120,7 +120,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/about/legal/PrivacyPage').default);
+                    cb(require('Components/about/legal/PrivacyPage').default);
                 });
             }
         },
@@ -130,7 +130,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/about/legal/FOIAPage').default);
+                    cb(require('Components/about/legal/FOIAPage').default);
                 });
             }
         },
@@ -140,7 +140,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/about/DBInfo').default);
+                    cb(require('Components/about/DBInfo').default);
                 });
             }
         },
@@ -150,7 +150,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/testStyles/TestStylePage').default);
+                    cb(require('Components/testStyles/TestStylePage').default);
                 });
             }
         },
@@ -160,7 +160,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/agencyLanding/AgencyLandingPage').default);
+                    cb(require('Components/agencyLanding/AgencyLandingPage').default);
                 });
             }
         },
@@ -170,7 +170,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/bulkDownload/BulkDownloadPageContainer').default);
+                    cb(require('Containers/bulkDownload/BulkDownloadPageContainer').default);
                 });
             }
         },
@@ -180,7 +180,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/bulkDownload/BulkDownloadPageContainer').default);
+                    cb(require('Containers/bulkDownload/BulkDownloadPageContainer').default);
                 });
             }
         },
@@ -191,7 +191,7 @@ const routes = {
             silentlyUpdate: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/keyword/KeywordContainer').default);
+                    cb(require('Containers/keyword/KeywordContainer').default);
                 });
             }
         },
@@ -202,7 +202,7 @@ const routes = {
             silentlyUpdate: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/keyword/KeywordContainer').default);
+                    cb(require('Containers/keyword/KeywordContainer').default);
                 });
             }
         },
@@ -212,7 +212,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/accountLanding/AccountLandingPage').default);
+                    cb(require('Components/accountLanding/AccountLandingPage').default);
                 });
             }
         },
@@ -222,7 +222,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/stateLanding/StateLandingPage').default);
+                    cb(require('Components/stateLanding/StateLandingPage').default);
                 });
             }
         },
@@ -232,7 +232,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/state/StateContainer').default);
+                    cb(require('Containers/state/StateContainer').default);
                 });
             }
         },
@@ -242,7 +242,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/state/StateContainer').default);
+                    cb(require('Containers/state/StateContainer').default);
                 });
             }
         },
@@ -252,7 +252,7 @@ const routes = {
             addToSitemap: true,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('components/recipientLanding/RecipientLandingPage').default);
+                    cb(require('Components/recipientLanding/RecipientLandingPage').default);
                 });
             }
         },
@@ -262,7 +262,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/recipient/RecipientContainer').default);
+                    cb(require('Containers/recipient/RecipientContainer').default);
                 });
             }
         },
@@ -272,7 +272,7 @@ const routes = {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/recipient/RecipientContainer').default);
+                    cb(require('Containers/recipient/RecipientContainer').default);
                 });
             }
         }
@@ -280,7 +280,7 @@ const routes = {
     notFound: {
         component: (cb) => {
             require.ensure([], (require) => {
-                cb(require('components/errorPage/ErrorPage').default);
+                cb(require('Components/errorPage/ErrorPage').default);
             });
         }
     }
@@ -294,7 +294,7 @@ if (kGlobalConstants.DEV) {
             addToSitemap: false,
             component: (cb) => {
                 require.ensure([], (require) => {
-                    cb(require('containers/agency/AgencyContainerV2').default);
+                    cb(require('Containers/agency/AgencyContainerV2').default);
                 });
             }
         }
