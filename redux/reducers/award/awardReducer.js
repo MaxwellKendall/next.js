@@ -6,7 +6,7 @@
 export const initialState = {
     id: '',
     category: '',
-    overview: null,
+    overview: {},
     counts: null,
     totalTransactionObligatedAmount: 0
 };
