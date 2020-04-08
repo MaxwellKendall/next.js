@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'next/router';
 import axios from 'axios';
 
-import Layout from '../../comps/MyLayout';
+import Layout from '../../components/MyLayout';
 import { setAward } from '../../redux/actions/award/awardActions';
 
 import "../../styles/_award.scss";

@@ -1,4 +1,4 @@
-import Layout from '../comps/MyLayout';
+import Layout from '../components/MyLayout';
 import Link from 'next/link';
 
 const AwardLink = props => (

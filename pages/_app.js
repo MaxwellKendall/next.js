@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 
 import withReduxStore from '../redux/withRedux'
 
-// import '../styles/global.scss';
+import '../styles/global.scss';
 
 class MyApp extends App {
   render() {
