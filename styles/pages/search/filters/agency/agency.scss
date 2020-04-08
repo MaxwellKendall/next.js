@@ -1,0 +1,15 @@
+.agency-filter {
+    @import "elements/filters/_errorMessage";
+    @import "elements/filters/_typeahead";
+    @import "elements/filters/_selectedFilterBtn";
+    @import "mixins/selectedFilterWrap";
+    .shown {
+        min-height: rem(180);
+    }
+    .visually-hidden {
+        display: none;
+    }
+    .selected-filters {
+        @include selected-filter-wrap;
+    }
+}

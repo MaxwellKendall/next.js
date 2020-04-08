@@ -1,0 +1,26 @@
+.award-idv {
+  .idv__heading {
+    @include media($medium-screen) {
+      @include display(flex);
+      @include justify-content(space-between);
+    }
+    .idv__info {
+      @include align-items(center);
+      @include justify-content(flex-start);
+      @include media($medium-screen) {
+        @include display(flex);
+      }
+      font-size: rem(24);
+    }
+    .award__last-modified {
+      text-transform: uppercase;
+      @include align-self(flex-end);
+      &.award__last-modified_date {
+        font-weight: $font-light;
+      }
+    }
+  }
+
+  @import './referencedAwards';
+  @import './activity/idvActivity';
+}

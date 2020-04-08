@@ -1,0 +1,30 @@
+.search-results-table-section {
+    transition: opacity 0.25s ease;
+    position: relative;
+    @import "pages/search/results/table/_tableTypes";
+    @import "pages/search/results/table/_tableStyle";
+    @import "pages/search/results/table/_resultsDropdownPickerWrapper";
+    @import "pages/search/results/table/_tableMessages";
+
+    .results-table-content {
+      position: relative;
+      margin-top: rem(15);   
+      min-height: rem(200);
+      @include transition(opacity 0.25s ease-in);
+    }
+
+    .ibt-table-container {
+        border: 1px solid $color-gray-light;
+    }
+
+    .results-table-width-master {
+        width: 100%;
+    }
+
+    .results-table-message {
+        margin-top: 1rem;
+        font-size: $small-font-size;
+        color: $color-base;
+        text-align: center;
+    }
+}

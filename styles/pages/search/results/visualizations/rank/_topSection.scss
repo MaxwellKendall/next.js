@@ -1,0 +1,45 @@
+.visualization-top {
+    padding-bottom: rem(20);
+    @include media($tablet-screen) {
+        @include display(flex);
+    }
+    .visualization-top__description {
+        font-size: $small-font-size;
+        line-height: rem(26);
+        @include media($tablet-screen) {
+            @include display(flex);
+            @include flex(1 1 56%);
+            padding-right: rem(15);
+        }
+    }
+    .visualization-scope {
+        @include display(flex);
+        @include justify-content(space-evenly);
+        padding: rem(15);
+        background-color: rgba($color-primary-alt-lightest, .5);
+        @include media($tablet-screen) {
+            @include flex(1 1 44%);
+        }
+        @import "elements/underlineButton";
+        @include underlineButton();
+        .visualization-scope__button {
+            @include display(flex);
+            @include flex(0 0 auto);
+        }
+        .coming-soon {
+            @import "./components/_comingSoon";
+            @include comingSoon;
+            .visualization-scope__button {
+                color: $color-gray-lighter;
+            }
+            .visualization-scope__button:hover {
+                color: $color-gray-lighter;
+                border-bottom: rem(4) solid rgba(255, 255, 255, 0);
+            }
+            .coming-soon-container {
+                width: rem(72);
+                margin: 0 auto;
+            }
+        }
+    }
+}

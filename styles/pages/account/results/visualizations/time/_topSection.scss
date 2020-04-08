@@ -1,0 +1,18 @@
+.visualization-top {
+    @include row();
+    margin-bottom: rem(20);
+    @import "../../../../../components/visualizations/_description";
+    @import "../../../../../components/visualizations/_period";
+    .visualization-period {
+        .content {
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

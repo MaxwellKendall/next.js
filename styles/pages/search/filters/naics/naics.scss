@@ -1,0 +1,64 @@
+.search-option {
+  @import '../../../../components/_checkboxTree';
+  .naics-search-container {
+    padding: 0 rem(12);
+    margin-bottom: rem(12);
+    .children-are-loading {
+      font-size: rem(15);
+      text-align: center;
+    }
+    .checkbox-tree {
+      margin-bottom: rem(20);
+      border-bottom: 1px solid $color-gray-lighter;
+    }
+    .autocomplete__input {
+      padding-bottom: rem(10);
+      position: relative;
+      width: 100%;
+      input {
+        width: 100%;
+        height: 100%;
+        font-size: rem(14);
+      }
+      .icon {
+        @include flex(0 0 auto);
+        position: absolute;
+        width: rem(15);
+        height: rem(15);
+        right: rem(15);
+        top: rem(15);
+        svg {
+            // color: $color-gray;
+        }
+      }
+    }
+    @import '../../../../elements/filters/selectedFilterBtn';
+    .selected-filters {
+      background: #E4E4E4;
+      padding: rem(10);
+      margin-bottom: rem(10);
+      .shown-filter-button {
+        line-height: rem(15);
+        font-size: rem(12);
+        color: #5B616B;
+        .close {
+          color: #5B616B;
+        }
+        &:hover {
+          outline: none;
+          border: rem(1) solid $color-gray-lighter;
+          & .close {
+            color: #5B616B;
+            outline: none;
+          }
+        }
+        &:focus {
+          outline: none;
+          & .close {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

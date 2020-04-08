@@ -1,0 +1,38 @@
+.map-legend {
+    background-color: $color-white;
+    bottom: rem(80);
+    @include media($tablet-screen) {
+        bottom: rem(15);
+    }
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    left: rem(15);
+    padding: rem(12) $global-pad;
+    position: absolute;
+    z-index: 2;
+    ul {
+        @include unstyled-list;
+        li {
+            margin-bottom: rem(10);
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+        .map-legend-item {
+            @include clearfix;
+            line-height: rem(18);
+            font-size: rem(14);
+            .color-swatch {
+                border: 1px solid rgba(173, 175, 180, 0.5);
+                float: left;
+                height: rem(15);
+                margin-top: rem(2);
+                width: rem(15);
+            }
+            .label {
+                color: $color-gray;
+                float: left;
+                margin-left: rem(5);
+            }
+        }
+    }
+}

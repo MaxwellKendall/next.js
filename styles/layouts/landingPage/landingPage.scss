@@ -1,0 +1,45 @@
+@import "../summary/summary";
+
+.landing-page {
+    padding: $global-pad;
+    .landing-page__overview {
+        text-align: center;
+        h2.landing-page__title {
+            @include h3;
+            font-weight: 600;
+            margin: 0;
+        }
+        .landing-page__description {
+            font-size: $small-font-size;
+            color: $color-base;
+            padding: rem(15) 0 rem(30);
+            @include media($medium-screen) {
+                margin: auto;
+                width: 50%;
+            }
+        }
+    }
+    .landing-page__tagline {
+        text-align: center;
+        font-size: rem(18);
+        margin-top: rem(30);
+    }
+
+    .landing-page__tagline_light {
+        font-weight: 100;
+    }
+
+    .landing-page__tagline-icon {
+        width: rem(13);
+        height: rem(15);
+    }
+  .landing-page__disclaimer {
+      margin-top: rem(45);
+      .landing-page__note {
+        font-weight: bold;
+      }
+      .landing-page__entities {
+        font-style: italic;
+      }
+  }
+}

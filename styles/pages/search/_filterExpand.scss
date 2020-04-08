@@ -1,0 +1,87 @@
+.filter-toggle {
+    margin: 0;
+    @include display(flex);
+    @include align-items(center);
+
+    .filter-toggle__button {
+        @include button-unstyled;
+        @include display(flex);
+        @include justify-content(center);
+        @include align-items(center);
+        @include flex(1 1 auto);
+        padding: rem(15);
+
+        svg {
+            @include flex(0 0 auto);
+            cursor: pointer;
+            pointer-events: none;
+            fill: $color-gray;
+            height: rem(11);
+            width: rem(11);
+            @include media($large-screen) {
+                width: rem(12);
+                height: rem(12);
+            }
+        }
+
+        .filter-toggle__name {
+            @include h6;
+            @include flex(1 1 auto);
+            color: $color-gray;
+            font-size: $small-font-size;
+            font-weight: $font-semibold;
+            height: 100%;
+            line-height: 1;
+            margin: 0;
+            padding-left: rem(6);
+            vertical-align: middle;
+            @include media($large-screen) {
+                font-size: $base-font-size;
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+            svg {
+                cursor: pointer;
+                fill: $color-black;
+                @include transition(all 0.25s $ease-in-out-sine);
+            }
+        }
+    }
+    .filter-toggle__accessory {
+        @include display(flex);
+        @include align-items(flex-start);
+        .filter-toggle__accessory-icon {
+            @include flex(0 0 auto);
+            padding: 0 rem(15);
+            color: $color-base;
+
+            svg {
+                width: rem(15);
+                height: rem(15);
+                fill: $color-gray-light;
+            }
+
+            &:hover {
+                svg {
+                    fill: $color-gray;
+                }
+            }
+        }
+        @import "pages/search/filters/keyword/_keywordHover";
+    }
+    .filter-toggle__glossary {
+        @include display(flex);
+        @include flex(0 0 auto);
+        padding-right: rem(15);
+        a {
+            font-size: $small-font-size;
+            color: $color-gray-light;
+            &:hover {
+                color: $color-gray;
+            }
+        }
+    }
+}
+

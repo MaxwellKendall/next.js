@@ -1,0 +1,35 @@
+.keyword-filter {
+    @import "elements/filters/_selectedFilterBtn";
+    @import "mixins/selectedFilterWrap";
+    @import "../_singleSubmit";
+
+    form {
+        width: 100%;
+    }
+
+    .keyword-input-wrapper {
+        @include display(flex);
+        @include justify-content(center);
+        @include align-items(center);
+    }
+
+    .keyword-input {
+        @include flex(1 1 auto);
+        margin-right: rem(4);
+        font-size: $small-font-size;
+        color: $color-base;
+        line-height: rem(36);
+        height: rem(40);
+        @include placeholder {
+            color: $color-placeholder;
+        }
+    }
+    .keyword-submit {
+        @include flex(0 0 auto);
+        @include singleSubmit();
+    }
+
+    .selected-filters {
+        @include selected-filter-wrap;
+    }
+}

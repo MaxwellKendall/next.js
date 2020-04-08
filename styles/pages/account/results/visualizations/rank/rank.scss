@@ -1,0 +1,26 @@
+.results-visualization-rank-section {
+    margin-top: ($global-mrg * 4);
+    @import "./_topSection";
+    .results-visualization-rank-container {
+        position: relative;
+        @import "./chart/rankChart";
+        .visualization-tooltip {
+            @import "components/visualizations/tooltip/_tooltip";
+        }
+    }
+    .results-visualization-message {
+        margin-top: 1rem;
+        font-size: $small-font-size;
+        color: $color-base;
+        text-align: center;
+    }
+
+    @import '../../../../../components/visualizations/legend';
+    .visualization-legend {
+        .visualization-legend__label {
+            color: #666;
+        }
+    }
+
+    @import "./_pager";
+}

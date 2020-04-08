@@ -1,0 +1,104 @@
+.footer-outer-wrap {
+
+    @import "elements/_inlineList";
+
+    $footer-horizontal: 920px;
+
+    background-color: #333;
+    color: $color-white;
+    font-size: $base-font-size;
+    padding-top: rem(65);
+
+    @include media($tablet-screen) {
+        padding-top: rem(40);
+    }
+
+    width: 100%;
+    .footer-container {
+        @include outer-container;
+        @include pad(0 0 rem(30));
+        max-width: $site-max-width;
+        @include media($footer-horizontal) {
+            @include pad(0 rem(30) rem(40));
+            @include display(flex);
+            @include align-items(flex-start);
+            @include justify-content(flex-start);
+        }
+
+        @import "./_footerLogo";
+        @import "./_footerLinks";
+        
+        @include flex-wrap(wrap);
+
+        .legal-and-social-links {
+            list-style-type: none;
+            width: 100%;
+            padding: 0;
+            margin-top: rem(73);
+            @include display(flex);
+            @include align-items(center);
+            @include justify-content(center);
+            @include flex-direction(column);
+            @include media($footer-horizontal) {
+                @include justify-content(flex-start);
+                @include flex-direction(row);
+            }
+        
+            .copyright__legal-item {
+                @include flex(0 1 auto);
+                margin-right: rem(10);
+                @include media($footer-horizontal) {
+                    &::before {
+                        content: '|';
+                        font-size: 80%;
+                        color: $color-gray-light;
+                        margin-right: rem(10);
+                    }
+                    &:first-child {
+                        &::before {
+                            content: '';
+                            font-size: 0;
+                            margin-right: 0;
+                        }
+                    }
+                }
+                .copyright__link {
+                    font-size: rem(16);
+                    color:  darken( #fff, 20% );
+                    text-decoration: none;
+                    &:hover, &:active {
+                        color: $color-white;
+                    }
+                }
+            }
+
+            .social-link {
+                &:nth-child(4) {
+                    @include media($footer-horizontal) {
+                        margin-left: auto;
+                    }
+                }
+                &:last-child,
+                & {
+                    margin-bottom: rem(5);
+                    padding: 0 rem(15);
+                }
+                &:hover {
+                    button svg {
+                        color: white;
+                    }
+                }
+                button {
+                    @include button-unstyled;
+                    font-size: rem(32);
+                }
+            }
+        }
+    }
+
+    @import "./_footerCopyright";
+}
+
+@import "./_floatingGlossaryButton";
+@import "./_downloadBottomBar";
+@import "./subscribe";

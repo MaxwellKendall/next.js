@@ -1,0 +1,91 @@
+.tab-filter-wrap {
+    .filter-item-wrap {
+        @import 'elements/_inputs';
+        @import 'elements/_labels';
+        @import 'elements/filters/_errorMessage';
+        @import 'components/_alerts';
+        @import 'components/datePicker/_datePicker';
+        @import './_toggleButtons';
+        @import "elements/filters/_selectedFilterBtn";
+        @import "mixins/selectedFilterWrap";
+        @import "../_singleSubmit";
+
+        padding: 0 $global-pad rem(20);
+        ul.fiscal-years {
+            @include clearfix;
+            list-style-type: none;
+            padding: $global-pad $global-pad 0;
+            margin: -1px 0 0;
+
+            .left-fy {
+                @include span-columns(7);
+            }
+            .right-fy {
+                @include span-columns(7);
+            }
+
+            li {
+                line-height: rem(30);
+                margin: 0;
+                height: auto;
+
+                label.fy-option-wrapper {
+                    cursor: pointer;
+
+                    input.fy-option-checkbox {
+                        @include usa-input-checkbox;
+                        height: rem(14);
+                        width: rem(14);
+
+                        cursor: pointer;
+                    }
+                    .fy-option-label {
+                        margin-left: rem(6);
+                        font-size: rem(12);
+                        cursor: pointer;
+
+                        @include media($large-screen) {
+                            font-size: $small-font-size;
+                        }
+                    }
+                }
+            }
+            .fiscal-year-option-all {
+                @include span-columns(16);
+            }
+        }
+        .fiscal-years,
+        .date-range-option {
+            border-top: 1px solid $color-gray-lighter;
+            padding: 0;
+            margin-top: -1px;
+            z-index: 1;
+        }
+        .date-range-option {
+            @include outer-container;
+            input {
+                @include usa-input;
+            }
+            .date-range-wrapper {
+                margin-top: rem(25);
+
+                .set-date-submit {
+                    @include singleSubmit;
+                    @include media($large-screen) {
+                        @include flex(0 0 auto);
+                        @include align-self(flex-end);
+                        margin: 0;
+                        margin-bottom: rem(3);
+                    }
+                }
+            }
+        }
+        .error-message {
+            margin: $global-mrg
+        }
+
+        .selected-filters {
+            @include selected-filter-wrap;
+        }
+    }
+}
