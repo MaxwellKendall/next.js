@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 import EntityDropdown from './EntityDropdown';
 import ZIPField from './ZIPField';
-import { defaultLocationValues } from "../../../../containers/search/filters/location/LocationPickerContainer";
+import { defaultLocationValues } from "Containers/search/filters/location/LocationPickerContainer";
 
 const propTypes = {
     selectedLocations: PropTypes.object,

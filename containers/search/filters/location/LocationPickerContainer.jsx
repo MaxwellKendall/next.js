@@ -13,7 +13,7 @@ import {
     performZIPGeocode,
     fetchCityResults,
     getCitySearchRequestObj
-} from 'HelpersmapHelper";
+} from "Helpers/mapHelper";
 
 import LocationPicker from "Components/search/filters/location/LocationPicker";
 

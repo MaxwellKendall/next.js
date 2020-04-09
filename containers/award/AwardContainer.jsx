@@ -30,7 +30,7 @@ import BaseContract from 'Models/v2/awardsV2/BaseContract';
 import BaseIdv from 'Models/v2/awardsV2/BaseIdv';
 import BaseFinancialAssistance from 'Models/v2/awardsV2/BaseFinancialAssistance';
 
-require('Pages/award/awardPage.scss');
+// require('Pages/award/awardPage.scss');
 
 const propTypes = {
     subAwardIdClicked: PropTypes.func,

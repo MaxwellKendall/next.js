@@ -3,7 +3,7 @@ import Layout from '../components/MyLayout';
 
 const AwardLink = props => (
   <li>
-    <Link href="/award/[id]" as={`/award/${props.id}`}>
+    <Link href="/award/[awardId]" as={`/award/${props.id}`}>
       <a>{props.id}</a>
     </Link>
   </li>
