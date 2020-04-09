@@ -15,7 +15,7 @@ import { awardTableColumnTypes } from 'DataMapping/search/awardTableColumnTypes'
 import { awardTypeGroups } from 'DataMapping/search/awardType';
 import * as SearchHelper from 'Helpers/searchHelper';
 import { defaultColumns, defaultSort } from
-    'DataMappingsearch/awardTableColumns';
+    'DataMapping/search/awardTableColumns';
 
 import AccountAwardSearchOperation from 'Models/account/queries/AccountAwardSearchOperation';
 import ResultsTableSection from 'Components/search/table/ResultsTableSection';

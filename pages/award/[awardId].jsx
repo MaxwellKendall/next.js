@@ -4,7 +4,8 @@ import axios from 'axios';
 
 import { setAward } from 'Redux/actions/award/awardActions';
 import AwardContainer from 'Containers/award/AwardContainer';
-import "styles/_award.scss";
+
+require("../../styles/_award.scss");
 
 export async function getServerSideProps({
   params: { awardId },

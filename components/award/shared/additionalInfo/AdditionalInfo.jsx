@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import additionalDetailsContract from 'DataMapping/awards/additionalDetailsContract';
 import additionalDetailsFinancialAssistance from
-    'DataMappingawards/additionalDetailsFinancialAssistance';
+    'DataMapping/awards/additionalDetailsFinancialAssistance';
 import additionalDetailsIdv from 'DataMapping/awards/additionalDetailsIdv';
 import Accordion from './Accordion';
 import IdvPeriodOfPerformance from './IdvPeriodOfPerformance';

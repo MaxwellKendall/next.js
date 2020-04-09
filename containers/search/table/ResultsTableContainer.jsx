@@ -18,7 +18,7 @@ import Analytics from 'Helpers/analytics/Analytics';
 import { awardTypeGroups, subawardTypeGroups } from 'DataMapping/search/awardType';
 
 import { defaultColumns, defaultSort } from
-    'DataMappingsearch/awardTableColumns';
+    'DataMapping/search/awardTableColumns';
 import { awardTableColumnTypes } from 'DataMapping/search/awardTableColumnTypes';
 import { measureTableHeader } from 'Helpers/textMeasurement';
 
