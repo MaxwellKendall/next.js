@@ -4,7 +4,7 @@
 
 import { cloneDeep } from 'lodash';
 import { isAwardFinancialAssistance } from 'Helpers/awardSummaryHelper';
-import { badPotentialEndDate } from '../../../tests/testResources/mockContractGrantActivityHelper';
+// import { badPotentialEndDate } from '../../../tests/testResources/mockContractGrantActivityHelper';
 
 /**
  * lineHelper
