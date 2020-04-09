@@ -22,7 +22,7 @@ import * as accountFilterActions from 'Redux/actions/account/accountFilterAction
 import AccountSearchBalanceOperation from 'Models/account/queries/AccountSearchBalanceOperation';
 import AccountSearchCategoryOperation from 'Models/account/queries/AccountSearchCategoryOperation';
 import { balanceFields, balanceFieldsFiltered, balanceFieldsNonfiltered } from
-    'dataMapping/accounts/accountFields';
+    'DataMappingaccounts/accountFields';
 
 const propTypes = {
     reduxFilters: PropTypes.object,
