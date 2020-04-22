@@ -1,9 +1,9 @@
 .usa-da-award-v2-page {
-  @import "all";
-  @import "layouts/summary/summary";
-  @import "layouts/default/stickyHeader/header";
-  @import "layouts/tabbedSearch/header/downloadButton";
-  @import "components/pageLoading";
+  @import "../../all";
+  @import "../../layouts/summary/summary";
+  @import "../../layouts/default/stickyHeader/header";
+  @import "../../layouts/tabbedSearch/header/downloadButton";
+  @import "../../components/pageLoading";
 
   @include display(flex);
   @include flex-direction(column);
@@ -194,6 +194,6 @@
       @import "./awardContract";
       @import "./awardFinancialAssistance";
       @import "./idv/awardIdv";
-      @import "layouts/search/header/downloadButton";
+      @import "../../layouts/search/header/downloadButton";
   }
 }

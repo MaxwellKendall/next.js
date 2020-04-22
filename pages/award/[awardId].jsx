@@ -1,8 +1,10 @@
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { withRouter } from 'next/router';
 import axios from 'axios';
 
 import { setAward } from 'Redux/actions/award/awardActions';
+// import AwardContainer from 'Containers/award/Test';
 import AwardContainer from 'Containers/award/AwardContainer';
 
 require("../../styles/_award.scss");
@@ -25,8 +27,9 @@ export async function getServerSideProps({
 
 class AwardPage extends React.Component {
   render() {
+    const { awardId } = this.props.router.query;
     return (
-      <AwardContainer {...this.props} />
+      <AwardContainer {...this.props} params={{ awardId}} />
     );
   }
 };

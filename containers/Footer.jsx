@@ -44,7 +44,7 @@ const Footer = ({
     const year = new Date().getFullYear();
     return (
         <div className="footer-container">
-            <GlossaryButtonWrapperContainer child={FloatingGlossaryButton} />
+            {/* <GlossaryButtonWrapperContainer child={FloatingGlossaryButton} />
             <DownloadBottomBarContainer
                 filters={filters} />
             <BulkDownloadBottomBarContainer />
@@ -202,7 +202,8 @@ const Footer = ({
                         <strong>NOTE:</strong> You must <a href="#/db_info" target="_blank" rel="noopener noreferrer" title="Limitation on Permissible Use of Dun & Bradstreet, Inc. (D&B) Data" aria-label="Limitation on Permissible Use of Dun & Bradstreet, Inc. (D&B) Data" onClick={clickedFooterLink.bind(null, '/db_info')}>click here</a> for very important D&amp;B information.
                     </div>
                 </div>
-            </footer>
+            </footer> */}
+            footer
         </div>
     );
 };
