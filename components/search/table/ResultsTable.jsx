@@ -6,10 +6,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { isAwardAggregate } from 'Helpers/awardSummaryHelper';
-import { awardTableColumnTypes } from 'DataMapping/search/awardTableColumnTypes';
+import { isAwardAggregate } from 'helpers/awardSummaryHelper';
+import { awardTableColumnTypes } from 'dataMapping/search/awardTableColumnTypes';
 
-import IBTable from 'Components/sharedComponents/IBTable/IBTable';
+import IBTable from 'components/sharedComponents/IBTable/IBTable';
 
 import ResultsTableHeaderCell from './cells/ResultsTableHeaderCell';
 import ResultsTableFormattedCell from './cells/ResultsTableFormattedCell';

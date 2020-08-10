@@ -11,19 +11,19 @@ import {
     downloadAwardPageMetaTags,
     downloadAccountPageMetaTags,
     dataDictionaryPageMetaTags
-} from 'Helpers/metaTagHelper';
-import Footer from 'Containers/Footer';
+} from 'helpers/metaTagHelper';
+import Footer from 'containers/Footer';
 
-import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
-import Header from 'Components/sharedComponents/header/Header';
-import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
+import Header from 'components/sharedComponents/header/Header';
+import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
 
-import AwardDataContainer from 'Containers/bulkDownload/awards/AwardDataContainer';
-import AccountDataContainer from 'Containers/bulkDownload/accounts/AccountDataContainer';
-import AwardDataArchiveContainer from 'Containers/bulkDownload/archive/AwardDataArchiveContainer';
+import AwardDataContainer from 'containers/bulkDownload/awards/AwardDataContainer';
+import AccountDataContainer from 'containers/bulkDownload/accounts/AccountDataContainer';
+import AwardDataArchiveContainer from 'containers/bulkDownload/archive/AwardDataArchiveContainer';
 import BulkDownloadModalContainer from
     'Containers/bulkDownload/modal/BulkDownloadModalContainer';
-import DataDictionaryContainer from 'Containers/bulkDownload/dictionary/DataDictionaryContainer';
+import DataDictionaryContainer from 'containers/bulkDownload/dictionary/DataDictionaryContainer';
 import BulkDownloadSidebar from './sidebar/BulkDownloadSidebar';
 
 const propTypes = {

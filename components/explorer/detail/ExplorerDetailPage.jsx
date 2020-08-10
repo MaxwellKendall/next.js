@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import DetailContentContainer from 'Containers/explorer/detail/DetailContentContainer';
+import DetailContentContainer from 'containers/explorer/detail/DetailContentContainer';
 
 import ExplorerWrapperPage from '../ExplorerWrapperPage';
 import ExplorerTooltip from './visualization/ExplorerTooltip';

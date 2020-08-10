@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
-import Warning from 'Components/sharedComponents/autocomplete/Warning';
-import EntityWarning from 'Components/search/filters/location/EntityWarning';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
+import Warning from 'components/sharedComponents/autocomplete/Warning';
+import EntityWarning from 'components/search/filters/location/EntityWarning';
 
 const propTypes = {
     zip: PropTypes.object,

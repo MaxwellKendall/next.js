@@ -9,15 +9,15 @@ import {
     awardTypeCodes,
     awardTypeGroups,
     awardTypeGroupLabels
-} from 'DataMapping/search/awardType';
-import { recipientTypes, groupLabels } from 'DataMapping/search/recipientType';
+} from 'dataMapping/search/awardType';
+import { recipientTypes, groupLabels } from 'dataMapping/search/recipientType';
 import {
     pricingTypeDefinitions,
     setAsideDefinitions,
     extentCompetedDefinitions
-} from 'DataMapping/search/contractFields';
+} from 'dataMapping/search/contractFields';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
 const eventCategory = 'Advanced Search - Search Filter';
 

@@ -4,7 +4,7 @@
  **/
 
 import React from 'react';
-import { InfoCircle, Close } from 'Components/sharedComponents/icons/Icons';
+import { InfoCircle, Close } from 'components/sharedComponents/icons/Icons';
 
 export default class IDVBanner extends React.Component {
     constructor(props) {

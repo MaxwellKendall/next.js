@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { CheckCircle } from 'Components/sharedComponents/icons/Icons';
+import { CheckCircle } from 'components/sharedComponents/icons/Icons';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 export default class SubmitHint extends React.Component {

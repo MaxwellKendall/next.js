@@ -8,11 +8,11 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import Router from 'Containers/router/Router';
+import Router from 'containers/router/Router';
 
-import * as explorerActions from 'Redux/actions/explorer/explorerActions';
+import * as explorerActions from 'redux/actions/explorer/explorerActions';
 
-import ExplorerDetailPage from 'Components/explorer/detail/ExplorerDetailPage';
+import ExplorerDetailPage from 'components/explorer/detail/ExplorerDetailPage';
 
 const propTypes = {
     params: PropTypes.object,

@@ -3,8 +3,8 @@
  * Created by Kevin Li 2/22/18
  */
 
-import { getBusinessTypes } from 'Helpers/businessTypesHelper';
-import CoreLocation from 'Models/v2/CoreLocation';
+import { getBusinessTypes } from 'helpers/businessTypesHelper';
+import CoreLocation from 'models/v2/CoreLocation';
 
 const parseBusinessCategories = (data) => (
     getBusinessTypes().reduce((parsed, type) => {

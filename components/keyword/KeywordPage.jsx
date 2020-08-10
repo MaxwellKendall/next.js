@@ -6,16 +6,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
-import * as MetaTagHelper from 'Helpers/metaTagHelper';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MetaTagHelper from 'helpers/metaTagHelper';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
-import ResultsTableContainer from 'Containers/keyword/table/ResultsTableContainer';
-import Footer from 'Containers/Footer';
+import ResultsTableContainer from 'containers/keyword/table/ResultsTableContainer';
+import Footer from 'containers/Footer';
 import BulkDownloadModalContainer from
     'Containers/bulkDownload/modal/BulkDownloadModalContainer';
-import DownloadButton from 'Components/search/header/DownloadButton';
+import DownloadButton from 'components/search/header/DownloadButton';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';

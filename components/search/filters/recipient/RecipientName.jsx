@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Warning from 'Components/sharedComponents/autocomplete/Warning';
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
+import Warning from 'components/sharedComponents/autocomplete/Warning';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
 
 const propTypes = {
     searchRecipient: PropTypes.func,

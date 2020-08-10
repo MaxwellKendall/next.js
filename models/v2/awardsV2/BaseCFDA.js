@@ -4,7 +4,7 @@
  */
 
 import { truncate, isNumber } from 'lodash';
-import { calculateTreemapPercentage, formatMoney } from 'Helpers/moneyFormatter';
+import { calculateTreemapPercentage, formatMoney } from 'helpers/moneyFormatter';
 
 // export default BaseCFDA;
 export default class BaseCFDA {

@@ -13,9 +13,9 @@ import {
     performZIPGeocode,
     fetchCityResults,
     getCitySearchRequestObj
-} from "Helpers/mapHelper";
+} from "helpers/mapHelper";
 
-import LocationPicker from "Components/search/filters/location/LocationPicker";
+import LocationPicker from "components/search/filters/location/LocationPicker";
 
 const propTypes = {
     selectedLocations: PropTypes.object,

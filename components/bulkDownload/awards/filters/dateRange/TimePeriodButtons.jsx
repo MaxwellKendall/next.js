@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as fiscalYearHelper from 'Helpers/fiscalYearHelper';
-import { awardDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
+import * as fiscalYearHelper from 'helpers/fiscalYearHelper';
+import { awardDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
 
 import FiscalYearButton from './buttons/FiscalYearButton';
 import DateRangeButton from './buttons/DateRangeButton';

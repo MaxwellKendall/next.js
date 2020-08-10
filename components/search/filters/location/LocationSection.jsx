@@ -6,10 +6,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import POPFilterContainer from 'Containers/search/filters/location/POPFilterContainer';
-import RecipientFilterContainer from 'Containers/search/filters/location/RecipientFilterContainer';
+import POPFilterContainer from 'containers/search/filters/location/POPFilterContainer';
+import RecipientFilterContainer from 'containers/search/filters/location/RecipientFilterContainer';
 
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 
 const propTypes = {
     selectedRecipientLocations: PropTypes.object,

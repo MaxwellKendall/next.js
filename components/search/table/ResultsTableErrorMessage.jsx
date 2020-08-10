@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { ExclamationTriangle } from 'Components/sharedComponents/icons/Icons';
+import { ExclamationTriangle } from 'components/sharedComponents/icons/Icons';
 
 const ResultsTableErrorMessage = () => (
     <div className="results-table-error">

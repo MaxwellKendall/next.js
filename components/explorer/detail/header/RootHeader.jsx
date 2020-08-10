@@ -8,11 +8,11 @@ import PropTypes from 'prop-types';
 
 import moment from 'moment';
 
-import { sidebarTypes } from 'DataMapping/explorer/sidebarStrings';
-import { formatTreemapValues } from 'Helpers/moneyFormatter';
-import { generateSingular } from 'Helpers/singularityHelper';
-import { InfoCircle } from 'Components/sharedComponents/icons/Icons';
-import ExplorerInfoToolTip from 'Components/explorer/detail/ExplorerInfoTooltip';
+import { sidebarTypes } from 'dataMapping/explorer/sidebarStrings';
+import { formatTreemapValues } from 'helpers/moneyFormatter';
+import { generateSingular } from 'helpers/singularityHelper';
+import { InfoCircle } from 'components/sharedComponents/icons/Icons';
+import ExplorerInfoToolTip from 'components/explorer/detail/ExplorerInfoTooltip';
 
 const propTypes = {
     isLoading: PropTypes.bool,

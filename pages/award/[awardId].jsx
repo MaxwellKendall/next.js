@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 import { withRouter } from 'next/router';
 import axios from 'axios';
 
-import { setAward } from 'Redux/actions/award/awardActions';
-// import AwardContainer from 'Containers/award/Test';
-import AwardContainer from 'Containers/award/AwardContainer';
+import { setAward } from 'redux/actions/award/awardActions';
+// import AwardContainer from 'containers/award/Test';
+import AwardContainer from 'containers/award/AwardContainer';
 
 require("../../styles/_award.scss");
 

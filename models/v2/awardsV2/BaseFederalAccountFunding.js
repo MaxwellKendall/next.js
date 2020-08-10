@@ -3,7 +3,7 @@
  * Created by Kwadwo Opoku-Debrah 03/04/19
  */
 
-import { formatMoney } from 'Helpers/moneyFormatter';
+import { formatMoney } from 'helpers/moneyFormatter';
 
 const BaseFederalAccount = {
     populateBase(data) {

@@ -5,13 +5,13 @@
 
 import React from 'react';
 
-import * as MetaTagHelper from 'Helpers/metaTagHelper';
-import Footer from 'Containers/Footer';
+import * as MetaTagHelper from 'helpers/metaTagHelper';
+import Footer from 'containers/Footer';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';
 
-require('Pages/dbInfo/dbInfoPage.scss');
+require('styles/pages/dbInfo/dbInfoPage.scss');
 
 export default class DBInfo extends React.Component {
     render() {

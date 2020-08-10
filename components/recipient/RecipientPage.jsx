@@ -6,16 +6,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { recipientPageMetaTags } from 'Helpers/metaTagHelper';
+import { recipientPageMetaTags } from 'helpers/metaTagHelper';
 
-import Footer from 'Containers/Footer';
-import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
-import Header from 'Components/sharedComponents/header/Header';
-import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
-import Error from 'Components/sharedComponents/Error';
-import { LoadingWrapper } from "Components/sharedComponents/Loading";
+import Footer from 'containers/Footer';
+import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
+import Header from 'components/sharedComponents/header/Header';
+import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Error from 'components/sharedComponents/Error';
+import { LoadingWrapper } from "components/sharedComponents/Loading";
 
-import RecipientModalContainer from 'Containers/recipient/modal/RecipientModalContainer';
+import RecipientModalContainer from 'containers/recipient/modal/RecipientModalContainer';
 import RecipientContent from './RecipientContent';
 
 

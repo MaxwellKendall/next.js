@@ -6,13 +6,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { keywordTableColumnTypes } from 'DataMapping/keyword/keywordTableColumnTypes';
+import { keywordTableColumnTypes } from 'dataMapping/keyword/keywordTableColumnTypes';
 
-import IBTable from 'Components/sharedComponents/IBTable/IBTable';
+import IBTable from 'components/sharedComponents/IBTable/IBTable';
 
-import ResultsTableFormattedCell from 'Components/search/table/cells/ResultsTableFormattedCell';
-import ResultsTableLinkCell from 'Components/search/table/cells/ResultsTableLinkCell';
-import ResultsTableHeaderCell from 'Components/search/table/cells/ResultsTableHeaderCell';
+import ResultsTableFormattedCell from 'components/search/table/cells/ResultsTableFormattedCell';
+import ResultsTableLinkCell from 'components/search/table/cells/ResultsTableLinkCell';
+import ResultsTableHeaderCell from 'components/search/table/cells/ResultsTableHeaderCell';
 
 const propTypes = {
     results: PropTypes.array,

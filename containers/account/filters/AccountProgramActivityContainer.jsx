@@ -10,10 +10,10 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
-import * as AccountHelper from 'Helpers/accountHelper';
+import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
+import * as AccountHelper from 'helpers/accountHelper';
 
-import { _resetExchange, _convertToFrontendFilter } from 'Models/account/queries/queryBuilders/_programActivityTranslator';
+import { _resetExchange, _convertToFrontendFilter } from 'models/account/queries/queryBuilders/_programActivityTranslator';
 
 import ProgramActivityFilter from
     'Components/account/filters/programActivity/ProgramActivityFilter';

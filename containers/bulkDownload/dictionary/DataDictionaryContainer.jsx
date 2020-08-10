@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import * as BulkDownloadHelper from 'Helpers/bulkDownloadHelper';
-import DataDictionary from 'Components/bulkDownload/dictionary/DataDictionary';
+import * as BulkDownloadHelper from 'helpers/bulkDownloadHelper';
+import DataDictionary from 'components/bulkDownload/dictionary/DataDictionary';
 
 export default class DataDictionaryContainer extends React.Component {
     constructor(props) {

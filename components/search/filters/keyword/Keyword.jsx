@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
 import SelectedKeywords from './SelectedKeywords';
 
 const propTypes = {

@@ -6,7 +6,7 @@
 import React from 'react';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import { Glossary } from 'Components/sharedComponents/icons/Icons';
+import { Glossary } from 'components/sharedComponents/icons/Icons';
 
 import ExplorerWrapperPage from '../ExplorerWrapperPage';
 import ExplorerLandingOption from './ExplorerLandingOption';

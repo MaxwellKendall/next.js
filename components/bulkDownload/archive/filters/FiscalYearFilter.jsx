@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as fiscalYearHelper from 'Helpers/fiscalYearHelper';
-import * as Icons from 'Components/sharedComponents/icons/Icons';
+import * as fiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as Icons from 'components/sharedComponents/icons/Icons';
 
 const earliestFY = fiscalYearHelper.earliestFiscalYear;
 const currentFY = fiscalYearHelper.currentFiscalYear();

@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ChartMessage from 'Components/search/visualizations/rank/RankVisualizationChartMessage';
+import ChartMessage from 'components/search/visualizations/rank/RankVisualizationChartMessage';
 
 import ScopeList from './ScopeList';
 import RecipientChart from './RecipientChart';

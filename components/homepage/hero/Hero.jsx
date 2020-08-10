@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { InfoCircle } from 'Components/sharedComponents/icons/Icons';
+import { InfoCircle } from 'components/sharedComponents/icons/Icons';
 import HeroButton from './HeroButton';
 import HeroTooltip from './HeroTooltip';
 

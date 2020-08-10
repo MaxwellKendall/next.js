@@ -5,9 +5,9 @@
 
 import React from 'react';
 import moment from 'moment';
-import * as BulkDownloadHelper from 'Helpers/bulkDownloadHelper';
-import * as fiscalYearHelper from 'Helpers/fiscalYearHelper';
-import AwardDataArchiveContent from 'Components/bulkDownload/archive/AwardDataArchiveContent';
+import * as BulkDownloadHelper from 'helpers/bulkDownloadHelper';
+import * as fiscalYearHelper from 'helpers/fiscalYearHelper';
+import AwardDataArchiveContent from 'components/bulkDownload/archive/AwardDataArchiveContent';
 
 const currentFY = fiscalYearHelper.currentFiscalYear();
 

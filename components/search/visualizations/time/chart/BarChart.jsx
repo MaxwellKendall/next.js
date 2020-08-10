@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { scaleBand, scaleLinear } from 'd3-scale';
 import { isEqual, flattenDeep, min, max, mean, forEach, sum } from 'lodash';
 
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
 import BarItem from './BarItem';
 import BarXAxis from './BarXAxis';

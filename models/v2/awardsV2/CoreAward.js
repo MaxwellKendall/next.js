@@ -3,9 +3,9 @@
  * Created by David Trinh 10/9/18
  */
 import { upperFirst } from 'lodash';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 import { descriptionsForAwardTypes }
-    from 'DataMapping/awards/descriptionsForAwardTypes';
+    from 'dataMapping/awards/descriptionsForAwardTypes';
 import { parseDate, formatDate } from './CorePeriodOfPerformance';
 
 const CoreAward = {

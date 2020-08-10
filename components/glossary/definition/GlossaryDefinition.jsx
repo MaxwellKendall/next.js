@@ -15,8 +15,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 
-import { AngleLeft } from 'Components/sharedComponents/icons/Icons';
-import { getSocialShareFn } from 'Helpers/socialShare';
+import { AngleLeft } from 'components/sharedComponents/icons/Icons';
+import { getSocialShareFn } from 'helpers/socialShare';
 
 import DefinitionTabs from './DefinitionTabs';
 import ItemDefinition from './ItemDefinition';

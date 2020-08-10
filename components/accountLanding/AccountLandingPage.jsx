@@ -5,13 +5,13 @@
 
 import React from 'react';
 
-import { accountLandingPageMetaTags } from 'Helpers/metaTagHelper';
-import Footer from 'Containers/Footer';
+import { accountLandingPageMetaTags } from 'helpers/metaTagHelper';
+import Footer from 'containers/Footer';
 
-import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
-import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
-import Header from 'Components/sharedComponents/header/Header';
-import AccountLandingContainer from 'Containers/accountLanding/AccountLandingContainer';
+import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
+import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import Header from 'components/sharedComponents/header/Header';
+import AccountLandingContainer from 'containers/accountLanding/AccountLandingContainer';
 
 export default class AccountLandingPage extends React.Component {
     render() {

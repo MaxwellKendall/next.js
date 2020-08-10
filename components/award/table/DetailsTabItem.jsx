@@ -7,9 +7,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TooltipWrapper } from 'data-transparency-ui';
 
-import { formatNumber } from 'Helpers/moneyFormatter';
+import { formatNumber } from 'helpers/moneyFormatter';
 
-import ComingSoonLabel from 'Components/sharedComponents/ComingSoonLabel';
+import ComingSoonLabel from 'components/sharedComponents/ComingSoonLabel';
 
 const propTypes = {
     label: PropTypes.string,

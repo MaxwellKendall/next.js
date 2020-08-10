@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { idvTableMapping, nonIdvTableMapping } from 'DataMapping/awards/federalAccountFunding';
-import { measureTableHeader } from 'Helpers/textMeasurement';
+import { idvTableMapping, nonIdvTableMapping } from 'dataMapping/awards/federalAccountFunding';
+import { measureTableHeader } from 'helpers/textMeasurement';
 
-import ResultsTableNoResults from 'Components/search/table/ResultsTableNoResults';
-import IBTable from 'Components/sharedComponents/IBTable/IBTable';
+import ResultsTableNoResults from 'components/search/table/ResultsTableNoResults';
+import IBTable from 'components/sharedComponents/IBTable/IBTable';
 import FederalAccountTableHeaderCell from './cells/FederalAccountTableHeaderCell';
 import FederalAccountTableGenericCell from './cells/FederalAccountTableGenericCell';
 import { AWARD_TYPE_PROPS } from '../../../propTypes';

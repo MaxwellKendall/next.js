@@ -9,17 +9,17 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import Router from 'Containers/router/Router';
+import Router from 'containers/router/Router';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
-import * as bulkDownloadActions from 'Redux/actions/bulkDownload/bulkDownloadActions';
-import * as BulkDownloadHelper from 'Helpers/bulkDownloadHelper';
-import * as KeywordHelper from 'Helpers/keywordHelper';
+import * as bulkDownloadActions from 'redux/actions/bulkDownload/bulkDownloadActions';
+import * as BulkDownloadHelper from 'helpers/bulkDownloadHelper';
+import * as KeywordHelper from 'helpers/keywordHelper';
 
-import KeywordPage from 'Components/keyword/KeywordPage';
+import KeywordPage from 'components/keyword/KeywordPage';
 
-require('Pages/keyword/keywordPage.scss');
+require('styles/pages/keyword/keywordPage.scss');
 
 const propTypes = {
     params: PropTypes.object,

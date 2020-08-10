@@ -9,11 +9,11 @@ import PropTypes from 'prop-types';
 import { hierarchy, treemap, treemapBinary } from 'd3-hierarchy';
 import { scaleLinear } from 'd3-scale';
 import { remove, cloneDeep } from 'lodash';
-import Note from 'Components/sharedComponents/Note';
-import { measureTreemapHeader, measureTreemapValue } from 'Helpers/textMeasurement';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
-import TreemapCell from 'Components/sharedComponents/TreemapCell';
-import NoResultsMessage from 'Components/sharedComponents/NoResultsMessage';
+import Note from 'components/sharedComponents/Note';
+import { measureTreemapHeader, measureTreemapValue } from 'helpers/textMeasurement';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
+import TreemapCell from 'components/sharedComponents/TreemapCell';
+import NoResultsMessage from 'components/sharedComponents/NoResultsMessage';
 
 const propTypes = {
     data: PropTypes.array,

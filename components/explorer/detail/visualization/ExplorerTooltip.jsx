@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { truncate } from 'lodash';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
 const propTypes = {
     y: PropTypes.number,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { awardTypeCodes } from 'DataMapping/search/awardType';
+import { awardTypeCodes } from 'dataMapping/search/awardType';
 import { Glossary } from '../../sharedComponents/icons/Icons';
 import { AWARD_PAGE_WRAPPER_PROPS } from '../../../propTypes/index';
 import AwardStatus from './AwardStatus';

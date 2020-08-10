@@ -5,13 +5,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { awardRanges } from 'DataMapping/search/awardAmount';
+import { awardRanges } from 'dataMapping/search/awardAmount';
 import { reduce, each } from 'lodash';
-import { formatAwardAmountRange } from 'Helpers/awardAmountHelper';
+import { formatAwardAmountRange } from 'helpers/awardAmountHelper';
 import SelectedAwardAmountBound from
     'Components/search/filters/awardAmount/SelectedAwardAmountBound';
-import PrimaryCheckboxType from 'Components/sharedComponents/checkbox/PrimaryCheckboxType';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import PrimaryCheckboxType from 'components/sharedComponents/checkbox/PrimaryCheckboxType';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 import SpecificAwardAmountItem from './SpecificAwardAmountItem';
 
 const propTypes = {

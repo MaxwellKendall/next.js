@@ -5,10 +5,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { formatNumber } from 'Helpers/moneyFormatter';
+import { formatNumber } from 'helpers/moneyFormatter';
 
-import { determineSpendingScenarioByAwardType } from 'Helpers/awardAmountHelper';
-import ChartError from 'Components/search/visualizations/ChartError';
+import { determineSpendingScenarioByAwardType } from 'helpers/awardAmountHelper';
+import ChartError from 'components/search/visualizations/ChartError';
 import AwardsBanner from './AwardsBanner';
 import { AWARD_AGGREGATED_AMOUNTS_PROPS } from '../../../../propTypes';
 import AwardAmountsTable from '../../shared/awardAmountsSection/AwardAmountsTable';

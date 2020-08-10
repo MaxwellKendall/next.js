@@ -5,8 +5,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import AgencyListContainer from 'Containers/search/filters/AgencyListContainer';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import AgencyListContainer from 'containers/search/filters/AgencyListContainer';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 
 import SelectedAgencies from './SelectedAgencies';
 

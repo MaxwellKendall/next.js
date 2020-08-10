@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 import { scaleBand, scaleLinear } from 'd3-scale';
 import { isEqual, flattenDeep, min, max, mean, forEach, sum } from 'lodash';
 
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
-import BarXAxis from 'Components/search/visualizations/time/chart/BarXAxis';
-import BarYAxis from 'Components/search/visualizations/time/chart/BarYAxis';
+import BarXAxis from 'components/search/visualizations/time/chart/BarXAxis';
+import BarYAxis from 'components/search/visualizations/time/chart/BarYAxis';
 import BarChartTrendlineLegend from './BarChartTrendlineLegend';
 import BarTrendlineAxis from './BarTrendlineAxis';
 import PointItem from './PointItem';

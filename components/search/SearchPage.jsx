@@ -7,12 +7,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 
-import * as MetaTagHelper from 'Helpers/metaTagHelper';
+import * as MetaTagHelper from 'helpers/metaTagHelper';
 
 import FullDownloadModalContainer from
     'Containers/search/modals/fullDownload/FullDownloadModalContainer';
-import Footer from 'Containers/Footer';
-import DownloadButton from 'Components/search/header/DownloadButton';
+import Footer from 'containers/Footer';
+import DownloadButton from 'components/search/header/DownloadButton';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';

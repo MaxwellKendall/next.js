@@ -7,19 +7,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { find } from 'lodash';
 
-import * as MetaTagHelper from 'Helpers/metaTagHelper';
-// import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
-// import { scrollToY } from 'Helpers/scrollToHelper';
-import Footer from 'Containers/Footer';
+import * as MetaTagHelper from 'helpers/metaTagHelper';
+import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import { scrollToY } from 'helpers/scrollToHelper';
+import Footer from 'containers/Footer';
 
-// import SummaryBar from './SummaryBar';
-// // import ContractContent from './contract/ContractContent';
-// import IdvContent from './idv/IdvContent';
-// import FinancialAssistanceContent from './financialAssistance/FinancialAssistanceContent';
+import SummaryBar from './SummaryBar';
+import ContractContent from './contract/ContractContent';
+import IdvContent from './idv/IdvContent';
+import FinancialAssistanceContent from './financialAssistance/FinancialAssistanceContent';
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
-// import Header from '../sharedComponents/header/Header';
-// import Error from '../sharedComponents/Error';
-// import { LoadingWrapper } from '../sharedComponents/Loading';
+import { LoadingWrapper } from '../sharedComponents/Loading';
+import Header from '../sharedComponents/header/Header';
+import Error from '../sharedComponents/Error';
 
 const propTypes = {
     awardId: PropTypes.string,
@@ -77,29 +77,29 @@ export default class Award extends React.Component {
     jumpToSection(section = '') {
         // we've been provided a section to jump to
         // check if it's a valid section
-        // const matchedSection = find(awardSections, {
-        //     section
-        // });
+        const matchedSection = find(awardSections, {
+            section
+        });
 
-        // if (!matchedSection) {
-        //     // no matching section
-        //     return;
-        // }
+        if (!matchedSection) {
+            // no matching section
+            return;
+        }
 
-        // // scroll to the correct section
-        // const sectionDom = document.querySelector(`#award-${section}`);
+        // scroll to the correct section
+        const sectionDom = document.querySelector(`#award-${section}`);
 
-        // if (!sectionDom) {
-        //     return;
-        // }
+        if (!sectionDom) {
+            return;
+        }
 
-        // const sectionTop = sectionDom.offsetTop - 145;
-        // scrollToY(sectionTop, 700);
+        const sectionTop = sectionDom.offsetTop - 145;
+        scrollToY(sectionTop, 700);
         console.log("BLEH")
     }
 
     renderContent(overview, awardId) {
-        return ("HI");
+        debugger;
         if (!overview) return null;
         if (overview.category === 'contract') {
             return (
@@ -147,8 +147,9 @@ export default class Award extends React.Component {
         const content = this.renderContent(overview, awardId);
         return (
             <div className="usa-da-award-v2-page">
+                HI
                 <MetaTags {...MetaTagHelper.awardPageMetaTags} />
-                {/* <Header />
+                <Header />
                 <StickyHeader>
                     <SummaryBar
                         downloadData={this.props.downloadData}
@@ -161,7 +162,7 @@ export default class Award extends React.Component {
                     <main className={!this.props.noAward ? 'award-content' : ''}>
                         {content}
                     </main>
-                </LoadingWrapper> */}
+                </LoadingWrapper>
                 <Footer />
             </div>
         );

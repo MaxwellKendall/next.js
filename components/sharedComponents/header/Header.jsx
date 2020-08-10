@@ -1,9 +1,9 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 
-import GlossaryContainer from 'Containers/glossary/GlossaryContainer';
-import RedirectModalContainer from 'Containers/redirectModal/RedirectModalContainer';
-import Analytics from 'Helpers/analytics/Analytics';
+import GlossaryContainer from 'containers/glossary/GlossaryContainer';
+import RedirectModalContainer from 'containers/redirectModal/RedirectModalContainer';
+import Analytics from 'helpers/analytics/Analytics';
 
 import InfoBanner from './InfoBanner';
 import NavBar from './NavBar';

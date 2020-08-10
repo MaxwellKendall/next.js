@@ -9,10 +9,10 @@ import { isCancel } from 'axios';
 import { Search } from 'js-search';
 import { orderBy } from 'lodash';
 
-import * as StateHelper from 'Helpers/stateHelper';
-import BaseStateLandingItem from 'Models/v2/state/BaseStateLandingItem';
+import * as StateHelper from 'helpers/stateHelper';
+import BaseStateLandingItem from 'models/v2/state/BaseStateLandingItem';
 
-import StateLandingContent from 'Components/stateLanding/StateLandingContent';
+import StateLandingContent from 'components/stateLanding/StateLandingContent';
 
 export default class StateLandingContainer extends React.Component {
     constructor(props) {

@@ -5,8 +5,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
-import { createOnKeyDownHandler } from 'Helpers/keyboardEventsHelper';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
+import { createOnKeyDownHandler } from 'helpers/keyboardEventsHelper';
 import EntityWarning from '../location/EntityWarning';
 
 const propTypes = {

@@ -9,9 +9,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
 
-import RecipientSearch from 'Components/search/filters/recipient/RecipientSearch';
+import RecipientSearch from 'components/search/filters/recipient/RecipientSearch';
 
 const propTypes = {
     updateSelectedRecipients: PropTypes.func,

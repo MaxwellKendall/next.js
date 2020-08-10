@@ -6,15 +6,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { tabs, awardTypesWithSubawards } from 'DataMapping/awards/awardHistorySection';
-import { getToolTipBySectionAndAwardType } from 'DataMapping/awards/tooltips';
-import TransactionsTableContainer from 'Containers/award/table/TransactionsTableContainer';
-import FederalAccountTableContainer from 'Containers/award/table/FederalAccountTableContainer';
-import SubawardsContainer from 'Containers/award/table/SubawardsContainer';
-import ResultsTablePicker from 'Components/search/table/ResultsTablePicker';
-import { AwardLoop } from 'Components/sharedComponents/icons/Icons';
-import DetailsTabBar from 'Components/award/table/DetailsTabBar';
-import AwardSectionHeader from 'Components/award/shared/AwardSectionHeader';
+import { tabs, awardTypesWithSubawards } from 'dataMapping/awards/awardHistorySection';
+import { getToolTipBySectionAndAwardType } from 'dataMapping/awards/tooltips';
+import TransactionsTableContainer from 'containers/award/table/TransactionsTableContainer';
+import FederalAccountTableContainer from 'containers/award/table/FederalAccountTableContainer';
+import SubawardsContainer from 'containers/award/table/SubawardsContainer';
+import ResultsTablePicker from 'components/search/table/ResultsTablePicker';
+import { AwardLoop } from 'components/sharedComponents/icons/Icons';
+import DetailsTabBar from 'components/award/table/DetailsTabBar';
+import AwardSectionHeader from 'components/award/shared/AwardSectionHeader';
 
 import { getAwardHistoryCounts } from "../../../helpers/awardHistoryHelper";
 

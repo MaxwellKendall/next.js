@@ -2,9 +2,9 @@
  * BaseContract.js
  * Created by David Trinh 10/9/18
  */
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
-import * as pscHelper from 'Helpers/pscHelper';
-import CoreLocation from 'Models/v2/CoreLocation';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as pscHelper from 'helpers/pscHelper';
+import CoreLocation from 'models/v2/CoreLocation';
 import BaseAwardRecipient from './BaseAwardRecipient';
 import BaseParentAwardDetails from './BaseParentAwardDetails';
 import CoreAwardAgency from './CoreAwardAgency';

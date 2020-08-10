@@ -8,29 +8,29 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { isCancel } from 'axios';
-import Award from 'Components/award/Award';
+import Award from 'components/award/Award';
 
-import * as SearchHelper from 'Helpers/searchHelper';
+import * as SearchHelper from 'helpers/searchHelper';
 import {
     fetchIdvDownloadFile,
     fetchContractDownloadFile,
     fetchAssistanceDownloadFile
-} from 'Helpers/downloadHelper';
+} from 'helpers/downloadHelper';
 
-import { setAward, resetAward } from 'Redux/actions/award/awardActions';
+import { setAward, resetAward } from 'redux/actions/award/awardActions';
 import {
     setDownloadCollapsed,
     setDownloadPending,
     setDownloadExpectedFile,
     setDownloadExpectedUrl
-} from 'Redux/actions/bulkDownload/bulkDownloadActions';
-import { subAwardIdClicked } from 'Redux/actions/search/searchSubAwardTableActions';
+} from 'redux/actions/bulkDownload/bulkDownloadActions';
+import { subAwardIdClicked } from 'redux/actions/search/searchSubAwardTableActions';
 
-import BaseContract from 'Models/v2/awardsV2/BaseContract';
-import BaseIdv from 'Models/v2/awardsV2/BaseIdv';
-import BaseFinancialAssistance from 'Models/v2/awardsV2/BaseFinancialAssistance';
+import BaseContract from 'models/v2/awardsV2/BaseContract';
+import BaseIdv from 'models/v2/awardsV2/BaseIdv';
+import BaseFinancialAssistance from 'models/v2/awardsV2/BaseFinancialAssistance';
 
-// require('Pages/award/awardPage.scss');
+require('../../styles/pages/award/awardPage.scss');
 
 const propTypes = {
     subAwardIdClicked: PropTypes.func,

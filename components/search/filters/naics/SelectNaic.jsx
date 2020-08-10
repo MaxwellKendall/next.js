@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { formatSelectedNaics } from 'Helpers/naicsHelper';
-import ShownValue from 'Components/search/filters/otherFilters/ShownValue';
+import { formatSelectedNaics } from 'helpers/naicsHelper';
+import ShownValue from 'components/search/filters/otherFilters/ShownValue';
 
 const propTypes = {
     selectedNAICS: PropTypes.array,

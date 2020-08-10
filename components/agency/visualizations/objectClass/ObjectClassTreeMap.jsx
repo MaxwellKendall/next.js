@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle, find } from 'lodash';
 
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
-import * as Icons from 'Components/sharedComponents/icons/Icons';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as Icons from 'components/sharedComponents/icons/Icons';
 
 import MajorObjectClasses from './MajorObjectClasses';
 import MinorObjectClasses from './MinorObjectClasses';

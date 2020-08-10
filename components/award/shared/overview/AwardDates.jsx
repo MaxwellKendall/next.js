@@ -9,9 +9,9 @@ import moment from 'moment';
 import { throttle, compact } from 'lodash';
 import { TooltipWrapper } from 'data-transparency-ui';
 
-import { getToolTipBySectionAndAwardType } from 'DataMapping/awards/tooltips';
-import { titles } from 'DataMapping/awards/datesSection';
-import { datesByDateType, isContract, isBadDates } from 'Helpers/awardSummaryHelper';
+import { getToolTipBySectionAndAwardType } from 'dataMapping/awards/tooltips';
+import { titles } from 'dataMapping/awards/datesSection';
+import { datesByDateType, isContract, isBadDates } from 'helpers/awardSummaryHelper';
 import ProgressBar from './ProgressBar';
 
 const propTypes = {

@@ -9,19 +9,19 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as AccountHelper from 'Helpers/accountHelper';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
-import * as accountActions from 'Redux/actions/account/accountActions';
-import * as filterActions from 'Redux/actions/account/accountFilterActions';
+import * as AccountHelper from 'helpers/accountHelper';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as accountActions from 'redux/actions/account/accountActions';
+import * as filterActions from 'redux/actions/account/accountFilterActions';
 
-import FederalAccount from 'Models/account/FederalAccount';
-import { fiscalYearSnapshotFields } from 'DataMapping/accounts/accountFields';
+import FederalAccount from 'models/account/FederalAccount';
+import { fiscalYearSnapshotFields } from 'dataMapping/accounts/accountFields';
 
-import Account from 'Components/account/Account';
-import InvalidAccount from 'Components/account/InvalidAccount';
-import LoadingAccount from 'Components/account/LoadingAccount';
+import Account from 'components/account/Account';
+import InvalidAccount from 'components/account/InvalidAccount';
+import LoadingAccount from 'components/account/LoadingAccount';
 
-require('Pages/account/accountPage.scss');
+require('styles/pages/account/accountPage.scss');
 
 const propTypes = {
     account: PropTypes.object,

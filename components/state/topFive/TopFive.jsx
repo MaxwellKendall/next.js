@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { categoryTitles } from 'DataMapping/state/topCategories';
+import { categoryTitles } from 'dataMapping/state/topCategories';
 
 import TopFiveRow from './TopFiveRow';
 

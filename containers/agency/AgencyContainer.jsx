@@ -10,14 +10,14 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import moment from 'moment';
 
-import AgencyOverviewModel from 'Models/agency/AgencyOverviewModel';
-import * as AgencyHelper from 'Helpers/agencyHelper';
-import * as SearchHelper from 'Helpers/searchHelper';
-import * as agencyActions from 'Redux/actions/agency/agencyActions';
+import AgencyOverviewModel from 'models/agency/AgencyOverviewModel';
+import * as AgencyHelper from 'helpers/agencyHelper';
+import * as SearchHelper from 'helpers/searchHelper';
+import * as agencyActions from 'redux/actions/agency/agencyActions';
 
-import AgencyPage from 'Components/agency/AgencyPage';
+import AgencyPage from 'components/agency/AgencyPage';
 
-require('Pages/agency/agencyPage.scss');
+require('styles/pages/agency/agencyPage.scss');
 
 const propTypes = {
     params: PropTypes.object,

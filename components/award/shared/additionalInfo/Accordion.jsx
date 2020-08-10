@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { compact } from 'lodash';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { createOnKeyDownHandler } from 'Helpers/keyboardEventsHelper';
+import { createOnKeyDownHandler } from 'helpers/keyboardEventsHelper';
 
 const propTypes = {
     accordionName: PropTypes.string,

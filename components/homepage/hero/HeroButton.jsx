@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { AngleDown } from 'Components/sharedComponents/icons/Icons';
-import { scrollToY } from 'Helpers/scrollToHelper';
+import { AngleDown } from 'components/sharedComponents/icons/Icons';
+import { scrollToY } from 'helpers/scrollToHelper';
 
 const HeroButton = () => {
     const pressedButton = () => {

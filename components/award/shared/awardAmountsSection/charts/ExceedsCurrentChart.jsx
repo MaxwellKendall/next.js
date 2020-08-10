@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TooltipWrapper } from "data-transparency-ui";
 
-import { generatePercentage } from 'Helpers/awardAmountHelper';
+import { generatePercentage } from 'helpers/awardAmountHelper';
 
 import { getTooltipPropsByAwardTypeAndSpendingCategory } from '../Tooltips';
 

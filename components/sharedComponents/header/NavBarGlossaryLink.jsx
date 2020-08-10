@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
 import { Glossary } from '../icons/Icons';
 

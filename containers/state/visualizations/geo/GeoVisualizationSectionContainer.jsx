@@ -9,11 +9,11 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId } from 'lodash';
 
-import GeoVisualizationSection from 'Components/state/visualizations/geo/GeoVisualizationSection';
+import GeoVisualizationSection from 'components/state/visualizations/geo/GeoVisualizationSection';
 
-import * as SearchHelper from 'Helpers/searchHelper';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
-import MapBroadcaster from 'Helpers/mapBroadcaster';
+import * as SearchHelper from 'helpers/searchHelper';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import MapBroadcaster from 'helpers/mapBroadcaster';
 
 const propTypes = {
     stateProfile: PropTypes.object

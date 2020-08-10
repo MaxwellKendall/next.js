@@ -7,11 +7,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { isCancel } from 'axios';
 import { pickBy, debounce } from 'lodash';
-import { programSourceInfo } from 'DataMapping/search/programSourceInfoTooltipContent';
+import { programSourceInfo } from 'dataMapping/search/programSourceInfoTooltipContent';
 
-import * as ProgramSourceHelper from 'Helpers/programSourceHelper';
-import Autocomplete from 'Components/sharedComponents/autocomplete/Autocomplete';
-import ProgramSourceInfoTooltipContent from 'Components/search/filters/programSource/ProgramSourceInfoTooltip';
+import * as ProgramSourceHelper from 'helpers/programSourceHelper';
+import Autocomplete from 'components/sharedComponents/autocomplete/Autocomplete';
+import ProgramSourceInfoTooltipContent from 'components/search/filters/programSource/ProgramSourceInfoTooltip';
 
 const propTypes = {
     component: PropTypes.object,

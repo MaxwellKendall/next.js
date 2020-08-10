@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { twentyNineteenFiscalDataCookie } from './Header';

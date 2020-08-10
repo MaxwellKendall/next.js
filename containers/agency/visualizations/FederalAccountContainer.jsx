@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import { isCancel } from 'axios';
 import { slice } from 'lodash';
 
-import * as AgencyHelper from 'Helpers/agencyHelper';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as AgencyHelper from 'helpers/agencyHelper';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
 
 import FederalAccountVisualization from

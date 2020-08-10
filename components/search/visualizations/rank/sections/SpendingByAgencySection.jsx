@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ComingSoonLabel from 'Components/sharedComponents/ComingSoonLabel';
+import ComingSoonLabel from 'components/sharedComponents/ComingSoonLabel';
 import RankVisualizationScopeButton from '../RankVisualizationScopeButton';
 
 import RankVisualizationSection from './RankVisualizationSection';

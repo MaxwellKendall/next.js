@@ -3,7 +3,7 @@
  * Created by Kevin Li 2/8/18
  */
 import { startCase, camelCase } from 'lodash';
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
 const categoryPrefix = 'Download Center - Download';
 

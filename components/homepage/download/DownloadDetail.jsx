@@ -5,8 +5,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as redirectHelper from 'Helpers/redirectHelper';
-import Analytics from 'Helpers/analytics/Analytics';
+import * as redirectHelper from 'helpers/redirectHelper';
+import Analytics from 'helpers/analytics/Analytics';
 
 const clickedHomepageLink = (route) => {
     Analytics.event({

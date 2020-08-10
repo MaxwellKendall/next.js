@@ -5,10 +5,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { CheckCircle, ExclamationCircle } from 'Components/sharedComponents/icons/Icons';
+import { CheckCircle, ExclamationCircle } from 'components/sharedComponents/icons/Icons';
 
-import { lastCompletedQuarterInFY } from 'Containers/explorer/detail/helpers/explorerQuarters';
-import QuarterPicker from 'Components/explorer/detail/sidebar/QuarterPicker';
+import { lastCompletedQuarterInFY } from 'containers/explorer/detail/helpers/explorerQuarters';
+import QuarterPicker from 'components/explorer/detail/sidebar/QuarterPicker';
 
 const propTypes = {
     currentFy: PropTypes.string,

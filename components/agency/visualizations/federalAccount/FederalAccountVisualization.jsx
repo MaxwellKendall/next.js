@@ -5,9 +5,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
-import ChartMessage from 'Components/search/visualizations/rank/RankVisualizationChartMessage';
+import ChartMessage from 'components/search/visualizations/rank/RankVisualizationChartMessage';
 
 import FederalAccountChart from './FederalAccountChart';
 

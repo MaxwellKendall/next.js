@@ -8,9 +8,9 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import SearchSidebar from 'Components/search/SearchSidebar';
+import SearchSidebar from 'components/search/SearchSidebar';
 
-import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
 
 const propTypes = {
     filters: PropTypes.object

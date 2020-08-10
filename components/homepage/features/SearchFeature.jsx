@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { searchOptions } from 'DataMapping/navigation/menuOptions';
+import { searchOptions } from 'dataMapping/navigation/menuOptions';
 
 import ImageCarousel from './ImageCarousel';
 import FeatureDropdown from './FeatureDropdown';

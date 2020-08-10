@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { SpeechBubble, Glossary } from 'Components/sharedComponents/icons/Icons';
+import { SpeechBubble, Glossary } from 'components/sharedComponents/icons/Icons';
 import AwardSection from '../AwardSection';
 import AwardSectionHeader from '../AwardSectionHeader';
 import ExpandableAwardSection from '../ExpandableAwardSection';

@@ -8,12 +8,12 @@ import {
     decrementTasCountAndUpdateUnchecked,
     removeStagedTasFilter,
     autoCheckTasAfterExpand
-} from 'Helpers/tasHelper';
-import { fetchTas } from 'Helpers/searchHelper';
+} from 'helpers/tasHelper';
+import { fetchTas } from 'helpers/searchHelper';
 
-import CheckboxTree from 'Components/sharedComponents/CheckboxTree';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
-import { EntityDropdownAutocomplete } from 'Components/search/filters/location/EntityDropdownAutocomplete';
+import CheckboxTree from 'components/sharedComponents/CheckboxTree';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
+import { EntityDropdownAutocomplete } from 'components/search/filters/location/EntityDropdownAutocomplete';
 
 export default class TASCheckboxTree extends React.Component {
     constructor(props) {

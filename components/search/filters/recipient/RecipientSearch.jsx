@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 import RecipientNameDUNSContainer from
     'Containers/search/filters/recipient/RecipientNameDUNSContainer';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 import SelectedRecipients from './SelectedRecipients';
 
 const propTypes = {

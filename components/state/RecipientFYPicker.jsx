@@ -5,9 +5,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { getDropdownLabelsByApiValue } from 'DataMapping/recipients/fiscalYearDropdown';
+import { getDropdownLabelsByApiValue } from 'dataMapping/recipients/fiscalYearDropdown';
 
-import { Calendar, AngleDown } from 'Components/sharedComponents/icons/Icons';
+import { Calendar, AngleDown } from 'components/sharedComponents/icons/Icons';
 
 const propTypes = {
     selectedFy: PropTypes.string,

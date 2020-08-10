@@ -10,11 +10,11 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId } from 'lodash';
 
-import * as IdvHelper from 'Helpers/idvHelper';
-import * as awardActions from 'Redux/actions/award/awardActions';
+import * as IdvHelper from 'helpers/idvHelper';
+import * as awardActions from 'redux/actions/award/awardActions';
 
-import BaseFederalAccountFunding from 'Models/v2/awardsV2/BaseFederalAccountFunding';
-import FederalAccountTable from 'Components/award/table/FederalAccountTable';
+import BaseFederalAccountFunding from 'models/v2/awardsV2/BaseFederalAccountFunding';
+import FederalAccountTable from 'components/award/table/FederalAccountTable';
 import { fetchFederalAccountFunding } from '../../../helpers/awardHistoryHelper';
 
 const propTypes = {

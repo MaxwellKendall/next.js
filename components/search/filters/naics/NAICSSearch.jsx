@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import NAICSListContainer from 'Containers/search/filters/naics/NAICSListContainer';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import NAICSListContainer from 'containers/search/filters/naics/NAICSListContainer';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 import SelectedNAICS from './SelectedNAICS';
 
 const propTypes = {

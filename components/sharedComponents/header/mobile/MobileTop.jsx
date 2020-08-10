@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
-import { Close } from 'Components/sharedComponents/icons/Icons';
+import { Close } from 'components/sharedComponents/icons/Icons';
 
 const clickedHeaderLink = (route) => {
     Analytics.event({

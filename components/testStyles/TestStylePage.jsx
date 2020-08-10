@@ -6,8 +6,8 @@
 import React from 'react';
 import { forEach } from 'lodash';
 
-import * as MetaTagHelper from 'Helpers/metaTagHelper';
-import Footer from 'Containers/Footer';
+import * as MetaTagHelper from 'helpers/metaTagHelper';
+import Footer from 'containers/Footer';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';
@@ -17,7 +17,7 @@ import * as Icons from '../sharedComponents/icons/Icons';
 import IconsExample from './IconsExample';
 import ButtonsExample from './ButtonsExample';
 
-require('Pages/testStyle/testStyle.scss');
+require('styles/pages/testStyle/testStyle.scss');
 
 export default class TestStylePage extends React.Component {
     render() {

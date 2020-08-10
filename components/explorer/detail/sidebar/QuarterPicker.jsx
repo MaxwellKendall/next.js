@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { availableQuartersInFY } from 'Containers/explorer/detail/helpers/explorerQuarters';
-import FYPicker from 'Components/sharedComponents/pickers/FYPicker';
+import { availableQuartersInFY } from 'containers/explorer/detail/helpers/explorerQuarters';
+import FYPicker from 'components/sharedComponents/pickers/FYPicker';
 import QuarterButton from './QuarterButton';
 
 const propTypes = {

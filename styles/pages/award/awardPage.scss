@@ -1,13 +1,9 @@
 .usa-da-award-v2-page {
-  @import "../../all";
-  @import "../../layouts/summary/summary";
-  @import "../../layouts/default/stickyHeader/header";
-  @import "../../layouts/tabbedSearch/header/downloadButton";
-  @import "../../components/pageLoading";
-
-  @include display(flex);
-  @include flex-direction(column);
-  @include align-items(center);
+  @import "all";
+  @import "layouts/summary/summary";
+  @import "layouts/default/stickyHeader/header";
+  @import "layouts/tabbedSearch/header/downloadButton";
+  @import "components/pageLoading";
   
   min-height: 100vh;
   .sticky-header,

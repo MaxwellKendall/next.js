@@ -7,13 +7,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { capitalize, throttle } from 'lodash';
-import { convertQuarterToDate } from 'Helpers/fiscalYearHelper';
+import { convertQuarterToDate } from 'helpers/fiscalYearHelper';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
 
-import { Glossary } from 'Components/sharedComponents/icons/Icons';
+import { Glossary } from 'components/sharedComponents/icons/Icons';
 
 import HorizontalBarItem from '../visualizations/obligated/HorizontalBarItem';
 

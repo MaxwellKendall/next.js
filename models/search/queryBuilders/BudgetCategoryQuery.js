@@ -2,7 +2,7 @@
  * Created by michaelbray on 3/21/17.
  */
 
-import * as FilterFields from 'DataMapping/search/filterFields';
+import * as FilterFields from 'dataMapping/search/filterFields';
 
 export const buildBudgetFunctionQuery = (budgetFunctions, searchContext) => {
     const budgetFunctionSet = [];

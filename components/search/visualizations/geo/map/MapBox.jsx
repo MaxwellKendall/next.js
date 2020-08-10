@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MapboxGL from 'mapbox-gl/dist/mapbox-gl';
 import { throttle, isEqual } from 'lodash';
-import * as Icons from 'Components/sharedComponents/icons/Icons';
+import * as Icons from 'components/sharedComponents/icons/Icons';
 
 import kGlobalConstants from 'GlobalConstants';
 

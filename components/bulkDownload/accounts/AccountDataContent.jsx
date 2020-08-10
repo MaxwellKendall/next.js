@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import { isEqual } from 'lodash';
 import kGlobalConstants from 'GlobalConstants';
 
-import { accountDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
-import { Glossary } from 'Components/sharedComponents/icons/Icons';
+import { accountDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
+import { Glossary } from 'components/sharedComponents/icons/Icons';
 
 import AccountLevelFilter from './filters/AccountLevelFilter';
 import AgencyFilter from './filters/AgencyFilter';

@@ -6,7 +6,7 @@ $verticalOffsetCollapsedSankey: 141;
     @import "all";
     @import "layouts/default/default";
     @import "layouts/default/stickyHeader/header";
-    @import "components/pageLoading";
+    @import "components/_pageLoading";
 
     @include display(flex);
     @include justify-content(flex-start);

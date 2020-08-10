@@ -5,7 +5,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AddresskeysByAwardType } from 'DataMapping/awards/awardOverview';
+import { AddresskeysByAwardType } from 'dataMapping/awards/awardOverview';
 
 const propTypes = {
     aggregateRecordType: PropTypes.string,

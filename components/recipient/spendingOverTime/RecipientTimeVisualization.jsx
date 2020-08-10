@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import TimeTooltip from 'Components/state/spendingovertime/StateTimeVisualizationTooltip';
-import ChartLoadingMessage from 'Components/search/visualizations/ChartLoadingMessage';
-import ChartNoResults from 'Components/search/visualizations/ChartNoResults';
-import ChartError from 'Components/search/visualizations/ChartError';
+import TimeTooltip from 'components/state/spendingovertime/StateTimeVisualizationTooltip';
+import ChartLoadingMessage from 'components/search/visualizations/ChartLoadingMessage';
+import ChartNoResults from 'components/search/visualizations/ChartNoResults';
+import ChartError from 'components/search/visualizations/ChartError';
 import BarChartTrendline from './chart/BarChartTrendline';
 import PointTooltip from './PointTooltip';
 

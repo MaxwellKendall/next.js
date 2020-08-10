@@ -6,10 +6,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { find } from 'lodash';
-import { scrollToY } from 'Helpers/scrollToHelper';
-import * as StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
-import RecipientTimeVisualizationSectionContainer from 'Containers/recipient/RecipientTimeVisualizationSectionContainer';
-import Sidebar from 'Components/sharedComponents/sidebar/Sidebar';
+import { scrollToY } from 'helpers/scrollToHelper';
+import * as StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
+import RecipientTimeVisualizationSectionContainer from 'containers/recipient/RecipientTimeVisualizationSectionContainer';
+import Sidebar from 'components/sharedComponents/sidebar/Sidebar';
 import TopFiveSection from './topFive/TopFiveSection';
 
 import RecipientOverview from './RecipientOverview';

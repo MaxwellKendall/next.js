@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TooltipWrapper } from 'data-transparency-ui';
 
-import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
-import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
-import NoResultsMessage from 'Components/sharedComponents/NoResultsMessage';
+import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
+import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
+import NoResultsMessage from 'components/sharedComponents/NoResultsMessage';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { idvActivityInfo } from '../../shared/InfoTooltipContent';
 import IdvActivityVisualization from './IdvActivityVisualization';

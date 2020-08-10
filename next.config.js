@@ -1,28 +1,23 @@
 const path = require('path');
 const withSass = require('@zeit/next-sass')
 
-module.exports = {
-    webpack: (
-        config,
-        options
-    ) => {
-        config.resolve.alias = {
-            ...config.resolve.alias,
-            Components: path.resolve(__dirname, 'Components/'),
-            Containers: path.resolve(__dirname, 'containers/'),
-            Helpers: path.resolve(__dirname, 'helpers/'),
-            Redux: path.resolve(__dirname, 'redux/'),
-            Models: path.resolve(__dirname, 'models/'),
-            Pages: path.resolve(__dirname, 'styles/pages'),
-            GlobalConstants: path.resolve(__dirname, './GlobalConstants'),
-            DataMapping: path.resolve(__dirname, './dataMapping/'),
-        }
+module.exports = withSass({
+    webpack: (config, options) => {
         config.module = {
             ...config.module,
             noParse: /(mapbox-gl)\.js$/
         };
-        const sassRules = withSass({}).webpack(config, options).module.rules;
-        config.module.rules = sassRules;
+        config.resolve = {
+            ...config.resolve,
+            modules: config.resolve.modules.concat([path.resolve(__dirname, "./styles")])
+        };
         return config;
-    }
-};
+    },
+    // options: {
+    //     includePaths: [
+    //         path.resolve(__dirname, './styles'),
+    //         path.resolve(__dirname, './node_modules')
+    //     ],
+    //     sourceMap: true,
+    // }
+});

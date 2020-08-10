@@ -7,9 +7,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-aria-modal';
 
-import { Close } from 'Components/sharedComponents/icons/Icons';
+import { Close } from 'components/sharedComponents/icons/Icons';
 
-import TopFilterBarContainer from 'Containers/search/topFilterBar/TopFilterBarContainer';
+import TopFilterBarContainer from 'containers/search/topFilterBar/TopFilterBarContainer';
 import DownloadLevelContainer from
     'Containers/search/modals/fullDownload/screens/DownloadLevelContainer';
 import DownloadScopeContainer from

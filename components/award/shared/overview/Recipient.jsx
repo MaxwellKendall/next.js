@@ -8,13 +8,13 @@ import PropTypes from 'prop-types';
 import {
     getAwardTypeByRecordtypeCountyAndState,
     isAwardFinancialAssistance
-} from 'Helpers/awardSummaryHelper';
+} from 'helpers/awardSummaryHelper';
 import {
     aggregateTextRecipientSection,
     aggregateGlossaryLinks,
     aggregateGlossaryText
-} from 'DataMapping/awards/awardOverview';
-import { Glossary } from 'Components/sharedComponents/icons/Icons';
+} from 'dataMapping/awards/awardOverview';
+import { Glossary } from 'components/sharedComponents/icons/Icons';
 import AwardSection from '../AwardSection';
 import RecipientAddress from './RecipientAddress';
 

@@ -10,11 +10,11 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
-import * as bulkDownloadActions from 'Redux/actions/bulkDownload/bulkDownloadActions';
+import * as bulkDownloadActions from 'redux/actions/bulkDownload/bulkDownloadActions';
 
-import DownloadBottomBar from 'Components/search/modals/fullDownload/DownloadBottomBar';
+import DownloadBottomBar from 'components/search/modals/fullDownload/DownloadBottomBar';
 
-import * as BulkDownloadHelper from 'Helpers/bulkDownloadHelper';
+import * as BulkDownloadHelper from 'helpers/bulkDownloadHelper';
 
 const propTypes = {
     bulkDownload: PropTypes.object,

@@ -10,13 +10,13 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import { uniqueId } from 'lodash';
 
-import * as SearchHelper from 'Helpers/searchHelper';
-import * as awardActions from 'Redux/actions/award/awardActions';
+import * as SearchHelper from 'helpers/searchHelper';
+import * as awardActions from 'redux/actions/award/awardActions';
 
-import BaseContractTransaction from 'Models/v2/awards/transactions/BaseContractTransaction';
-import BaseLoanTransaction from 'Models/v2/awards/transactions/BaseLoanTransaction';
-import BaseAssistanceTransaction from 'Models/v2/awards/transactions/BaseAssistanceTransaction';
-import TransactionsTable from 'Components/award/table/TransactionsTable';
+import BaseContractTransaction from 'models/v2/awards/transactions/BaseContractTransaction';
+import BaseLoanTransaction from 'models/v2/awards/transactions/BaseLoanTransaction';
+import BaseAssistanceTransaction from 'models/v2/awards/transactions/BaseAssistanceTransaction';
+import TransactionsTable from 'components/award/table/TransactionsTable';
 
 const propTypes = {
     award: PropTypes.object,

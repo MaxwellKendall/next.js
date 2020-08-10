@@ -4,7 +4,7 @@
  */
 
 import moment from 'moment';
-import { currentFiscalYear, earliestFiscalYear } from "Helpers/fiscalYearHelper";
+import { currentFiscalYear, earliestFiscalYear } from "helpers/fiscalYearHelper";
 
 const earliestFY = moment(`10-01-${earliestFiscalYear}`);
 const currentFY = moment(`10-01-${currentFiscalYear()}`);

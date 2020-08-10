@@ -3,7 +3,7 @@
  * Created by Kevin Li 5/1/17
  */
 
-import Router from 'Containers/router/Router';
+import Router from 'containers/router/Router';
 
 class GlossaryListenerSingleton {
     constructor() {

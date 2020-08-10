@@ -5,16 +5,16 @@
 
 import React from 'react';
 
-import { stateLandingPageMetaTags } from 'Helpers/metaTagHelper';
+import { stateLandingPageMetaTags } from 'helpers/metaTagHelper';
 
-import Footer from 'Containers/Footer';
-import MetaTags from 'Components/sharedComponents/metaTags/MetaTags';
-import Header from 'Components/sharedComponents/header/Header';
-import StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import Footer from 'containers/Footer';
+import MetaTags from 'components/sharedComponents/metaTags/MetaTags';
+import Header from 'components/sharedComponents/header/Header';
+import StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
 
-import StateLandingContainer from 'Containers/stateLanding/StateLandingContainer';
+import StateLandingContainer from 'containers/stateLanding/StateLandingContainer';
 
-require('Pages/stateLanding/stateLandingPage.scss');
+require('styles/pages/stateLanding/stateLandingPage.scss');
 
 export default class StateLandingPage extends React.Component {
     render() {

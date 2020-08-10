@@ -7,15 +7,15 @@ import React from 'react';
 import { isCancel } from 'axios';
 import { inRange } from 'lodash';
 
-import AccountsTableFields from 'DataMapping/accountLanding/accountsTableFields';
-import * as AccountLandingHelper from 'Helpers/accountLandingHelper';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
+import AccountsTableFields from 'dataMapping/accountLanding/accountsTableFields';
+import * as AccountLandingHelper from 'helpers/accountLandingHelper';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
 
-import AccountLandingContent from 'Components/accountLanding/AccountLandingContent';
+import AccountLandingContent from 'components/accountLanding/AccountLandingContent';
 
-import BaseFederalAccountLandingRow from 'Models/accountLanding/BaseFederalAccountLandingRow';
+import BaseFederalAccountLandingRow from 'models/accountLanding/BaseFederalAccountLandingRow';
 
-require('Pages/accountLanding/accountLandingPage.scss');
+require('styles/pages/accountLanding/accountLandingPage.scss');
 
 export default class AccountLandingContainer extends React.Component {
     constructor(props) {

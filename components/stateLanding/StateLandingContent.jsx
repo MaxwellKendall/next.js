@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import AgencyLandingSearchBar from 'Components/agencyLanding/AgencyLandingSearchBar';
+import AgencyLandingSearchBar from 'components/agencyLanding/AgencyLandingSearchBar';
 import StateLandingTable from './table/StateLandingTable';
 
 const propTypes = {

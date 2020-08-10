@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 
-import TimeVisualizationPeriodButton from 'Components/search/visualizations/time/TimeVisualizationPeriodButton';
+import TimeVisualizationPeriodButton from 'components/search/visualizations/time/TimeVisualizationPeriodButton';
 
 import StateTimeVisualization from './StateTimeVisualization';
 

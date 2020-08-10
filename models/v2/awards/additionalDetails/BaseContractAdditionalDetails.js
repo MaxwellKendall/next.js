@@ -3,7 +3,7 @@
  * Created by Lizzie Salita 3/5/18
  */
 
-import { formatMoney } from 'Helpers/moneyFormatter';
+import { formatMoney } from 'helpers/moneyFormatter';
 
 const parseExecutiveCompensation = (data) => {
     const executiveCompensation = {};

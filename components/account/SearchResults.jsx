@@ -12,7 +12,7 @@ import AccountTimeVisualizationContainer from
     'Containers/account/visualizations/AccountTimeVisualizationContainer';
 import AccountRankVisualizationContainer from
     'Containers/account/visualizations/AccountRankVisualizationContainer';
-import AccountAwardsContainer from 'Containers/account/awards/AccountAwardsContainer';
+import AccountAwardsContainer from 'containers/account/awards/AccountAwardsContainer';
 
 
 export default class SearchResults extends React.Component {

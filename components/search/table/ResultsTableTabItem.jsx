@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { formatNumber } from 'Helpers/moneyFormatter';
+import { formatNumber } from 'helpers/moneyFormatter';
 
 const propTypes = {
     label: PropTypes.string,

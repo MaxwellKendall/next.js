@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 
-import { awardDownloadOptions } from 'DataMapping/bulkDownload/bulkDownloadOptions';
+import { awardDownloadOptions } from 'dataMapping/bulkDownload/bulkDownloadOptions';
 
 const propTypes = {
     awards: PropTypes.object

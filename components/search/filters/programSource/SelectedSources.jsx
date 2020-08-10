@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ShownValue from 'Components/search/filters/otherFilters/ShownValue';
+import ShownValue from 'components/search/filters/otherFilters/ShownValue';
 
 const propTypes = {
     selectedSources: PropTypes.object,

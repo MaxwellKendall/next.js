@@ -6,9 +6,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
-import ResultsTableContainer from 'Containers/search/table/ResultsTableContainer';
+import ResultsTableContainer from 'containers/search/table/ResultsTableContainer';
 import TimeVisualizationSectionContainer from
     'Containers/search/visualizations/time/TimeVisualizationSectionContainer';
 import GeoVisualizationSectionContainer from
@@ -16,7 +16,7 @@ import GeoVisualizationSectionContainer from
 import RankVisualizationWrapperContainer from
     'Containers/search/visualizations/rank/RankVisualizationWrapperContainer';
 
-import { tabOptions } from 'DataMapping/search/searchViewTabs';
+import { tabOptions } from 'dataMapping/search/searchViewTabs';
 
 import NoFiltersScreen from './screens/NoFiltersScreen';
 

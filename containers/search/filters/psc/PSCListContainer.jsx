@@ -8,9 +8,9 @@ import { isEqual, differenceWith, omit } from 'lodash';
 import { isCancel } from 'axios';
 import PropTypes from 'prop-types';
 
-import * as SearchHelper from 'Helpers/searchHelper';
+import * as SearchHelper from 'helpers/searchHelper';
 
-import Autocomplete from 'Components/sharedComponents/autocomplete/Autocomplete';
+import Autocomplete from 'components/sharedComponents/autocomplete/Autocomplete';
 
 const propTypes = {
     selectPSC: PropTypes.func,

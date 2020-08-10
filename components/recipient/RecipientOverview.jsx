@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { CaretRight } from 'Components/sharedComponents/icons/Icons';
+import { CaretRight } from 'components/sharedComponents/icons/Icons';
 import RecipientMultiParentCollapse from './RecipientMultiParentCollapse';
 
 const propTypes = {

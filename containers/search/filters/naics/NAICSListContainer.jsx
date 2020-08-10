@@ -10,9 +10,9 @@ import { Search, PrefixIndexStrategy } from 'js-search';
 import PropTypes from 'prop-types';
 import kGlobalConstants from 'GlobalConstants';
 
-import * as SearchHelper from 'Helpers/searchHelper';
+import * as SearchHelper from 'helpers/searchHelper';
 
-import Autocomplete from 'Components/sharedComponents/autocomplete/Autocomplete';
+import Autocomplete from 'components/sharedComponents/autocomplete/Autocomplete';
 
 const propTypes = {
     selectNAICS: PropTypes.func,

@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { uniq } from 'lodash';
 
-import * as MapHelper from 'Helpers/mapHelper';
-import MapBroadcaster from 'Helpers/mapBroadcaster';
+import * as MapHelper from 'helpers/mapHelper';
+import MapBroadcaster from 'helpers/mapBroadcaster';
 
 import MapBox from './map/MapBox';
 import MapLegend from './MapLegend';

@@ -7,10 +7,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { hierarchy, treemap, treemapBinary, treemapSlice } from 'd3-hierarchy';
 import { throttle, remove, find } from 'lodash';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
-import * as TreemapHelper from 'Helpers/treemapHelper';
-import { awardTypeLabels } from 'DataMapping/state/awardTypes';
-import { labelColorFromBackground } from 'Helpers/colorHelper';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as TreemapHelper from 'helpers/treemapHelper';
+import { awardTypeLabels } from 'dataMapping/state/awardTypes';
+import { labelColorFromBackground } from 'helpers/colorHelper';
 
 import AwardTypeCell from './AwardTypeCell';
 import AwardTypeTooltip from './AwardTypeTooltip';

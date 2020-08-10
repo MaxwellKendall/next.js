@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Sorter from 'Components/stateLanding/table/StateLandingTableSorter';
+import Sorter from 'components/stateLanding/table/StateLandingTableSorter';
 
 const propTypes = {
     total: PropTypes.number,

@@ -3,8 +3,8 @@
  * Created by michaelbray on 3/7/17.
  */
 
-import { formatMoneyWithPrecision } from 'Helpers/moneyFormatter';
-import { spendingCategoriesByAwardType, asstAwardTypesWithSimilarAwardAmountData } from 'DataMapping/awards/awardAmountsSection';
+import { formatMoneyWithPrecision } from 'helpers/moneyFormatter';
+import { spendingCategoriesByAwardType, asstAwardTypesWithSimilarAwardAmountData } from 'dataMapping/awards/awardAmountsSection';
 
 // formats the specific checkboxes
 // options are NPM accounting package options

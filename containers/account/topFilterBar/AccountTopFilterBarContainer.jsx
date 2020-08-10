@@ -10,11 +10,11 @@ import { connect } from 'react-redux';
 import { orderBy } from 'lodash';
 import moment from 'moment';
 
-import LegacyTopFilterBar from 'Components/account/topFilterBar/LegacyTopFilterBar';
+import LegacyTopFilterBar from 'components/account/topFilterBar/LegacyTopFilterBar';
 import { topFilterGroupGenerator } from
     'Components/account/topFilterBar/filterGroups/AccountTopFilterGroupGenerator';
 
-import * as accountFilterActions from 'Redux/actions/account/accountFilterActions';
+import * as accountFilterActions from 'redux/actions/account/accountFilterActions';
 
 const propTypes = {
     reduxFilters: PropTypes.object,

@@ -5,9 +5,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as Icons from 'Components/sharedComponents/icons/Icons';
+import * as Icons from 'components/sharedComponents/icons/Icons';
 
-import tableMapping from 'DataMapping/contracts/subawardTable';
+import tableMapping from 'dataMapping/contracts/subawardTable';
 
 const propTypes = {
     label: PropTypes.string,

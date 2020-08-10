@@ -4,7 +4,7 @@
  **/
 
 import React from 'react';
-import { Envelope, CaretRight } from 'Components/sharedComponents/icons/Icons';
+import { Envelope, CaretRight } from 'components/sharedComponents/icons/Icons';
 
 export default class Subscribe extends React.Component {
     render() {

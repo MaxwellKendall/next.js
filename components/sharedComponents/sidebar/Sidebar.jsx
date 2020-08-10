@@ -7,7 +7,7 @@ import React, { useEffect, useState, createRef } from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 
-import FYPicker from 'Components/state/RecipientFYPicker';
+import FYPicker from 'components/state/RecipientFYPicker';
 import SidebarLink from './SidebarLink';
 import { useDynamicStickyClass } from '../stickyHeader/StickyHeader';
 

@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { labelColorFromBackground } from 'Helpers/colorHelper';
+import { labelColorFromBackground } from 'helpers/colorHelper';
 
 const propTypes = {
     width: PropTypes.number,

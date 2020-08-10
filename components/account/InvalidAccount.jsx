@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Footer from 'Containers/Footer';
+import Footer from 'containers/Footer';
 import Header from '../sharedComponents/header/Header';
 import Error from '../sharedComponents/Error';
 

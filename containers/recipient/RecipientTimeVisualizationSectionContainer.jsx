@@ -10,14 +10,14 @@ import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 import moment from 'moment';
 
-import * as recipientActions from 'Redux/actions/recipient/recipientActions';
+import * as recipientActions from 'redux/actions/recipient/recipientActions';
 
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
-import * as MonthHelper from 'Helpers/monthHelper';
-import * as SearchHelper from 'Helpers/searchHelper';
-import * as RecipientHelper from 'Helpers/recipientHelper';
-import Analytics from 'Helpers/analytics/Analytics';
-import RecipientTimeVisualizationSection from 'Components/recipient/spendingOverTime/RecipientTimeVisualizationSection';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import * as MonthHelper from 'helpers/monthHelper';
+import * as SearchHelper from 'helpers/searchHelper';
+import * as RecipientHelper from 'helpers/recipientHelper';
+import Analytics from 'helpers/analytics/Analytics';
+import RecipientTimeVisualizationSection from 'components/recipient/spendingOverTime/RecipientTimeVisualizationSection';
 
 const propTypes = {
     recipient: PropTypes.object

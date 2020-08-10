@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import { aboutPageMetaTags } from 'Helpers/metaTagHelper';
-import Footer from 'Containers/Footer';
+import { aboutPageMetaTags } from 'helpers/metaTagHelper';
+import Footer from 'containers/Footer';
 
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import Header from '../sharedComponents/header/Header';
@@ -14,7 +14,7 @@ import StickyHeader from '../sharedComponents/stickyHeader/StickyHeader';
 
 import AboutContent from './AboutContent';
 
-require('Pages/about/aboutPage.scss');
+require('styles/pages/about/aboutPage.scss');
 
 export default class About extends React.Component {
     render() {

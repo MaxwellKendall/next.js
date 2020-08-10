@@ -7,9 +7,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import DatePicker from 'Components/sharedComponents/DatePicker';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
+import DatePicker from 'components/sharedComponents/DatePicker';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
 
 const defaultProps = {
     startDate: '01/01/2016',

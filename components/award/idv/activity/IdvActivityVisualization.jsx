@@ -7,10 +7,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 import { Pagination } from 'data-transparency-ui';
-import { formatNumberWithPrecision } from 'Helpers/moneyFormatter';
-import { calculatePageRange } from 'Helpers/paginationHelper';
-import Note from 'Components/sharedComponents/Note';
-import DefaultPicker from 'Components/sharedComponents/pickers/DefaultPicker';
+import { formatNumberWithPrecision } from 'helpers/moneyFormatter';
+import { calculatePageRange } from 'helpers/paginationHelper';
+import Note from 'components/sharedComponents/Note';
+import DefaultPicker from 'components/sharedComponents/pickers/DefaultPicker';
 import ActivityChart from './chart/ActivityChart';
 import ActivityChartTooltip from './ActivityChartTooltip';
 

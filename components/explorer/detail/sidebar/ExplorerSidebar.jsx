@@ -6,10 +6,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
+import Analytics from 'helpers/analytics/Analytics';
 
-import { Home } from 'Components/sharedComponents/icons/Icons';
-import { lastCompletedQuarterInFY } from 'Containers/explorer/detail/helpers/explorerQuarters';
+import { Home } from 'components/sharedComponents/icons/Icons';
+import { lastCompletedQuarterInFY } from 'containers/explorer/detail/helpers/explorerQuarters';
 
 import VerticalTrail from './VerticalTrail';
 import QuarterPicker from './QuarterPicker';

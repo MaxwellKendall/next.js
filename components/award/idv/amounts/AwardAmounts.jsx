@@ -7,12 +7,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TooltipWrapper } from 'data-transparency-ui';
 
-import { determineSpendingScenarioByAwardType } from 'Helpers/awardAmountHelper';
-import BaseAwardAmounts from 'Models/v2/awardsV2/BaseAwardAmounts';
-import IdvAwardAmountsSectionContainer from 'Containers/award/idv/IdvAwardAmountsSectionContainer';
-import ResultsTableTabs from 'Components/search/table/ResultsTableTabs';
-import ResultsTablePicker from 'Components/search/table/ResultsTablePicker';
-import AwardAmountsTable from 'Components/award/shared/awardAmountsSection/AwardAmountsTable';
+import { determineSpendingScenarioByAwardType } from 'helpers/awardAmountHelper';
+import BaseAwardAmounts from 'models/v2/awardsV2/BaseAwardAmounts';
+import IdvAwardAmountsSectionContainer from 'containers/award/idv/IdvAwardAmountsSectionContainer';
+import ResultsTableTabs from 'components/search/table/ResultsTableTabs';
+import ResultsTablePicker from 'components/search/table/ResultsTablePicker';
+import AwardAmountsTable from 'components/award/shared/awardAmountsSection/AwardAmountsTable';
 import { awardAmountsInfo } from '../../shared/InfoTooltipContent';
 
 const propTypes = {

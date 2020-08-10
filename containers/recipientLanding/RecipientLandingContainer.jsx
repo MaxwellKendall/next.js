@@ -8,11 +8,11 @@ import { isCancel } from 'axios';
 import { inRange } from 'lodash';
 
 
-import * as RecipientLandingHelper from 'Helpers/recipientLandingHelper';
+import * as RecipientLandingHelper from 'helpers/recipientLandingHelper';
 
-import RecipientLandingContent from 'Components/recipientLanding/RecipientLandingContent';
+import RecipientLandingContent from 'components/recipientLanding/RecipientLandingContent';
 
-import BaseRecipientLandingRow from 'Models/v2/recipient/BaseRecipientLandingRow';
+import BaseRecipientLandingRow from 'models/v2/recipient/BaseRecipientLandingRow';
 
 
 export default class RecipientLandingContainer extends React.Component {

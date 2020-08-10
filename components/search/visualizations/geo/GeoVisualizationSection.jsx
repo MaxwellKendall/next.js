@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Cookies from 'js-cookie';
 
-import LoadingSpinner from 'Components/sharedComponents/LoadingSpinner';
-import { ExclamationTriangle } from 'Components/sharedComponents/icons/Icons';
+import LoadingSpinner from 'components/sharedComponents/LoadingSpinner';
+import { ExclamationTriangle } from 'components/sharedComponents/icons/Icons';
 
 import GeoVisualizationScopeButton from './GeoVisualizationScopeButton';
 import MapWrapper from './MapWrapper';

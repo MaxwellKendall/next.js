@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import IndividualSubmit from 'Components/search/filters/IndividualSubmit';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import IndividualSubmit from 'components/search/filters/IndividualSubmit';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 import SelectedAwardIDs from './SelectedAwardIDs';
 
 const propTypes = {

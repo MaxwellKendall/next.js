@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import StateLandingTableSorter from 'Components/stateLanding/table/StateLandingTableSorter';
+import StateLandingTableSorter from 'components/stateLanding/table/StateLandingTableSorter';
 import RecipientLinkCell from './RecipientLinkCell';
 
 const propTypes = {

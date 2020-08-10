@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ExclamationTriangle, Close } from 'Components/sharedComponents/icons/Icons';
+import { ExclamationTriangle, Close } from 'components/sharedComponents/icons/Icons';
 
 const propTypes = {
     closeDisclaimer: PropTypes.func

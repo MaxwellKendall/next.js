@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { isCancel } from 'axios';
 
-import * as AgencyHelper from 'Helpers/agencyHelper';
+import * as AgencyHelper from 'helpers/agencyHelper';
 
 import ObligatedVisualization from
     'Components/agency/visualizations/obligated/ObligatedVisualization';

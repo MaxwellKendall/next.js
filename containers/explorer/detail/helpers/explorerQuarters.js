@@ -4,7 +4,7 @@
  */
 
 import moment from 'moment';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
 
 export const handlePotentialStrings = (input) => {
     if (typeof input === 'string') {

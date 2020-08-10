@@ -6,11 +6,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { keys, invert } from 'lodash';
-import * as Icons from 'Components/sharedComponents/icons/Icons';
-import * as ContractFieldDefinitions from 'DataMapping/search/contractFields';
+import * as Icons from 'components/sharedComponents/icons/Icons';
+import * as ContractFieldDefinitions from 'dataMapping/search/contractFields';
 
-import PrimaryCheckboxType from 'Components/sharedComponents/checkbox/PrimaryCheckboxType';
-import SubmitHint from 'Components/sharedComponents/filterSidebar/SubmitHint';
+import PrimaryCheckboxType from 'components/sharedComponents/checkbox/PrimaryCheckboxType';
+import SubmitHint from 'components/sharedComponents/filterSidebar/SubmitHint';
 
 const propTypes = {
     toggleFilter: PropTypes.func,

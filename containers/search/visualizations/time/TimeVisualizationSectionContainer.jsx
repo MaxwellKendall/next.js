@@ -13,14 +13,14 @@ import { isCancel } from 'axios';
 import TimeVisualizationSection from
     'Components/search/visualizations/time/TimeVisualizationSection';
 
-import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
-import { setAppliedFilterCompletion } from 'Redux/actions/search/appliedFilterActions';
+import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
+import { setAppliedFilterCompletion } from 'redux/actions/search/appliedFilterActions';
 
-import * as SearchHelper from 'Helpers/searchHelper';
-import * as MonthHelper from 'Helpers/monthHelper';
-import Analytics from 'Helpers/analytics/Analytics';
+import * as SearchHelper from 'helpers/searchHelper';
+import * as MonthHelper from 'helpers/monthHelper';
+import Analytics from 'helpers/analytics/Analytics';
 
-import SearchAwardsOperation from 'Models/search/SearchAwardsOperation';
+import SearchAwardsOperation from 'models/search/SearchAwardsOperation';
 
 const combinedActions = Object.assign({}, searchFilterActions, {
     setAppliedFilterCompletion

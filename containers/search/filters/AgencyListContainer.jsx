@@ -10,9 +10,9 @@ import { filter, sortBy, slice, concat } from 'lodash';
 
 import { Search } from 'js-search';
 
-import Autocomplete from 'Components/sharedComponents/autocomplete/Autocomplete';
+import Autocomplete from 'components/sharedComponents/autocomplete/Autocomplete';
 
-import * as SearchHelper from 'Helpers/searchHelper';
+import * as SearchHelper from 'helpers/searchHelper';
 
 const propTypes = {
     toggleAgency: PropTypes.func,

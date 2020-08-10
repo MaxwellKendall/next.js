@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { downloadOptions } from 'DataMapping/navigation/menuOptions';
+import { downloadOptions } from 'dataMapping/navigation/menuOptions';
 
 import DownloadPlaceholder from './DownloadPlaceholder';
 import DownloadDetail from './DownloadDetail';

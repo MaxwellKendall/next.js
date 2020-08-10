@@ -9,9 +9,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { is } from 'immutable';
 
-import * as searchFilterActions from 'Redux/actions/search/searchFilterActions';
+import * as searchFilterActions from 'redux/actions/search/searchFilterActions';
 
-import ProgramSourceSection from 'Components/search/filters/programSource/ProgramSourceSection';
+import ProgramSourceSection from 'components/search/filters/programSource/ProgramSourceSection';
 
 const propTypes = {
     selectedTreasuryComponents: PropTypes.object,

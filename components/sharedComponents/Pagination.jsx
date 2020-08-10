@@ -7,8 +7,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { range } from 'lodash';
-import { formatNumberWithPrecision } from 'Helpers/moneyFormatter';
-import { calculatePageRange } from 'Helpers/paginationHelper';
+import { formatNumberWithPrecision } from 'helpers/moneyFormatter';
+import { calculatePageRange } from 'helpers/paginationHelper';
 
 const propTypes = {
     onChangePage: PropTypes.func.isRequired,

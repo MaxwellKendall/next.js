@@ -3,7 +3,7 @@
  * Created by Kevin Li 6/8/17
  */
 
-import AgencyOverviewModel from 'Models/agency/AgencyOverviewModel';
+import AgencyOverviewModel from 'models/agency/AgencyOverviewModel';
 
 export const initialState = {
     id: '',

@@ -5,8 +5,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as MoneyFormatter from 'Helpers/moneyFormatter';
-import * as FiscalYearHelper from 'Helpers/fiscalYearHelper';
+import * as MoneyFormatter from 'helpers/moneyFormatter';
+import * as FiscalYearHelper from 'helpers/fiscalYearHelper';
 
 import SankeyVisualization from './visualizations/sankey/SankeyVisualization';
 

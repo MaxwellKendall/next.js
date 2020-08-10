@@ -6,8 +6,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Analytics from 'Helpers/analytics/Analytics';
-import { Spreadsheet } from 'Components/sharedComponents/icons/Icons';
+import Analytics from 'helpers/analytics/Analytics';
+import { Spreadsheet } from 'components/sharedComponents/icons/Icons';
 import DataDictionaryTable from './table/DataDictionaryTable';
 import DataDictionarySearchBar from "./DataDictionarySearchBar";
 

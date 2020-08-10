@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { ExclamationTriangle } from 'Components/sharedComponents/icons/Icons';
+import { ExclamationTriangle } from 'components/sharedComponents/icons/Icons';
 
 const propTypes = {
     searchString: PropTypes.string,

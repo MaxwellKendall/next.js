@@ -7,12 +7,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Pagination } from 'data-transparency-ui';
 
-import { referencedAwardsColumns } from 'DataMapping/awards/referencedAwards';
+import { referencedAwardsColumns } from 'dataMapping/awards/referencedAwards';
 
-import StateLandingTableSorter from 'Components/stateLanding/table/StateLandingTableSorter';
-import ResultsTableNoResults from 'Components/search/table/ResultsTableNoResults';
-import ResultsTableLoadingMessage from 'Components/search/table/ResultsTableLoadingMessage';
-import ResultsTableErrorMessage from 'Components/search/table/ResultsTableErrorMessage';
+import StateLandingTableSorter from 'components/stateLanding/table/StateLandingTableSorter';
+import ResultsTableNoResults from 'components/search/table/ResultsTableNoResults';
+import ResultsTableLoadingMessage from 'components/search/table/ResultsTableLoadingMessage';
+import ResultsTableErrorMessage from 'components/search/table/ResultsTableErrorMessage';
 
 const propTypes = {
     tableType: PropTypes.string,

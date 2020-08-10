@@ -6,17 +6,17 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { find } from 'lodash';
-import { scrollToY } from 'Helpers/scrollToHelper';
+import { scrollToY } from 'helpers/scrollToHelper';
 import moment from 'moment';
-import { convertQuarterToDate } from 'Helpers/fiscalYearHelper';
-import * as StickyHeader from 'Components/sharedComponents/stickyHeader/StickyHeader';
+import { convertQuarterToDate } from 'helpers/fiscalYearHelper';
+import * as StickyHeader from 'components/sharedComponents/stickyHeader/StickyHeader';
 
-import GlossaryButtonWrapperContainer from 'Containers/glossary/GlossaryButtonWrapperContainer';
+import GlossaryButtonWrapperContainer from 'containers/glossary/GlossaryButtonWrapperContainer';
 
-import ObjectClassContainer from 'Containers/agency/visualizations/ObjectClassContainer';
-import ObligatedContainer from 'Containers/agency/visualizations/ObligatedContainer';
-import FederalAccountContainer from 'Containers/agency/visualizations/FederalAccountContainer';
-import AgencyFooterContainer from 'Containers/agency/AgencyFooterContainer';
+import ObjectClassContainer from 'containers/agency/visualizations/ObjectClassContainer';
+import ObligatedContainer from 'containers/agency/visualizations/ObligatedContainer';
+import FederalAccountContainer from 'containers/agency/visualizations/FederalAccountContainer';
+import AgencyFooterContainer from 'containers/agency/AgencyFooterContainer';
 
 import Sidebar from '../sharedComponents/sidebar/Sidebar';
 import AgencyOverview from './overview/AgencyOverview';

@@ -4,12 +4,12 @@ import { cloneDeep, compact, sum } from 'lodash';
 import { scaleLinear } from 'd3-scale';
 import moment from 'moment';
 
-import ActivityYAxis from 'Components/award/shared/activity/ActivityYAxis';
-import ActivityXAxis from 'Components/award/shared/activity/ActivityXAxis';
-import VerticalLine from 'Components/sharedComponents/VerticalLine';
-import { getXDomain, lineHelper } from 'Helpers/contractGrantActivityHelper';
-import { convertDateToFY } from 'Helpers/fiscalYearHelper';
-import { formatMoney } from 'Helpers/moneyFormatter';
+import ActivityYAxis from 'components/award/shared/activity/ActivityYAxis';
+import ActivityXAxis from 'components/award/shared/activity/ActivityXAxis';
+import VerticalLine from 'components/sharedComponents/VerticalLine';
+import { getXDomain, lineHelper } from 'helpers/contractGrantActivityHelper';
+import { convertDateToFY } from 'helpers/fiscalYearHelper';
+import { formatMoney } from 'helpers/moneyFormatter';
 
 const propTypes = {
     height: PropTypes.number,

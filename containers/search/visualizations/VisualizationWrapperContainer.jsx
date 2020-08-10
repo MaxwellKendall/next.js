@@ -6,9 +6,9 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as searchViewActions from 'Redux/actions/search/searchViewActions';
+import * as searchViewActions from 'redux/actions/search/searchViewActions';
 
-import VisualizationWrapper from 'Components/search/visualizations/VisualizationWrapper';
+import VisualizationWrapper from 'components/search/visualizations/VisualizationWrapper';
 
 export default connect(
     (state) => (
