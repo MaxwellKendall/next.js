@@ -1,7 +1,7 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 
-import GlossaryContainer from 'containers/glossary/GlossaryContainer';
+// import GlossaryContainer from 'containers/glossary/GlossaryContainer';
 import RedirectModalContainer from 'containers/redirectModal/RedirectModalContainer';
 import Analytics from 'helpers/analytics/Analytics';
 
@@ -121,7 +121,7 @@ export default class Header extends React.Component {
                     {infoBanner}
                     <NavBar />
                 </header>
-                <GlossaryContainer />
+                {/* <GlossaryContainer /> */}
                 <RedirectModalContainer />
             </div>
         );

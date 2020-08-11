@@ -18,7 +18,7 @@ import IdvContent from './idv/IdvContent';
 import FinancialAssistanceContent from './financialAssistance/FinancialAssistanceContent';
 import MetaTags from '../sharedComponents/metaTags/MetaTags';
 import { LoadingWrapper } from '../sharedComponents/Loading';
-import Header from '../sharedComponents/header/Header';
+// import Header from '../sharedComponents/header/Header';
 import Error from '../sharedComponents/Error';
 
 const propTypes = {
@@ -95,7 +95,6 @@ export default class Award extends React.Component {
 
         const sectionTop = sectionDom.offsetTop - 145;
         scrollToY(sectionTop, 700);
-        console.log("BLEH")
     }
 
     renderContent(overview, awardId) {
@@ -149,7 +148,7 @@ export default class Award extends React.Component {
             <div className="usa-da-award-v2-page">
                 HI
                 <MetaTags {...MetaTagHelper.awardPageMetaTags} />
-                <Header />
+                {/* <Header /> */}
                 <StickyHeader>
                     <SummaryBar
                         downloadData={this.props.downloadData}
