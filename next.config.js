@@ -9,15 +9,16 @@ module.exports = withSass({
         };
         config.resolve = {
             ...config.resolve,
+            extensions: config.resolve.extensions.concat(['.scss']),
             modules: config.resolve.modules.concat([path.resolve(__dirname, "./styles")])
         };
+        
+        config.module.rules = config.module.rules.concat([{ test: /\.css/, use: [{ loader: 'css-loader' }] }])
         return config;
     },
-    // options: {
-    //     includePaths: [
-    //         path.resolve(__dirname, './styles'),
-    //         path.resolve(__dirname, './node_modules')
-    //     ],
-    //     sourceMap: true,
-    // }
+    sassLoaderOptions: {
+        sassOptions: {
+            includePaths: [path.resolve(__dirname, './styles')]
+        }
+    }
 });
