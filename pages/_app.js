@@ -86,7 +86,7 @@ library.add(
     faExclamationCircle
 );
 
-import withReduxStore from 'redux/withRedux';
+import withReduxStore from '../redux/withRedux';
 
 import 'styles/global.scss';
 

@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.11.1",
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.17.1",
     "next": "^9.5.1",
