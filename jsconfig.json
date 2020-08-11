@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": "usaspending-website/src",
+    "paths": {
+      "server/*": ["./*"]
+    }
   }
 }
