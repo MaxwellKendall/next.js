@@ -1,0 +1,3 @@
+[submodule "usaspending-website"]
+	path = usaspending-website
+	url = https://github.com/fedspendingtransparency/usaspending-website.git
