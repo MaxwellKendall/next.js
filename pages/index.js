@@ -1,5 +1,6 @@
+import React from 'react';
 import Link from 'next/link';
-import Layout from '../components/MyLayout';
+import Layout from '../components/Layout';
 
 const AwardLink = props => (
   <li>
@@ -9,7 +10,7 @@ const AwardLink = props => (
   </li>
 );
 
-export default function Blog() {
+export default function Home() {
   return (
     <Layout>
       <h1>USA Spending</h1>

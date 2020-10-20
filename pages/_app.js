@@ -88,8 +88,6 @@ library.add(
 
 import withReduxStore from '../redux/withRedux';
 
-import 'styles/global.scss';
-
 class MyApp extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;

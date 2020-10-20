@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": "usaspending-website/src",
+    "baseUrl": "usaspending-website/src/js",
     "paths": {
-      "server/*": ["./*"]
+      "server/*": ["./*"],
+      "data/*": ["usaspending-website/src/data/*"],
+      "img/*": ["usaspending-website/src/img/*"],
+      "graphics/*": ["usaspending-website/src/graphics/*"],
+      "fonts/*": ["usaspending-website/src/fonts/*"],
+      "pages/*": ["usaspending-website/src/_scss/pages/*"]
     }
   }
 }

@@ -16,7 +16,8 @@
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.17.1",
     "next": "^9.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "file:./usaspending-website/node_modules/react",
+    "react-dom": "file:./usaspending-website/node_modules/react-dom",
+    "react-redux": "file:./usaspending-website/node_modules/react-redux"
   }
 }
